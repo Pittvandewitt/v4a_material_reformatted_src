@@ -6,17 +6,18 @@
 
     <ImageView
         android:id="@id/v4a_item_ddc_select"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="16dp"
+        android:layout_marginRight="13dp"
         android:src="@mipmap/radio_noselect" />
 
     <TextView
         android:id="@id/v4a_item_ddc_name"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_toEndOf="@+id/v4a_item_ddc_select"
+        android:layout_toLeftOf="@id/v4a_item_ddc_select"
         android:gravity="center|left"
         android:paddingLeft="16dp" />
 </RelativeLayout>

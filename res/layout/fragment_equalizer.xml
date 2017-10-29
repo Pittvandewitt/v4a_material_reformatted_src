@@ -17,8 +17,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="8dp"
         android:gravity="center_vertical"
+        android:paddingTop="8dp"
         android:text="@string/pref_equalizer_preset_title"
         android:textAllCaps="true"
         android:textColor="@color/colorMainText" />

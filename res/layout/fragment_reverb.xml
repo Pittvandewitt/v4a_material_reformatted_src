@@ -28,7 +28,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/id_tv_reverb_roomsize"
-                android:layout_alignParentRight="true"
                 android:focusable="false" />
 
             <SeekBar
@@ -65,7 +64,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/id_tv_reverb_width"
-                android:layout_alignParentRight="true"
                 android:focusable="false" />
 
             <SeekBar
@@ -102,7 +100,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/id_tv_reverb_damp"
-                android:layout_alignParentRight="true"
                 android:focusable="false" />
 
             <SeekBar
@@ -139,7 +136,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/id_tv_reverb_wet"
-                android:layout_alignParentRight="true"
                 android:focusable="false" />
 
             <SeekBar

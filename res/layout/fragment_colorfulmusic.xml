@@ -43,7 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/knob_bg_9point" />
+                android:src="@mipmap/knob_bg_9point" />
 
             <ImageView
                 android:id="@id/id_iv_knob_point"
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:scaleType="matrix"
-                android:src="@drawable/knob_point" />
+                android:src="@mipmap/knob_point" />
 
             <com.pittvandewitt.viperfx.widget.TouchRotateButton
                 android:id="@id/id_trb_colorfulmusic"
@@ -100,7 +100,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/knob_bg_11point" />
+                android:src="@mipmap/knob_bg_11point" />
 
             <ImageView
                 android:id="@id/id_iv_knob_point_mi"
@@ -108,7 +108,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:scaleType="matrix"
-                android:src="@drawable/knob_point" />
+                android:src="@mipmap/knob_point" />
 
             <com.pittvandewitt.viperfx.widget.TouchRotateButton
                 android:id="@id/id_trb_colorfulmusic_mi"

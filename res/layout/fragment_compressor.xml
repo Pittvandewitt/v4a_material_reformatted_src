@@ -118,7 +118,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_autoknee"
-                android:layout_alignParentRight="true"
                 android:checked="true" />
         </RelativeLayout>
 
@@ -228,7 +227,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_autogain"
-                android:layout_alignParentRight="true"
                 android:checked="true" />
         </RelativeLayout>
 
@@ -295,7 +293,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_autoattack"
-                android:layout_alignParentRight="true"
                 android:checked="true" />
         </RelativeLayout>
 
@@ -402,7 +399,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_autorelease"
-                android:layout_alignParentRight="true"
                 android:checked="true" />
         </RelativeLayout>
 
@@ -594,7 +590,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_noclipenable"
-                android:layout_alignParentRight="true"
                 android:checked="true" />
         </RelativeLayout>
     </LinearLayout>

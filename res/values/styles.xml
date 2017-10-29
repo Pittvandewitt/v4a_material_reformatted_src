@@ -323,12 +323,12 @@
     </style>
 
     <style name="Base.TextAppearance.AppCompat.SearchResult.Subtitle" parent="@style/Base.TextAppearance.AppCompat.SearchResult">
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">?android:textColorSecondary</item>
     </style>
 
     <style name="Base.TextAppearance.AppCompat.SearchResult.Title" parent="@style/Base.TextAppearance.AppCompat.SearchResult">
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">18.0sp</item>
     </style>
 
     <style name="Base.TextAppearance.AppCompat.Small" parent="@style/Base.TextAppearance.AppCompat">
@@ -390,7 +390,7 @@
 
     <style name="Base.Widget.AppCompat.ActionBar.TabText" parent="">
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
-        <item name="android:textSize">12sp</item>
+        <item name="android:textSize">12.0sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">?android:textColorPrimary</item>
         <item name="android:ellipsize">marquee</item>
@@ -1268,7 +1268,7 @@
     <style name="BaseAppTheme" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@color/backgroundMain</item>
         <item name="android:windowIsTranslucent">true</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">16.0sp</item>
         <item name="android:textColor">@color/colorMainText</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>

@@ -32,9 +32,10 @@
 
             <RadioGroup
                 android:id="@id/v4a_rg_bass_mode"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_centerHorizontal="true">
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
 
                 <RadioButton
                     android:id="@id/v4a_rb_bass_mode_naturalbass"
@@ -83,7 +84,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_bass_freq"
-                android:layout_alignParentRight="true"
                 android:focusable="false" />
         </RelativeLayout>
 
@@ -129,7 +129,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_bass_gain"
-                android:layout_alignParentRight="true"
                 android:focusable="false" />
         </RelativeLayout>
 
@@ -144,7 +143,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/knob_bg_12point" />
+                android:src="@mipmap/knob_bg_12point" />
 
             <ImageView
                 android:id="@id/v4a_iv_knob_point"
@@ -152,7 +151,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:scaleType="matrix"
-                android:src="@drawable/knob_point" />
+                android:src="@mipmap/knob_point" />
 
             <com.pittvandewitt.viperfx.widget.TouchRotateButton
                 android:id="@id/v4a_trb_bass_gain"
