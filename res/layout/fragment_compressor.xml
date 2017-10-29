@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_fetcompressor_threshold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fetcompressor_threshold" />
+
+            <EditText
+                android:id="@id/v4a_tv_fetcompressor_threshold_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_fetcompressor_threshold"
+                android:layout_alignParentRight="true"
+                android:focusable="false"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.pittvandewitt.viperfx.widget.TouchRotateButton
+                android:id="@id/v4a_trb_fetcompressor_threshold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+
+            <com.pittvandewitt.viperfx.widget.ProgressBarView
+                android:id="@id/v4a_pbv_fetcompressor_threshold"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_fetcompressor_ratio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fetcompressor_ratio" />
+
+            <EditText
+                android:id="@id/v4a_tv_fetcompressor_ratio_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_fetcompressor_ratio"
+                android:layout_alignParentRight="true"
+                android:focusable="false"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.pittvandewitt.viperfx.widget.TouchRotateButton
+                android:id="@id/v4a_trb_fetcompressor_ratio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <com.pittvandewitt.viperfx.widget.ProgressBarView
+                android:id="@id/v4a_pbv_fetcompressor_ratio"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_fetcompressor_autoknee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fetcompressor_autoknee" />
+
+            <CheckBox
+                android:id="@id/id_fetcompressor_autoknee_enable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_fetcompressor_autoknee"
+                android:layout_alignParentRight="true"
+                android:checked="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_fetcompressor_knee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fetcompressor_knee" />
+
+            <EditText
+                android:id="@id/v4a_tv_fetcompressor_knee_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_fetcompressor_knee"
+                android:layout_alignParentRight="true"
+                android:focusable="false"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <com.pittvandewitt.viperfx.widget.TouchRotateButton
+                android:id="@id/v4a_trb_fetcompressor_knee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+
+            <com.pittvandewitt.viperfx.widget.ProgressBarView
+                android:id="@id/v4a_pbv_fetcompressor_knee"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_fetcompressor_kneemulti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fetcompressor_kneemulti" />
+
+            <EditText
+                android:id="@id/v4a_tv_fetcompressor_kneemulti_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_fetcompressor_kneemulti"
+                android:layout_alignParentRight="true"
+                android:focusable="false"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <com.pittvandewitt.viperfx.widget.TouchRotateButton
+                android:id="@id/v4a_trb_fetcompressor_kneemulti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+
+            <com.pittvandewitt.viperfx.widget.ProgressBarView
+                android:id="@id/v4a_pbv_fetcompressor_kneemulti"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_fetcompressor_autogain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fetcompressor_autogain" />
+
+            <CheckBox
+                android:id="@id/id_fetcompressor_autogain_enable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_fetcompressor_autogain"
+                android:layout_alignParentRight="true"
+                android:checked="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_fetcompressor_gain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fetcompressor_gain" />
+
+            <EditText
+                android:id="@id/v4a_tv_fetcompressor_gain_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_fetcompressor_gain"
+                android:layout_alignParentRight="true"
+                android:focusable="false"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.pittvandewitt.viperfx.widget.TouchRotateButton
+                android:id="@id/v4a_trb_fetcompressor_gain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+
+            <com.pittvandewitt.viperfx.widget.ProgressBarView
+                android:id="@id/v4a_pbv_fetcompressor_gain"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_fetcompressor_autoattack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fetcompressor_autoattack" />
+
+            <CheckBox
+                android:id="@id/id_fetcompressor_autoattack_enable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_fetcompressor_autoattack"
+                android:layout_alignParentRight="true"
+                android:checked="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_fetcompressor_attack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fetcompressor_attack" />
+
+            <EditText
+                android:id="@id/v4a_tv_fetcompressor_attack_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_fetcompressor_attack"
+                android:layout_alignParentRight="true"
+                android:focusable="false"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.pittvandewitt.viperfx.widget.TouchRotateButton
+                android:id="@id/v4a_trb_fetcompressor_attack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+
+            <com.pittvandewitt.viperfx.widget.ProgressBarView
+                android:id="@id/v4a_pbv_fetcompressor_attack"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_fetcompressor_maxattack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fetcompressor_maxattack" />
+
+            <EditText
+                android:id="@id/v4a_tv_fetcompressor_maxattack_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_fetcompressor_maxattack"
+                android:layout_alignParentRight="true"
+                android:focusable="false"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.pittvandewitt.viperfx.widget.TouchRotateButton
+                android:id="@id/v4a_trb_fetcompressor_maxattack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+
+            <com.pittvandewitt.viperfx.widget.ProgressBarView
+                android:id="@id/v4a_pbv_fetcompressor_maxattack"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_fetcompressor_autorelease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pref_fetcompressor_autorelease" />
+
+            <CheckBox
+                android:id="@id/id_fetcompressor_autorelease_enable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_fetcompressor_autorelease"
+                android:layout_alignParentRight="true"
+                android:checked="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_fetcompressor_release"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fetcompressor_release" />
+
+            <EditText
+                android:id="@id/v4a_tv_fetcompressor_release_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_fetcompressor_release"
+                android:layout_alignParentRight="true"
+                android:focusable="false"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.pittvandewitt.viperfx.widget.TouchRotateButton
+                android:id="@id/v4a_trb_fetcompressor_release"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+
+            <com.pittvandewitt.viperfx.widget.ProgressBarView
+                android:id="@id/v4a_pbv_fetcompressor_release"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_fetcompressor_maxrelease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fetcompressor_maxrelease" />
+
+            <EditText
+                android:id="@id/v4a_tv_fetcompressor_maxrelease_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_fetcompressor_maxrelease"
+                android:layout_alignParentRight="true"
+                android:focusable="false"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.pittvandewitt.viperfx.widget.TouchRotateButton
+                android:id="@id/v4a_trb_fetcompressor_maxrelease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+
+            <com.pittvandewitt.viperfx.widget.ProgressBarView
+                android:id="@id/v4a_pbv_fetcompressor_maxrelease"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_fetcompressor_crest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fetcompressor_crest" />
+
+            <EditText
+                android:id="@id/v4a_tv_fetcompressor_crest_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_fetcompressor_crest"
+                android:layout_alignParentRight="true"
+                android:focusable="false"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.pittvandewitt.viperfx.widget.TouchRotateButton
+                android:id="@id/v4a_trb_fetcompressor_crest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+
+            <com.pittvandewitt.viperfx.widget.ProgressBarView
+                android:id="@id/v4a_pbv_fetcompressor_crest"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_fetcompressor_adapt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fetcompressor_adapt" />
+
+            <EditText
+                android:id="@id/v4a_tv_fetcompressor_adapt_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_fetcompressor_adapt"
+                android:layout_alignParentRight="true"
+                android:focusable="false"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.pittvandewitt.viperfx.widget.TouchRotateButton
+                android:id="@id/v4a_trb_fetcompressor_adapt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+
+            <com.pittvandewitt.viperfx.widget.ProgressBarView
+                android:id="@id/v4a_pbv_fetcompressor_adapt"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_fetcompressor_noclipenable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fetcompressor_noclipenable" />
+
+            <CheckBox
+                android:id="@id/id_fetcompressor_noclipenable_enable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_fetcompressor_noclipenable"
+                android:layout_alignParentRight="true"
+                android:checked="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

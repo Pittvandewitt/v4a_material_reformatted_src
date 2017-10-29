@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_bass_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pref_fidelity_vb_mode_title" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <RadioGroup
+                android:id="@id/v4a_rg_bass_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true">
+
+                <RadioButton
+                    android:id="@id/v4a_rb_bass_mode_naturalbass"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:checked="true"
+                    android:foreground="?selectableItemBackground"
+                    android:paddingRight="8dp" />
+
+                <RadioButton
+                    android:id="@id/v4a_rb_bass_mode_purebass"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:foreground="?selectableItemBackground"
+                    android:paddingRight="8dp" />
+
+                <RadioButton
+                    android:id="@id/v4a_rb_bass_mode_subwoofer"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:foreground="?selectableItemBackground"
+                    android:paddingRight="8dp" />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_bass_freq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fidelity_vb_bassfreq_title" />
+
+            <EditText
+                android:id="@id/v4a_tv_bass_freq_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_bass_freq"
+                android:layout_alignParentRight="true"
+                android:focusable="false" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <com.pittvandewitt.viperfx.widget.TouchRotateButton
+                android:id="@id/v4a_trb_bass_freq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+
+            <com.pittvandewitt.viperfx.widget.ProgressBarView
+                android:id="@id/v4a_pbv_bass_freq"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@id/v4a_tv_bass_gain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/pref_fidelity_vb_bassgain_title" />
+
+            <EditText
+                android:id="@id/v4a_tv_bass_gain_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/v4a_tv_bass_gain"
+                android:layout_alignParentRight="true"
+                android:focusable="false" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <ImageView
+                android:id="@id/v4a_iv_knob_bg_3point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/knob_bg_12point" />
+
+            <ImageView
+                android:id="@id/v4a_iv_knob_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:scaleType="matrix"
+                android:src="@drawable/knob_point" />
+
+            <com.pittvandewitt.viperfx.widget.TouchRotateButton
+                android:id="@id/v4a_trb_bass_gain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

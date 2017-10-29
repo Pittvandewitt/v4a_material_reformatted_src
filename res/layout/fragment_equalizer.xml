@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.pittvandewitt.viperfx.widget.EqualizerViewBar
+        android:id="@id/FrequencyResponse"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:paddingTop="16dp"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@id/eq_preset_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:gravity="center_vertical"
+        android:text="@string/pref_equalizer_preset_title"
+        android:textAllCaps="true"
+        android:textColor="@color/colorMainText" />
+
+    <com.pittvandewitt.viperfx.widget.Gallery
+        android:id="@id/eqPresets"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/eq_circle_shape" />
+</LinearLayout>

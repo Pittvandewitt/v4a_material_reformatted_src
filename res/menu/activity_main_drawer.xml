@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@id/loadprofile"
+        android:icon="@drawable/load"
+        android:textColor="@color/colorMainText"
+        android:title="@string/text_loadfxprofile" />
+    <item
+        android:id="@id/saveprofile"
+        android:icon="@drawable/save"
+        android:textColor="@color/colorMainText"
+        android:title="@string/text_savefxprofile" />
+    <item
+        android:id="@id/drvinst"
+        android:icon="@drawable/driver"
+        android:textColor="@color/colorMainText"
+        android:title="@string/text_drv_blank" />
+    <item
+        android:id="@id/drvstatus"
+        android:icon="@drawable/status"
+        android:textColor="@color/colorMainText"
+        android:title="@string/text_drv_status" />
+    <item
+        android:id="@id/setting"
+        android:icon="@drawable/settings"
+        android:textColor="@color/colorMainText"
+        android:title="@string/text_setting" />
+</menu>

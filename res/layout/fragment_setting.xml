@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@id/v4a_setting_notify"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="?selectableItemBackground"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/v4a_setting_notify_state"
+                android:layout_alignParentLeft="true"
+                android:text="@string/text_showtrayicon" />
+
+            <TextView
+                android:id="@id/v4a_setting_notify_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="17dp"
+                android:text="@string/text_open"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/abc_text_size_small_material" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <RelativeLayout
+            android:id="@id/v4a_setting_lockeffect"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="?selectableItemBackground"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/v4a_setting_lockeffect_state"
+                android:layout_alignParentLeft="true"
+                android:text="@string/text_lockeffect" />
+
+            <TextView
+                android:id="@id/v4a_setting_lockeffect_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="17dp"
+                android:text="@string/text_open"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/abc_text_size_small_material" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <RelativeLayout
+            android:id="@id/v4a_setting_compatible"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="?selectableItemBackground"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/v4a_setting_compatible_state"
+                android:layout_alignParentLeft="true"
+                android:text="@string/text_commode" />
+
+            <TextView
+                android:id="@id/v4a_setting_compatible_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="17dp"
+                android:text="@string/text_open"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/abc_text_size_small_material" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <RelativeLayout
+            android:id="@id/v4a_setting_default_storage"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="?selectableItemBackground"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/v4a_setting_default_storage_state"
+                android:layout_alignParentLeft="true"
+                android:text="@string/text_default_storage" />"
+
+            <TextView
+                android:id="@id/v4a_setting_default_storage_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="16dp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/abc_text_size_small_material" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <TextView
+            android:id="@id/v4a_setting_developer"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/text_enter_developer" />
+
+        <View
+            android:id="@id/v4a_setting_close_selinux_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/v4a_setting_close_selinux"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/text_close_selinux"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="bottom"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/about_title"
+            android:textColor="@color/colorSubheaderText"
+            android:textSize="@dimen/abc_text_size_small_material"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@id/v4a_setting_help"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/text_help_title" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <TextView
+            android:id="@id/v4a_setting_rated"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/text_rated" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <TextView
+            android:id="@id/v4a_setting_changelog"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/text_changelog" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <TextView
+            android:id="@id/v4a_setting_checkupdate"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/text_checkupdate" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/blacktransparent" />
+
+        <TextView
+            android:id="@id/v4a_setting_about"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="?selectableItemBackground"
+            android:gravity="center_vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/text_about_title" />
+    </LinearLayout>
+</ScrollView>
