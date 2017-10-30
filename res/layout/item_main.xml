@@ -20,8 +20,7 @@
         android:layout_alignBaseline="@id/v4a_item_title"
         android:layout_alignParentRight="true"
         android:checked="false"
-        android:layout_marginRight="16dp"
-        android:clickable="false"/>
+        android:layout_marginRight="16dp"/>
 
     <TextView
         android:id="@id/v4a_item_title"
