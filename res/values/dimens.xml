@@ -113,8 +113,8 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
-    <dimen name="nav_header_height">192dp</dimen>
-    <dimen name="nav_header_vertical_spacing">4dp</dimen>
+    <dimen name="nav_header_height">170dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
