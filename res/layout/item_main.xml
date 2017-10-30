@@ -3,15 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="56dp"
     android:clickable="true"
-    android:foreground="?selectableItemBackground"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp">
+    android:foreground="?selectableItemBackground">
 
     <ImageView
         android:id="@id/v4a_item_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
         android:src="@drawable/power" />
 
     <android.support.v7.widget.SwitchCompat
@@ -19,19 +18,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@id/v4a_item_title"
-        android:layout_alignBottom="@id/v4a_item_title"
         android:layout_alignParentRight="true"
-        android:checked="false" />
+        android:checked="false"
+        android:layout_marginRight="16dp"
+        android:clickable="false"/>
 
     <TextView
         android:id="@id/v4a_item_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:layout_toRightOf="@id/v4a_item_icon"
-        android:gravity="center_vertical"
         android:maxLines="1"
-        android:paddingLeft="32dp"
+        android:layout_marginLeft="72dp"
         android:text="@string/app_name"
         android:textColor="@color/colorMainText" />
 </RelativeLayout>
