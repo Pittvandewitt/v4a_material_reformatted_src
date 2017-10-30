@@ -51,22 +51,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="48dp">
 
-                <TextView
-                    android:id="@id/id_tv_convolver_knl_title"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:text="@string/pref_convolver_knl_title" />
-
                 <Button
                     android:id="@id/id_btn_convolver_knl"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
                     android:gravity="center"
                     android:maxLines="1"
-                    android:minWidth="88dp"
-                    android:text="@string/pref_convolver_knl" />
+                    android:text="@string/pref_convolver_knl"
+                    android:textSize="@dimen/abc_text_size_small_material" />
             </RelativeLayout>
 
             <RelativeLayout

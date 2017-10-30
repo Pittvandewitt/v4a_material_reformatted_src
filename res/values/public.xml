@@ -413,6 +413,8 @@
     <public name="save" id="0x7f020076" type="drawable" />
     <public name="settings" id="0x7f020077" type="drawable" />
     <public name="status" id="0x7f020078" type="drawable" />
+    <public name="knob_default" id="0x7f020079" type="drawable" />
+    <public name="knob_pressed" id="0x7f02007a" type="drawable" />
     <public name="icon" id="0x7f030010" type="mipmap" />
     <public name="smalllogo" id="0x7f030034" type="mipmap" />
     <public name="add" id="0x7f030000" type="mipmap" />

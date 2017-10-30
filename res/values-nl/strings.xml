@@ -68,7 +68,7 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_fetcompressor_adapt">Aanpassen</string>
     <string name="pref_fetcompressor_attack">Attack</string>
     <string name="pref_fetcompressor_autoattack">Auto attack</string>
-    <string name="pref_fetcompressor_autogain">Automatische gain</string>
+    <string name="pref_fetcompressor_autogain">Auto gain</string>
     <string name="pref_fetcompressor_autoknee">Auto knee</string>
     <string name="pref_fetcompressor_autorelease">Auto release</string>
     <string name="pref_fetcompressor_crest">Crest</string>

@@ -12,4 +12,4 @@
     android:paddingTop="4dp"
     android:textAppearance="?actionMenuTextAppearance"
     android:textColor="?actionMenuTextColor"
-    android:textSize="14.0sp" />
+    android:textSize="@dimen/abc_text_size_body_1_material" />

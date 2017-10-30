@@ -43,7 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:src="@mipmap/knob_bg_5point" />
+                android:src="@drawable/knob_bg_5point" />
 
             <ImageView
                 android:id="@id/v4a_iv_knob_point"
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:scaleType="matrix"
-                android:src="@mipmap/knob_point" />
+                android:src="@drawable/knob_point" />
 
             <com.pittvandewitt.viperfx.widget.TouchRotateButton
                 android:id="@id/v4a_trb_vhs"

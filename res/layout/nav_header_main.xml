@@ -24,5 +24,5 @@
         android:layout_marginTop="@dimen/nav_header_vertical_spacing"
         android:text="@string/app_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="22.0sp" />
+        android:textSize="@dimen/abc_text_size_large_material" />
 </LinearLayout>

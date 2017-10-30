@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
-                android:src="@mipmap/knob_bg_3point" />
+                android:src="@drawable/knob_bg_3point" />
 
             <ImageView
                 android:id="@id/v4a_iv_knob_point"
@@ -43,7 +43,7 @@
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="20dp"
                 android:scaleType="matrix"
-                android:src="@mipmap/knob_point" />
+                android:src="@drawable/knob_point" />
 
             <com.pittvandewitt.viperfx.widget.TouchRotateButton
                 android:id="@id/v4a_trb_playback_effect"
@@ -100,6 +100,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_playback_maxgain"
+                android:layout_alignParentRight="true"
                 android:focusable="false" />
 
             <SeekBar
@@ -136,7 +137,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_playback_output_threshold"
-                android:focusable="false" />
+                android:layout_alignParentRight="true"
+                android:focusable="false"
+                android:inputType="textNoSuggestions" />
 
             <SeekBar
                 android:id="@id/v4a_sb_playback_output_threshold"
