@@ -26,7 +26,7 @@
     <com.pittvandewitt.viperfx.widget.Gallery
         android:id="@id/eqPresets"
         android:layout_width="match_parent"
-        android:layout_height="48dp"
+        android:layout_height="?listPreferredItemHeightSmall"
         android:gravity="center_vertical" />
 
     <ImageView

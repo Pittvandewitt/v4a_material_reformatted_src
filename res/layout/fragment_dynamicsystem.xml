@@ -13,7 +13,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="48dp">
+            android:layout_height="?listPreferredItemHeightSmall">
 
             <Button
                 android:id="@id/id_btn_dynamicsystem_output"
@@ -27,7 +27,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="48dp">
+            android:layout_height="?listPreferredItemHeightSmall">
 
             <TextView
                 android:id="@id/v4a_tv_dynamicsystem_bass"
