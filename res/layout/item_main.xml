@@ -21,7 +21,8 @@
         android:layout_alignBaseline="@id/v4a_item_title"
         android:layout_alignBottom="@id/v4a_item_title"
         android:layout_alignParentRight="true"
-        android:checked="false" />
+        android:checked="false"            
+        android:clickable="false"/>
 
     <TextView
         android:id="@id/v4a_item_title"
