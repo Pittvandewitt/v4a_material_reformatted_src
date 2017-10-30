@@ -13,7 +13,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="?listPreferredItemHeightSmall"
+            android:layout_height="48dp"
             android:paddingLeft="16dp"
             android:paddingRight="16dp">
 
@@ -28,7 +28,8 @@
         <android.support.v7.widget.RecyclerView
             android:id="@id/v4a_convolver_knl_recyclerview"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:paddingTop="8dp" />
     </LinearLayout>
 
     <ScrollView
@@ -49,7 +50,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="?listPreferredItemHeightSmall">
+                android:layout_height="48dp">
 
                 <Button
                     android:id="@id/id_btn_convolver_knl"
@@ -63,7 +64,7 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="?listPreferredItemHeightSmall">
+                android:layout_height="48dp">
 
                 <TextView
                     android:id="@id/id_tv_convolver_crosschannel"
