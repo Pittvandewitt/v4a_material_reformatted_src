@@ -60,7 +60,7 @@
     <dimen name="abc_edit_text_inset_top_material">10dp</dimen>
     <dimen name="abc_floating_window_z">16dp</dimen>
     <item name="abc_list_item_padding_horizontal_material" type="dimen">
-        @dimen/abc_action_bar_content_inset_material
+        @dimen/activity_horizontal_margin
     </item>
     <dimen name="abc_panel_menu_list_width">296dp</dimen>
     <dimen name="abc_search_view_preferred_width">320dp</dimen>
