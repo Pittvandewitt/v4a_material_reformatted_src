@@ -3,7 +3,6 @@
     android:id="@id/list_item"
     android:layout_width="match_parent"
     android:layout_height="?dropdownListPreferredItemHeight"
-    android:minWidth="196dp"
     android:orientation="vertical"
     android:paddingLeft="16dp"
     android:paddingRight="16dp">
