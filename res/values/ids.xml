@@ -77,6 +77,7 @@
     <item name="design_menu_item_action_area_stub" type="id">false</item>
     <item name="design_menu_item_action_area" type="id">false</item>
     <item name="drv_status" type="id">false</item>
+    <item name="drv_header" type="id">false</item>
     <item name="v4a_about_icon" type="id">false</item>
     <item name="v4a_about_version" type="id">false</item>
     <item name="v4a_tv_analogx" type="id">false</item>
