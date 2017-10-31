@@ -99,9 +99,9 @@
     <string name="pref_reverb_roomsize">房間大小</string>
     <string name="pref_reverb_title">數字混響</string>
     <string name="pref_reverb_wet">混響訊號比例</string>
-	<string name="pref_reverb_width">音場大小</string>
-	<string name="pref_select_colorfulmusic_mi_title">選擇中央強度</string>
-	<string name="pref_select_colorfulmusic_title">選擇臨場感環繞強度</string>
+    <string name="pref_reverb_width">音場大小</string>
+    <string name="pref_select_colorfulmusic_mi_title">選擇中央強度</string>
+    <string name="pref_select_colorfulmusic_title">選擇臨場感環繞強度</string>
     <string name="pref_select_diffsurr_ms_title">選擇延遲時間</string>
     <string name="pref_spk_opt_title">內建喇叭優化</string>
     <string name="pref_spkfx_limiter_threshold">限制級別</string>
