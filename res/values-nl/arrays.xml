@@ -189,17 +189,17 @@
         <item>100#37;</item>
     </string-array>
     <string-array name="reverb_roomsize">
-        <item>25m2</item>
-        <item>36m2</item>
-        <item>49m2</item>
-        <item>64m2</item>
-        <item>81m2</item>
-        <item>100m2</item>
-        <item>121m2</item>
-        <item>203m2</item>
-        <item>347m2</item>
-        <item>652m2</item>
-        <item>1200m2</item>
+        <item>25m&#178</item>
+        <item>36m&#178</item>
+        <item>49m&#178</item>
+        <item>64m&#178</item>
+        <item>81m&#178</item>
+        <item>100m&#178</item>
+        <item>121m&#178</item>
+        <item>203m&#178</item>
+        <item>347m&#178</item>
+        <item>652m&#178</item>
+        <item>1200m&#178</item>
     </string-array>
     <string-array name="reverb_roomwidth">
         <item>5m</item>
