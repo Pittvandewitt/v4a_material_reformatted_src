@@ -20,7 +20,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:text="@string/pref_strength_title" />
+                android:text="@string/pref_select_colorfulmusic_title" />
 
             <EditText
                 android:id="@id/id_tv_colorfulmusic_val"
@@ -77,7 +77,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:gravity="center"
-                android:text="@string/pref_strength_title" />
+                android:text="@string/pref_select_colorfulmusic_mi_title" />
 
             <EditText
                 android:id="@id/id_tv_colorfulmusic_mi_val"
