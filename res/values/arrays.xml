@@ -65,11 +65,6 @@
         <item>Moderate</item>
         <item>Extreme</item>
     </string-array>
-    <string-array name="drvinst_prefer">
-        <item>Super Audio Quality</item>
-        <item>High Audio Quality</item>
-        <item>Power Saving</item>
-    </string-array>
     <string-array name="dynamicsystem_bass">
         <item>0%</item>
         <item>1%</item>
@@ -384,11 +379,6 @@
         <item>1600</item>
         <item>1800</item>
         <item>2000</item>
-    </string-array>
-    <string-array name="drvinst_prefer_values">
-        <item>sq</item>
-        <item>hq</item>
-        <item>lq</item>
     </string-array>
     <string-array name="dynamicsystem_bass_values">
         <item>0</item>

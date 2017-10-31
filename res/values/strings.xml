@@ -234,7 +234,6 @@ Version %1$s (FX), Codename “Beautiful”.
     <string name="character_counter_pattern">%1$d / %2$d</string>
     <string name="navigation_toggle_drawer">Switch to Drawer view</string>
     <string name="navigation_toggle_tabbed">Switch to Tab view</string>
-    <string name="text_drvinst_prefer">Please choose your preference</string>
     <string name="text_drvinst_sqdrv">"Super audio quality driver requires at least a dual-core cpu and may speed up battery drain. 
 Do you want to continue?"</string>
     <string name="text_enabled">Enabled</string>
