@@ -102,9 +102,7 @@
     <string name="pref_reverb_title">数字混响</string>
     <string name="pref_reverb_wet">混响信号比例</string>
     <string name="pref_reverb_width">声场大小</string>
-    <string name="pref_select_cure_cf_title">选择交叉反馈强度</string>
     <string name="pref_select_diffsurr_ms_title">选择延迟时间</string>
-    <string name="pref_select_vhs_qual_title">选择效果级别</string>
     <string name="pref_spk_opt_title">扬声器优化</string>
     <string name="pref_spkfx_limiter_threshold">限制级别</string>
     <string name="pref_spkfx_limiter_title">总输出门(限幅)</string>

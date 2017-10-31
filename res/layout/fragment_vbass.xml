@@ -122,7 +122,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:text="@string/pref_fidelity_vb_bassgain_title" />
+                android:text="@string/pref_strength_title" />
 
             <EditText
                 android:id="@id/v4a_tv_bass_gain_val"
