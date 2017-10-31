@@ -123,7 +123,7 @@ ViPER-DDC是一个用于耳机校准的HiFi音效。
     <string name="pref_xloud_output_amplifer">音量放大级别</string>
     <string name="pref_xloud_spk_highfreq">扬声器高响应频率</string>
     <string name="pref_xloud_spk_lowfreq">扬声器低响应频率</string>
-    <string name="pref_xloud_title">eXtra Loud</string>
+    <string name="pref_xloud_title">@string/pref_playback_title</string>
     <string name="speaker_title">扬声器</string>
     <string name="text_abnormal">出错</string>
     <string name="text_about_title">关于</string>

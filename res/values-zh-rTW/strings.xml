@@ -124,7 +124,7 @@ ViPER-數位/數位轉換器(DDC) 是一個用於耳機校準的 Hi-Fi 音效。
     <string name="pref_xloud_output_amplifer">音量放大級別</string>
     <string name="pref_xloud_spk_highfreq">內建喇叭高頻</string>
     <string name="pref_xloud_spk_lowfreq">內建喇叭低頻</string>
-    <string name="pref_xloud_title">音量放大</string>
+    <string name="pref_xloud_title">@string/pref_playback_title</string>
     <string name="speaker_title">內建喇叭</string>
     <string name="text_abnormal">錯誤</string>
     <string name="text_about_title">關於</string>
