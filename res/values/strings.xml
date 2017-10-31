@@ -57,7 +57,6 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_convolver_title">Convolver</string>
     <string name="pref_curesystem_title">Auditory system protection</string>
     <string name="pref_diffsurr_title">Differential Surround</string>
-    <string name="pref_dynamicsystem_bass">Select dynamic bass</string>
     <string name="pref_dynamicsystem_output">Listening device</string>
     <string name="pref_dynamicsystem_output_title">Select listening device</string>
     <string name="pref_dynamicsystem_title">Dynamic system</string>
@@ -84,7 +83,8 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_fidelity_vb_bassfreq_title">Select bass frequency</string>
     <string name="pref_fidelity_vb_mode_title">Select bass mode</string>
     <string name="pref_fidelity_vb_title">ViPER bass</string>
-    <string name="pref_fidelity_vc_bassgain_title">Select clarity</string>
+	<string name="pref_select_colorfulmusic_mi_title">Select mid image strength</string>
+	<string name="pref_select_colorfulmusic_title">Select field surround strength</string>
     <string name="pref_fidelity_vc_mode_title">Select clarity mode</string>
     <string name="pref_fidelity_vc_title">ViPER clarity</string>
     <string name="pref_fx_limiter_threshold">Limit threshold</string>

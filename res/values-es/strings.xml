@@ -57,7 +57,6 @@ Su uso comercial no está permitido sin permiso oficial."</string>
     <string name="pref_convolver_title">Convolver</string>
     <string name="pref_curesystem_title">Sistema de protección auditiva</string>
     <string name="pref_diffsurr_title">Surround Diferencial</string>
-    <string name="pref_dynamicsystem_bass">Seleccione un bajo dinámico</string>
     <string name="pref_dynamicsystem_output">Dispositivo de escucha</string>
     <string name="pref_dynamicsystem_output_title">Seleccione dispositivo de escucha</string>
     <string name="pref_dynamicsystem_title">Sistema dinámico</string>
@@ -84,7 +83,6 @@ Su uso comercial no está permitido sin permiso oficial."</string>
     <string name="pref_fidelity_vb_bassfreq_title">Seleccionar frecuencia de graves</string>
     <string name="pref_fidelity_vb_mode_title">Seleccionar el modo de bajos</string>
     <string name="pref_fidelity_vb_title">ViPER bass</string>
-    <string name="pref_fidelity_vc_bassgain_title">Seleccionar claridad</string>
     <string name="pref_fidelity_vc_mode_title">Seleccionar el modo de claridad</string>
     <string name="pref_fidelity_vc_title">ViPER clarity</string>
     <string name="pref_fx_limiter_threshold">Umbral límite</string>

@@ -618,7 +618,8 @@
     <public name="pref_fidelity_vb_bassfreq_title" id="0x7f060050" type="string" />
     <public name="pref_fidelity_vb_mode_title" id="0x7f060052" type="string" />
     <public name="pref_fidelity_vb_title" id="0x7f060053" type="string" />
-    <public name="pref_fidelity_vc_bassgain_title" id="0x7f060054" type="string" />
+	<public name="pref_select_colorfulmusic_mi_title" id="0x7f060065" type="string" />
+	<public name="pref_select_colorfulmusic_title" id="0x7f060066" type="string" />
     <public name="pref_fidelity_vc_mode_title" id="0x7f060055" type="string" />
     <public name="pref_fidelity_vc_title" id="0x7f060056" type="string" />
     <public name="pref_fx_limiter_threshold" id="0x7f060057" type="string" />
