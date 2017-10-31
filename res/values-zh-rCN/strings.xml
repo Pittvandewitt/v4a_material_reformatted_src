@@ -28,10 +28,6 @@
     <string name="about_version">版本 %1$s (FX), 代码 “Beautiful”</string>
     <string name="app_name">ViPERFX</string>
     <string name="bluetooth_title">蓝牙设备</string>
-    <string name="dsp_settings_bluetooth">音效设定 - 蓝牙设备</string>
-    <string name="dsp_settings_headset">音效设定 - 耳机</string>
-    <string name="dsp_settings_speaker">音效设定 - 扬声器</string>
-    <string name="dsp_settings_usb">音效设定 - USB和音频底座</string>
     <string name="eq_preset_acoustic">原音音乐</string>
     <string name="eq_preset_bass_booster">低音强化</string>
     <string name="eq_preset_bass_reducer">低音弱化</string>

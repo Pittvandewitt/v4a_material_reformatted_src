@@ -563,10 +563,6 @@
     <public name="about_version" id="0x7f060017" type="string" />
     <public name="app_name" id="0x7f060018" type="string" />
     <public name="bluetooth_title" id="0x7f060019" type="string" />
-    <public name="dsp_settings_bluetooth" id="0x7f06001a" type="string" />
-    <public name="dsp_settings_headset" id="0x7f06001b" type="string" />
-    <public name="dsp_settings_speaker" id="0x7f06001c" type="string" />
-    <public name="dsp_settings_usb" id="0x7f06001d" type="string" />
     <public name="eq_preset_acoustic" id="0x7f06001e" type="string" />
     <public name="eq_preset_bass_booster" id="0x7f06001f" type="string" />
     <public name="eq_preset_bass_reducer" id="0x7f060020" type="string" />

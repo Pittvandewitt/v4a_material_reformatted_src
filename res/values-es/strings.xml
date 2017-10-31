@@ -28,10 +28,6 @@ Su uso comercial no está permitido sin permiso oficial."</string>
     <string name="about_version">Versión %1$s (FX), Codename Beautiful</string>
     <string name="app_name">ViPER4Android FX</string>
     <string name="bluetooth_title">Dispositivo Bluetooth</string>
-    <string name="dsp_settings_bluetooth">Ajustes de efectos - Dispositivo Bluetooth</string>
-    <string name="dsp_settings_headset">Ajustes de efectos - Auriculares</string>
-    <string name="dsp_settings_speaker">Ajustes de efectos - Altavoz del teléfono</string>
-    <string name="dsp_settings_usb">Ajustes de efectos - Dispositivo USB</string>
     <string name="eq_preset_acoustic">Acústico</string>
     <string name="eq_preset_bass_booster">Bass Booster</string>
     <string name="eq_preset_bass_reducer">Bass Reducer</string>

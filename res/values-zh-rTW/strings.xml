@@ -29,10 +29,6 @@
     <string name="about_version">版本：%1$s (FX)，代號：Beautiful</string>
     <string name="app_name">ViPERFX</string>
     <string name="bluetooth_title">藍牙裝置</string>
-    <string name="dsp_settings_bluetooth">音效設定 - 藍牙裝置</string>
-    <string name="dsp_settings_headset">音效設定 - 耳機</string>
-    <string name="dsp_settings_speaker">音效設定 - 內建喇叭</string>
-    <string name="dsp_settings_usb">音效設定 - USB 和揚聲器底座</string>
     <string name="pref_equalizer_preset_title">選擇預設</string>
     <string name="eq_preset_acoustic">原音音樂</string>
     <string name="eq_preset_bass_booster">低音強化</string>
