@@ -209,11 +209,6 @@
         <item>26米</item>
         <item>36米</item>
     </string-array>
-    <string-array name="ui_prefer">
-        <item>簡單界面</item>
-        <item>複雜界面</item>
-        <item>專家界面</item>
-    </string-array>
     <string-array name="vbass_boost">
         <item>3.5 分貝</item>
         <item>6.0 分貝</item>

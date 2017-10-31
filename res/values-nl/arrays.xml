@@ -209,11 +209,6 @@
         <item>26m</item>
         <item>36m</item>
     </string-array>
-    <string-array name="ui_prefer">
-        <item>Minimaal</item>
-        <item>Standaard</item>
-        <item>Uitgebreid</item>
-    </string-array>
     <string-array name="vbass_boost">
         <item>3.5 dB</item>
         <item>6.0 dB</item>
@@ -583,11 +578,6 @@
         <item>180</item>
         <item>200</item>
         <item>220</item>
-    </string-array>
-    <string-array name="ui_prefer_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
     <string-array name="vbass_boost_values">
         <item>50</item>
