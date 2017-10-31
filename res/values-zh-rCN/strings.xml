@@ -57,7 +57,6 @@
     <string name="pref_convolver_title">脉冲反馈处理</string>
     <string name="pref_curesystem_title">听觉保护</string>
     <string name="pref_diffsurr_title">差分环绕</string>
-    <string name="pref_dynamicsystem_bass">选择动态低音</string>
     <string name="pref_dynamicsystem_output">监听设备</string>
     <string name="pref_dynamicsystem_output_title">选择监听设备</string>
     <string name="pref_dynamicsystem_title">动态系统</string>
@@ -84,7 +83,6 @@
     <string name="pref_fidelity_vb_bassfreq_title">选择低音频点</string>
     <string name="pref_fidelity_vb_mode_title">低音处理模式</string>
     <string name="pref_fidelity_vb_title">ViPER低音</string>
-    <string name="pref_fidelity_vc_bassgain_title">选择清晰度</string>
     <string name="pref_fidelity_vc_mode_title">选择清晰度处理模式</string>
     <string name="pref_fidelity_vc_title">ViPER清晰度</string>
     <string name="pref_fx_limiter_threshold">限制级别</string>
@@ -103,6 +101,8 @@
     <string name="pref_reverb_width">声场大小</string>
     <string name="pref_select_diffsurr_ms_title">选择延迟时间</string>
     <string name="pref_spk_opt_title">扬声器优化</string>
+	<string name="pref_select_colorfulmusic_mi_title">选择中央强度</string>
+	<string name="pref_select_colorfulmusic_title">选择场环绕强度</string>
     <string name="pref_spkfx_limiter_threshold">限制级别</string>
     <string name="pref_spkfx_limiter_title">总输出门(限幅)</string>
     <string name="pref_spkfx_master_title">效果总开关</string>

@@ -33,6 +33,7 @@
     <string name="dsp_settings_headset">音效設定 - 耳機</string>
     <string name="dsp_settings_speaker">音效設定 - 內建喇叭</string>
     <string name="dsp_settings_usb">音效設定 - USB 和揚聲器底座</string>
+    <string name="pref_equalizer_preset_title">選擇預設</string>
     <string name="eq_preset_acoustic">原音音樂</string>
     <string name="eq_preset_bass_booster">低音強化</string>
     <string name="eq_preset_bass_reducer">低音弱化</string>
@@ -58,7 +59,6 @@
     <string name="pref_convolver_title">脈衝回饋處理</string>
     <string name="pref_curesystem_title">聽覺保護</string>
     <string name="pref_diffsurr_title">差分環繞</string>
-    <string name="pref_dynamicsystem_bass">選擇動態低音</string>
     <string name="pref_dynamicsystem_output">收聽裝置</string>
     <string name="pref_dynamicsystem_output_title">選擇收聽裝置</string>
     <string name="pref_dynamicsystem_title">動態系統</string>
@@ -84,7 +84,6 @@
     <string name="pref_fidelity_vb_bassfreq_title">選擇低音頻點</string>
     <string name="pref_fidelity_vb_mode_title">低音處理模式</string>
     <string name="pref_fidelity_vb_title">ViPER低音</string>
-    <string name="pref_fidelity_vc_bassgain_title">選擇清晰度</string>
     <string name="pref_fidelity_vc_mode_title">選擇清晰度處理模式</string>
     <string name="pref_fidelity_vc_title">ViPER清晰度</string>
     <string name="pref_fx_limiter_threshold">限制級別</string>
@@ -100,7 +99,9 @@
     <string name="pref_reverb_roomsize">房間大小</string>
     <string name="pref_reverb_title">數字混響</string>
     <string name="pref_reverb_wet">混響訊號比例</string>
-    <string name="pref_reverb_width">音場大小</string>
+	<string name="pref_reverb_width">音場大小</string>
+	<string name="pref_select_colorfulmusic_mi_title">選擇中央強度</string>
+	<string name="pref_select_colorfulmusic_title">選擇臨場感環繞強度</string>
     <string name="pref_select_diffsurr_ms_title">選擇延遲時間</string>
     <string name="pref_spk_opt_title">內建喇叭優化</string>
     <string name="pref_spkfx_limiter_threshold">限制級別</string>

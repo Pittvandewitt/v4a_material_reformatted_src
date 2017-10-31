@@ -592,7 +592,6 @@
     <public name="pref_convolver_title" id="0x7f060034" type="string" />
     <public name="pref_curesystem_title" id="0x7f060035" type="string" />
     <public name="pref_diffsurr_title" id="0x7f060036" type="string" />
-    <public name="pref_dynamicsystem_bass" id="0x7f060037" type="string" />
     <public name="pref_dynamicsystem_output" id="0x7f060038" type="string" />
     <public name="pref_dynamicsystem_output_title" id="0x7f060039" type="string" />
     <public name="pref_dynamicsystem_title" id="0x7f06003a" type="string" />

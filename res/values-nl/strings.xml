@@ -57,7 +57,6 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_convolver_title">Convolver</string>
     <string name="pref_curesystem_title">Gehoorbescherming</string>
     <string name="pref_diffsurr_title">Differentiaal surround</string>
-    <string name="pref_dynamicsystem_bass">Dynamische bas</string>
     <string name="pref_dynamicsystem_output">Apparaat</string>
     <string name="pref_dynamicsystem_output_title">Optie</string>
     <string name="pref_dynamicsystem_title">Dynamisch systeem</string>
@@ -84,7 +83,8 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_fidelity_vb_bassfreq_title">Basfrequentie</string>
     <string name="pref_fidelity_vb_mode_title">Basmodus</string>
     <string name="pref_fidelity_vb_title">ViPER Bas</string>
-    <string name="pref_fidelity_vc_bassgain_title">Sterkte</string>
+	<string name="pref_select_colorfulmusic_mi_title">Middentonen</string>
+	<string name="pref_select_colorfulmusic_title">Field surround sterkte</string>
     <string name="pref_fidelity_vc_mode_title">Modus</string>
     <string name="pref_fidelity_vc_title">ViPER Clarity</string>
     <string name="pref_fx_limiter_threshold">Limiteer threshold</string>
