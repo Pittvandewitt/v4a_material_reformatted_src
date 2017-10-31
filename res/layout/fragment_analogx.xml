@@ -19,7 +19,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="16dp"
-                android:text="@string/pref_analogx_strength_title" />
+                android:text="@string/pref_strength_title" />
         </RelativeLayout>
 
         <RelativeLayout

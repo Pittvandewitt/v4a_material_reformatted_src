@@ -48,7 +48,7 @@
     <string name="headset_title">耳机</string>
     <string name="navigation_drawer_close">关闭导航栏</string>
     <string name="navigation_drawer_open">打开导航栏</string>
-    <string name="pref_analogx_strength_title">选择强度</string>
+    <string name="pref_strength_title">选择强度</string>
     <string name="pref_analogx_title">AnalogX</string>
     <string name="pref_colorfulmusic_title">场环绕</string>
     <string name="pref_convolver_crosschannel_title">选择通道交叉</string>
@@ -62,7 +62,6 @@
     <string name="pref_dynamicsystem_output_title">选择监听设备</string>
     <string name="pref_dynamicsystem_title">动态系统</string>
     <string name="pref_dynamicsystem_tube_title">电子管模拟器(6N1J)</string>
-    <string name="pref_effect_title">选择效果强度</string>
     <string name="pref_equalizer_preset_title">选择预设</string>
     <string name="pref_equalizer_title">FIR均衡器</string>
     <string name="pref_fetcompressor_adapt">Adapt</string>
@@ -103,8 +102,6 @@
     <string name="pref_reverb_title">数字混响</string>
     <string name="pref_reverb_wet">混响信号比例</string>
     <string name="pref_reverb_width">声场大小</string>
-    <string name="pref_select_colorfulmusic_mi_title">选择中央强度</string>
-    <string name="pref_select_colorfulmusic_title">选择场环绕强度</string>
     <string name="pref_select_cure_cf_title">选择交叉反馈强度</string>
     <string name="pref_select_diffsurr_ms_title">选择延迟时间</string>
     <string name="pref_select_vhs_qual_title">选择效果级别</string>
@@ -121,7 +118,6 @@ ViPER-DDC是一个用于耳机校准的HiFi音效。
 目前ViPER-DDC已经支持近500款耳机的校准，而且也将继续支持更多的耳机。 
 我们强烈建议您在列表中选择精确对应您耳机型号的选项，这样可以给您带来最佳的音频体验。"</string>
     <string name="pref_viperddc_title">ViPER-DDC</string>
-    <string name="pref_vse_strength_title">选择强度</string>
     <string name="pref_vse_tips">"注意： 
 频谱扩展是一个用于扩展有损压缩的频谱的HiFi音效。 
 如果您经常播放有损压缩的音乐(如mp3、aac和ogg等)，本功能可以给您一个接近无损的听感。 

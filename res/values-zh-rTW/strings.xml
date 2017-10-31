@@ -49,7 +49,7 @@
     <string name="headset_title">耳機</string>
     <string name="navigation_drawer_close">關閉抽屜</string>
     <string name="navigation_drawer_open">打開抽屜</string>
-    <string name="pref_analogx_strength_title">選擇強度</string>
+    <string name="pref_strength_title">選擇強度</string>
     <string name="pref_analogx_title">耳機放大器的暖底音質模擬(AnalogX)</string>
     <string name="pref_colorfulmusic_title">臨場感模擬</string>
     <string name="pref_convolver_crosschannel_title">選擇通道交叉</string>
@@ -63,8 +63,6 @@
     <string name="pref_dynamicsystem_output_title">選擇收聽裝置</string>
     <string name="pref_dynamicsystem_title">動態系統</string>
     <string name="pref_dynamicsystem_tube_title">電子管模擬器(6N1J)</string>
-    <string name="pref_effect_title">選擇效果強度</string>
-    <string name="pref_equalizer_preset_title">選擇預設</string>
     <string name="pref_equalizer_title">EQ等化器</string>
     <string name="pref_fetcompressor_adapt">Adapt</string>
     <string name="pref_fetcompressor_attack">Attack</string>
@@ -104,8 +102,6 @@
     <string name="pref_reverb_title">數字混響</string>
     <string name="pref_reverb_wet">混響訊號比例</string>
     <string name="pref_reverb_width">音場大小</string>
-    <string name="pref_select_colorfulmusic_mi_title">選擇中央強度</string>
-    <string name="pref_select_colorfulmusic_title">選擇臨場感環繞強度</string>
     <string name="pref_select_cure_cf_title">選擇交叉回饋強度</string>
     <string name="pref_select_diffsurr_ms_title">選擇延遲時間</string>
     <string name="pref_select_vhs_qual_title">選擇效果級別</string>
@@ -122,7 +118,6 @@ ViPER-數位/數位轉換器(DDC) 是一個用於耳機校準的 Hi-Fi 音效。
 目前 ViPER-數位/數位轉換器(DDC) 已經支援將近 500 款耳機的校正，而且也將繼續支援更多的耳機。 
 我們強烈建議您在列表中選擇精確對應您耳機型號的選項，帶給您最佳的音樂饗宴。"</string>
     <string name="pref_viperddc_title">ViPER-數位/數位轉換器(DDC)</string>
-    <string name="pref_vse_strength_title">選擇強度</string>
     <string name="pref_vse_tips">"注意： 
 頻譜延伸是一個用於延伸有損壓縮頻譜的 Hi-Fi 音效。 
 如果您經常播放有損壓縮的音樂(如 mp3、aac 和 ogg 等)，本功能可以給您一個接近無損的聲音效果體驗。 

@@ -617,7 +617,6 @@
     <public name="pref_fetcompressor_threshold" id="0x7f06004e" type="string" />
     <public name="pref_fetcompressor_title" id="0x7f06004f" type="string" />
     <public name="pref_fidelity_vb_bassfreq_title" id="0x7f060050" type="string" />
-    <public name="pref_fidelity_vb_bassgain_title" id="0x7f060051" type="string" />
     <public name="pref_fidelity_vb_mode_title" id="0x7f060052" type="string" />
     <public name="pref_fidelity_vb_title" id="0x7f060053" type="string" />
     <public name="pref_fidelity_vc_bassgain_title" id="0x7f060054" type="string" />
@@ -637,9 +636,7 @@
     <public name="pref_reverb_title" id="0x7f060062" type="string" />
     <public name="pref_reverb_wet" id="0x7f060063" type="string" />
     <public name="pref_reverb_width" id="0x7f060064" type="string" />
-    <public name="pref_select_cure_cf_title" id="0x7f060067" type="string" />
     <public name="pref_select_diffsurr_ms_title" id="0x7f060068" type="string" />
-    <public name="pref_select_vhs_qual_title" id="0x7f060069" type="string" />
     <public name="pref_spk_opt_title" id="0x7f06006a" type="string" />
     <public name="pref_spkfx_limiter_threshold" id="0x7f06006b" type="string" />
     <public name="pref_spkfx_limiter_title" id="0x7f06006c" type="string" />

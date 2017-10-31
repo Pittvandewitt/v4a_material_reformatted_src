@@ -48,7 +48,7 @@ Su uso comercial no está permitido sin permiso oficial."</string>
     <string name="headset_title">Auriculares</string>
     <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
     <string name="navigation_drawer_open">Abrir el cajón de navegación</string>
-    <string name="pref_analogx_strength_title">Seleccione la potencia</string>
+    <string name="pref_strength_title">Seleccione la potencia</string>
     <string name="pref_analogx_title">AnalogX</string>
     <string name="pref_colorfulmusic_title">Surround envolvente</string>
     <string name="pref_convolver_crosschannel_title">Seleccionar cross channel</string>
@@ -62,7 +62,6 @@ Su uso comercial no está permitido sin permiso oficial."</string>
     <string name="pref_dynamicsystem_output_title">Seleccione dispositivo de escucha</string>
     <string name="pref_dynamicsystem_title">Sistema dinámico</string>
     <string name="pref_dynamicsystem_tube_title">Simulador de sonido de tubo (6N1J)</string>
-    <string name="pref_effect_title">Seleccionar potencia del efecto</string>
     <string name="pref_equalizer_preset_title">Seleccionar preset</string>
     <string name="pref_equalizer_title">FIREqualizer</string>
     <string name="pref_fetcompressor_adapt">Adaptar</string>

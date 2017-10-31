@@ -82,7 +82,6 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_fetcompressor_threshold">Work threshold</string>
     <string name="pref_fetcompressor_title">FET compressor</string>
     <string name="pref_fidelity_vb_bassfreq_title">Select bass frequency</string>
-    <string name="pref_fidelity_vb_bassgain_title">Select bass boost</string>
     <string name="pref_fidelity_vb_mode_title">Select bass mode</string>
     <string name="pref_fidelity_vb_title">ViPER bass</string>
     <string name="pref_fidelity_vc_bassgain_title">Select clarity</string>
@@ -102,9 +101,7 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_reverb_title">Reverberation</string>
     <string name="pref_reverb_wet">Wet signal</string>
     <string name="pref_reverb_width">Sound field</string>
-    <string name="pref_select_cure_cf_title">Select binaural level</string>
     <string name="pref_select_diffsurr_ms_title">Select delay time</string>
-    <string name="pref_select_vhs_qual_title">Select effect level</string>
     <string name="pref_spk_opt_title">Speaker optimization</string>
     <string name="pref_spkfx_limiter_threshold">Limit threshold</string>
     <string name="pref_spkfx_limiter_title">Master gate</string>

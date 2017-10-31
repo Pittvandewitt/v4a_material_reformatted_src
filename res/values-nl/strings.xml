@@ -48,7 +48,7 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="headset_title">Hoofdtelefoon</string>
     <string name="navigation_drawer_close">Navigatiemenu sluiten</string>
     <string name="navigation_drawer_open">Navigatiemenu openen</string>
-    <string name="pref_analogx_strength_title">Sterkte</string>
+    <string name="pref_strength_title">Sterkte</string>
     <string name="pref_analogx_title">AnalogX</string>
     <string name="pref_colorfulmusic_title">Field surround</string>
     <string name="pref_convolver_crosschannel_title">Cross Channel</string>
@@ -62,7 +62,6 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_dynamicsystem_output_title">Optie</string>
     <string name="pref_dynamicsystem_title">Dynamisch systeem</string>
     <string name="pref_dynamicsystem_tube_title">Electrodebuis simulator (6N1J)</string>
-    <string name="pref_effect_title">Effectsterkte</string>
     <string name="pref_equalizer_preset_title">Voorinstelling</string>
     <string name="pref_equalizer_title">Grafische equalizer</string>
     <string name="pref_fetcompressor_adapt">Aanpassen</string>
@@ -103,8 +102,6 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_reverb_title">Weerkaatsing</string>
     <string name="pref_reverb_wet">Nat signaal</string>
     <string name="pref_reverb_width">Geluidsveld</string>
-    <string name="pref_select_colorfulmusic_mi_title">Middentonen</string>
-    <string name="pref_select_colorfulmusic_title">Field surround sterkte</string>
     <string name="pref_select_cure_cf_title">Binaurale sterkte</string>
     <string name="pref_select_diffsurr_ms_title">Vertragingstijd</string>
     <string name="pref_select_vhs_qual_title">Effectsterkte</string>
@@ -118,7 +115,6 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_viperddc_device_model">Model</string>
     <string name="pref_viperddc_tips">"ViPER-DDC wordt gebruikt voor de correctie van hoofdtelefoons. Bijna 500 koptelefoons worden ondersteund"</string>
     <string name="pref_viperddc_title">ViPER-DDC</string>
-    <string name="pref_vse_strength_title">Sterkte</string>
     <string name="pref_vse_tips">"Spectrum extensie wordt gebruikt om het bereik van lage kwaliteit audio te verhogen.
 Aanbevolen bij MP3, AAC en OOG bestanden"</string>
     <string name="pref_vse_title">Spectrum extensie</string>
