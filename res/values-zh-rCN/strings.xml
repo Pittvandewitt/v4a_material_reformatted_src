@@ -82,7 +82,6 @@
     <string name="pref_fetcompressor_threshold">工作门限</string>
     <string name="pref_fetcompressor_title">场效应压缩器</string>
     <string name="pref_fidelity_vb_bassfreq_title">选择低音频点</string>
-    <string name="pref_fidelity_vb_bassgain_title">选择低音增益</string>
     <string name="pref_fidelity_vb_mode_title">低音处理模式</string>
     <string name="pref_fidelity_vb_title">ViPER低音</string>
     <string name="pref_fidelity_vc_bassgain_title">选择清晰度</string>

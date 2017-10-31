@@ -82,7 +82,6 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_fetcompressor_threshold">Work threshold</string>
     <string name="pref_fetcompressor_title">FET Compressor</string>
     <string name="pref_fidelity_vb_bassfreq_title">Basfrequentie</string>
-    <string name="pref_fidelity_vb_bassgain_title">Basversterking</string>
     <string name="pref_fidelity_vb_mode_title">Basmodus</string>
     <string name="pref_fidelity_vb_title">ViPER Bas</string>
     <string name="pref_fidelity_vc_bassgain_title">Sterkte</string>
