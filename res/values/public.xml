@@ -583,7 +583,7 @@
     <public name="headset_title" id="0x7f06002b" type="string" />
     <public name="navigation_drawer_close" id="0x7f06002c" type="string" />
     <public name="navigation_drawer_open" id="0x7f06002d" type="string" />
-    <public name="pref_analogx_strength_title" id="0x7f06002e" type="string" />
+    <public name="pref_strength_title" id="0x7f06002e" type="string" />
     <public name="pref_analogx_title" id="0x7f06002f" type="string" />
     <public name="pref_colorfulmusic_title" id="0x7f060030" type="string" />
     <public name="pref_convolver_crosschannel_title" id="0x7f060031" type="string" />
@@ -597,7 +597,6 @@
     <public name="pref_dynamicsystem_output_title" id="0x7f060039" type="string" />
     <public name="pref_dynamicsystem_title" id="0x7f06003a" type="string" />
     <public name="pref_dynamicsystem_tube_title" id="0x7f06003b" type="string" />
-    <public name="pref_effect_title" id="0x7f06003c" type="string" />
     <public name="pref_equalizer_preset_title" id="0x7f06003d" type="string" />
     <public name="pref_equalizer_title" id="0x7f06003e" type="string" />
     <public name="pref_fetcompressor_adapt" id="0x7f06003f" type="string" />
@@ -638,8 +637,6 @@
     <public name="pref_reverb_title" id="0x7f060062" type="string" />
     <public name="pref_reverb_wet" id="0x7f060063" type="string" />
     <public name="pref_reverb_width" id="0x7f060064" type="string" />
-    <public name="pref_select_colorfulmusic_mi_title" id="0x7f060065" type="string" />
-    <public name="pref_select_colorfulmusic_title" id="0x7f060066" type="string" />
     <public name="pref_select_cure_cf_title" id="0x7f060067" type="string" />
     <public name="pref_select_diffsurr_ms_title" id="0x7f060068" type="string" />
     <public name="pref_select_vhs_qual_title" id="0x7f060069" type="string" />
@@ -653,7 +650,6 @@
     <public name="pref_viperddc_device_model" id="0x7f060071" type="string" />
     <public name="pref_viperddc_tips" id="0x7f060072" type="string" />
     <public name="pref_viperddc_title" id="0x7f060073" type="string" />
-    <public name="pref_vse_strength_title" id="0x7f060074" type="string" />
     <public name="pref_vse_tips" id="0x7f060075" type="string" />
     <public name="pref_vse_title" id="0x7f060076" type="string" />
     <public name="pref_xloud_output_amplifer" id="0x7f060077" type="string" />

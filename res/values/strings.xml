@@ -48,7 +48,7 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="headset_title">Headset</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="pref_analogx_strength_title">Select strength</string>
+    <string name="pref_strength_title">Select strength</string>
     <string name="pref_analogx_title">AnalogX</string>
     <string name="pref_colorfulmusic_title">Field surround</string>
     <string name="pref_convolver_crosschannel_title">Select cross channel</string>
@@ -62,7 +62,6 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_dynamicsystem_output_title">Select listening device</string>
     <string name="pref_dynamicsystem_title">Dynamic system</string>
     <string name="pref_dynamicsystem_tube_title">Tube sound simulator (6N1J)</string>
-    <string name="pref_effect_title">Select effect strength</string>
     <string name="pref_equalizer_preset_title">Select preset</string>
     <string name="pref_equalizer_title">FIREqualizer</string>
     <string name="pref_fetcompressor_adapt">Adapt</string>
@@ -103,8 +102,6 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_reverb_title">Reverberation</string>
     <string name="pref_reverb_wet">Wet signal</string>
     <string name="pref_reverb_width">Sound field</string>
-    <string name="pref_select_colorfulmusic_mi_title">Select mid image strength</string>
-    <string name="pref_select_colorfulmusic_title">Select field surround strength</string>
     <string name="pref_select_cure_cf_title">Select binaural level</string>
     <string name="pref_select_diffsurr_ms_title">Select delay time</string>
     <string name="pref_select_vhs_qual_title">Select effect level</string>
@@ -118,7 +115,6 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_viperddc_device_model">Select model</string>
     <string name="pref_viperddc_tips">"ViPER-DDC is used for headset correction. Nearly 500 headphones are supported"</string>
     <string name="pref_viperddc_title">ViPER-DDC</string>
-    <string name="pref_vse_strength_title">Select strength</string>
     <string name="pref_vse_tips">"Spectrum extension is used to extend lossy compressed spectrum. Recommended to use when playing MP3, AAC and OOG files"</string>
     <string name="pref_vse_title">Spectrum extension</string>
     <string name="pref_xloud_output_amplifer">Output gain</string>
