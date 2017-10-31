@@ -1223,7 +1223,6 @@
     <public name="reverb_percent" id="0x7f0b000e" type="array" />
     <public name="reverb_roomsize" id="0x7f0b000f" type="array" />
     <public name="reverb_roomwidth" id="0x7f0b0010" type="array" />
-    <public name="ui_prefer" id="0x7f0b0011" type="array" />
     <public name="vbass_boost" id="0x7f0b0012" type="array" />
     <public name="vbass_freq" id="0x7f0b0013" type="array" />
     <public name="vbass_mode" id="0x7f0b0014" type="array" />
@@ -1256,7 +1255,6 @@
     <public name="speaker_highfreq_values" id="0x7f0b0030" type="array" />
     <public name="speaker_lowfreq" id="0x7f0b0031" type="array" />
     <public name="speaker_lowfreq_values" id="0x7f0b0032" type="array" />
-    <public name="ui_prefer_values" id="0x7f0b0033" type="array" />
     <public name="vbass_boost_values" id="0x7f0b0034" type="array" />
     <public name="vbass_freq_values" id="0x7f0b0035" type="array" />
     <public name="vbass_mode_values" id="0x7f0b0036" type="array" />
