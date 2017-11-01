@@ -1237,7 +1237,6 @@
     <public name="cure_crossfeed_values" id="0x7f0b0020" type="array" />
     <public name="diffsurround_delay" id="0x7f0b0021" type="array" />
     <public name="diffsurround_delay_values" id="0x7f0b0022" type="array" />
-	<public name="dynamicsystem_bass_values" id="0x7f0b0024" type="array" />
     <public name="dynamicsystem_outputs_values" id="0x7f0b0025" type="array" />
     <public name="equalizer_preset_modes" id="0x7f0b0026" type="array" />
     <public name="equalizer_preset_values" id="0x7f0b0027" type="array" />
