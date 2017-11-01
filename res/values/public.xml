@@ -1219,7 +1219,6 @@
     <public name="output_db" id="0x7f0b000b" type="array" />
     <public name="output_volume" id="0x7f0b000c" type="array" />
     <public name="playbackgain_ratio" id="0x7f0b000d" type="array" />
-    <public name="reverb_percent" id="0x7f0b000e" type="array" />
     <public name="reverb_roomsize" id="0x7f0b000f" type="array" />
     <public name="reverb_roomwidth" id="0x7f0b0010" type="array" />
     <public name="vbass_boost" id="0x7f0b0012" type="array" />
