@@ -411,36 +411,6 @@
 	        <item>90</item>
 	        <item>100</item>
 	    </string-array>
-	    <string-array name="speaker_highfreq">
-	        <item>3000 Hz</item>
-	        <item>4000 Hz</item>
-	        <item>5000 Hz</item>
-	        <item>6000 Hz</item>
-	        <item>7000 Hz</item>
-	        <item>8000 Hz</item>
-	    </string-array>
-	    <string-array name="speaker_highfreq_values">
-	        <item>3000</item>
-	        <item>4000</item>
-	        <item>5000</item>
-	        <item>6000</item>
-	        <item>7000</item>
-	        <item>8000</item>
-	    </string-array>
-	    <string-array name="speaker_lowfreq">
-	        <item>100 Hz</item>
-	        <item>140 Hz</item>
-	        <item>180 Hz</item>
-	        <item>200 Hz</item>
-	        <item>220 Hz</item>
-	    </string-array>
-	    <string-array name="speaker_lowfreq_values">
-	        <item>100</item>
-	        <item>140</item>
-	        <item>180</item>
-	        <item>200</item>
-	        <item>220</item>
-	    </string-array>
 	    <string-array name="vbass_boost_values">
 	        <item>50</item>
 	        <item>100</item>

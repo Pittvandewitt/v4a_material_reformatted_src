@@ -1246,10 +1246,6 @@
     <public name="reverb_percent_values" id="0x7f0b002c" type="array" />
     <public name="reverb_roomsize_values" id="0x7f0b002d" type="array" />
     <public name="reverb_roomwidth_values" id="0x7f0b002e" type="array" />
-    <public name="speaker_highfreq" id="0x7f0b002f" type="array" />
-    <public name="speaker_highfreq_values" id="0x7f0b0030" type="array" />
-    <public name="speaker_lowfreq" id="0x7f0b0031" type="array" />
-    <public name="speaker_lowfreq_values" id="0x7f0b0032" type="array" />
     <public name="vbass_boost_values" id="0x7f0b0034" type="array" />
     <public name="vbass_mode_values" id="0x7f0b0036" type="array" />
     <public name="vclarity_boost_values" id="0x7f0b0037" type="array" />
