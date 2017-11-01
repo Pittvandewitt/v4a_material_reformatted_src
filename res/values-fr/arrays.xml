@@ -159,16 +159,6 @@
 	        <item>16.3 dB</item>
 	        <item>17.0 dB</item>
 	    </string-array>
-	    <string-array name="vbass_freq">
-	        <item>30 Hz</item>
-	        <item>40 Hz</item>
-	        <item>50 Hz</item>
-	        <item>60 Hz</item>
-	        <item>66 Hz</item>
-	        <item>78 Hz</item>
-	        <item>80 Hz</item>
-	        <item>100 Hz</item>
-	    </string-array>
 	    <string-array name="vbass_mode">
 	        <item>Natural Bass</item>
 	        <item>Pure Bass+</item>
@@ -477,16 +467,6 @@
 	        <item>500</item>
 	        <item>550</item>
 	        <item>600</item>
-	    </string-array>
-	    <string-array name="vbass_freq_values">
-	        <item>30</item>
-	        <item>40</item>
-	        <item>50</item>
-	        <item>60</item>
-	        <item>66</item>
-	        <item>78</item>
-	        <item>80</item>
-	        <item>100</item>
 	    </string-array>
 	    <string-array name="vbass_mode_values">
 	        <item>0</item>
