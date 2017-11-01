@@ -1212,7 +1212,6 @@
     <public name="colorfulmusic_coeffs" id="0x7f0b0002" type="array" />
     <public name="colorfulmusic_midimage" id="0x7f0b0003" type="array" />
     <public name="compatible_mode" id="0x7f0b0004" type="array" />
-    <public name="conv_cross_channel" id="0x7f0b0005" type="array" />
     <public name="cure_crossfeed" id="0x7f0b0006" type="array" />
     <public name="dynamicsystem_bass" id="0x7f0b0008" type="array" />
     <public name="dynamicsystem_outputs" id="0x7f0b0009" type="array" />
@@ -1236,7 +1235,6 @@
     <public name="colorfulmusic_coeffs_values" id="0x7f0b001c" type="array" />
     <public name="colorfulmusic_midimage_values" id="0x7f0b001d" type="array" />
     <public name="compatible_mode_values" id="0x7f0b001e" type="array" />
-    <public name="conv_cross_channel_values" id="0x7f0b001f" type="array" />
     <public name="cure_crossfeed_values" id="0x7f0b0020" type="array" />
     <public name="diffsurround_delay" id="0x7f0b0021" type="array" />
     <public name="diffsurround_delay_values" id="0x7f0b0022" type="array" />
