@@ -1569,8 +1569,6 @@
     <public name="v4a_trb_diffsurr" id="0x7f0d00d8" type="id" />
     <public name="v4a_tv_dynamicsystem_output" id="0x7f0d00d9" type="id" />
     <public name="id_btn_dynamicsystem_output" id="0x7f0d00da" type="id" />
-    <public name="v4a_tv_dynamicsystem_bass" id="0x7f0d00db" type="id" />
-    <public name="v4a_tv_dynamicsystem_bass_val" id="0x7f0d00dc" type="id" />
     <public name="v4a_trb_dynamicsystem_bass" id="0x7f0d00dd" type="id" />
     <public name="v4a_pbv_dynamicsystem_bass" id="0x7f0d00de" type="id" />
     <public name="FrequencyResponse" id="0x7f0d00df" type="id" />
