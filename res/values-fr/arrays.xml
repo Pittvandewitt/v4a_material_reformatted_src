@@ -203,19 +203,6 @@
 	        <item>1</item>
 	        <item>2</item>
 	    </string-array>
-	    <string-array name="channel_pan">
-	        <item>1.0 : 0.0</item>
-	        <item>0.9 : 0.1</item>
-	        <item>0.8 : 0.2</item>
-	        <item>0.7 : 0.3</item>
-	        <item>0.6 : 0.4</item>
-	        <item>0.5 : 0.5</item>
-	        <item>0.4 : 0.6</item>
-	        <item>0.3 : 0.7</item>
-	        <item>0.2 : 0.8</item>
-	        <item>0.1 : 0.9</item>
-	        <item>0.0 : 1.0</item>
-	    </string-array>
 	    <string-array name="channel_pan_values">
 	        <item>-100</item>
 	        <item>-80</item>
@@ -467,16 +454,6 @@
 	        <item>500</item>
 	        <item>550</item>
 	        <item>600</item>
-	    </string-array>
-	    <string-array name="vbass_freq_values">
-	        <item>30</item>
-	        <item>40</item>
-	        <item>50</item>
-	        <item>60</item>
-	        <item>66</item>
-	        <item>78</item>
-	        <item>80</item>
-	        <item>100</item>
 	    </string-array>
 	    <string-array name="vbass_mode_values">
 	        <item>0</item>

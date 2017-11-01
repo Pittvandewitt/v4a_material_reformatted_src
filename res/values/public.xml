@@ -1221,13 +1221,13 @@
     <public name="reverb_roomsize" id="0x7f0b000f" type="array" />
     <public name="reverb_roomwidth" id="0x7f0b0010" type="array" />
     <public name="vbass_boost" id="0x7f0b0012" type="array" />
+    <public name="vbass_freq" id="0x7f0b0013" type="array" />
     <public name="vbass_mode" id="0x7f0b0014" type="array" />
     <public name="vclarity_boost" id="0x7f0b0015" type="array" />
     <public name="vclarity_mode" id="0x7f0b0016" type="array" />
     <public name="vhs_qual" id="0x7f0b0017" type="array" />
     <public name="amplification_db_values" id="0x7f0b0018" type="array" />
     <public name="analogx_mode_values" id="0x7f0b0019" type="array" />
-    <public name="channel_pan" id="0x7f0b001a" type="array" />
     <public name="channel_pan_values" id="0x7f0b001b" type="array" />
     <public name="colorfulmusic_coeffs_values" id="0x7f0b001c" type="array" />
     <public name="colorfulmusic_midimage_values" id="0x7f0b001d" type="array" />
@@ -1251,7 +1251,6 @@
     <public name="speaker_lowfreq" id="0x7f0b0031" type="array" />
     <public name="speaker_lowfreq_values" id="0x7f0b0032" type="array" />
     <public name="vbass_boost_values" id="0x7f0b0034" type="array" />
-    <public name="vbass_freq_values" id="0x7f0b0035" type="array" />
     <public name="vbass_mode_values" id="0x7f0b0036" type="array" />
     <public name="vclarity_boost_values" id="0x7f0b0037" type="array" />
     <public name="vclarity_mode_values" id="0x7f0b0038" type="array" />

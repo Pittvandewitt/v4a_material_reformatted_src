@@ -159,6 +159,16 @@
         <item>16.3 dB</item>
         <item>17.0 dB</item>
     </string-array>
+    <string-array name="vbass_freq">
+        <item>30 Hz</item>
+        <item>40 Hz</item>
+        <item>50 Hz</item>
+        <item>60 Hz</item>
+        <item>66 Hz</item>
+        <item>78 Hz</item>
+        <item>80 Hz</item>
+        <item>100 Hz</item>
+    </string-array>
     <string-array name="vbass_mode">
         <item>Natural Bass</item>
         <item>Pure Bass+</item>
@@ -202,19 +212,6 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
-    </string-array>
-    <string-array name="channel_pan">
-        <item>1.0 : 0.0</item>
-        <item>0.9 : 0.1</item>
-        <item>0.8 : 0.2</item>
-        <item>0.7 : 0.3</item>
-        <item>0.6 : 0.4</item>
-        <item>0.5 : 0.5</item>
-        <item>0.4 : 0.6</item>
-        <item>0.3 : 0.7</item>
-        <item>0.2 : 0.8</item>
-        <item>0.1 : 0.9</item>
-        <item>0.0 : 1.0</item>
     </string-array>
     <string-array name="channel_pan_values">
         <item>-100</item>
