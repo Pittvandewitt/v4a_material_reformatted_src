@@ -48,40 +48,6 @@
         <item>Gemiddeld</item>
         <item>Veel</item>
     </string-array>
-    <string-array name="dynamicsystem_bass">
-        <item>0#37;</item>
-        <item>1#37;</item>
-        <item>2#37;</item>
-        <item>3#37;</item>
-        <item>4#37;</item>
-        <item>5#37;</item>
-        <item>6#37;</item>
-        <item>7#37;</item>
-        <item>8#37;</item>
-        <item>9#37;</item>
-        <item>10#37;</item>
-        <item>12#37;</item>
-        <item>14#37;</item>
-        <item>16#37;</item>
-        <item>18#37;</item>
-        <item>20#37;</item>
-        <item>22#37;</item>
-        <item>24#37;</item>
-        <item>26#37;</item>
-        <item>28#37;</item>
-        <item>30#37;</item>
-        <item>33#37;</item>
-        <item>36#37;</item>
-        <item>40#37;</item>
-        <item>45#37;</item>
-        <item>50#37;</item>
-        <item>55#37;</item>
-        <item>60#37;</item>
-        <item>70#37;</item>
-        <item>80#37;</item>
-        <item>90#37;</item>
-        <item>100#37;</item>
-    </string-array>
     <string-array name="dynamicsystem_outputs">
         <item>Extreme Headphone(v2)</item>
         <item>High-end Headphone(v2)</item>
@@ -340,40 +306,6 @@
         <item>1600</item>
         <item>1800</item>
         <item>2000</item>
-    </string-array>
-    <string-array name="dynamicsystem_bass_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>12</item>
-        <item>14</item>
-        <item>16</item>
-        <item>18</item>
-        <item>20</item>
-        <item>22</item>
-        <item>24</item>
-        <item>26</item>
-        <item>28</item>
-        <item>30</item>
-        <item>33</item>
-        <item>36</item>
-        <item>40</item>
-        <item>45</item>
-        <item>50</item>
-        <item>55</item>
-        <item>60</item>
-        <item>70</item>
-        <item>80</item>
-        <item>90</item>
-        <item>100</item>
     </string-array>
     <string-array name="dynamicsystem_outputs_values">
         <item>140;6200;40;60;10;80</item>

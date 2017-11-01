@@ -170,8 +170,6 @@
     <item name="v4a_trb_diffsurr" type="id">false</item>
     <item name="v4a_tv_dynamicsystem_output" type="id">false</item>
     <item name="id_btn_dynamicsystem_output" type="id">false</item>
-    <item name="v4a_tv_dynamicsystem_bass" type="id">false</item>
-    <item name="v4a_tv_dynamicsystem_bass_val" type="id">false</item>
     <item name="v4a_trb_dynamicsystem_bass" type="id">false</item>
     <item name="v4a_pbv_dynamicsystem_bass" type="id">false</item>
     <item name="FrequencyResponse" type="id">false</item>
