@@ -16,28 +16,28 @@
         <item>Extreme</item>
     </string-array>
     <string-array name="colorfulmusic_coeffs">
-        <item>Level 1</item>
-        <item>Level 2</item>
-        <item>Level 3</item>
-        <item>Level 4</item>
-        <item>Level 5</item>
-        <item>Level 6</item>
-        <item>Level 7</item>
-        <item>Level 8</item>
-        <item>Level 9</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
     </string-array>
     <string-array name="colorfulmusic_midimage">
-        <item>Level 1</item>
-        <item>Level 2</item>
-        <item>Level 3</item>
-        <item>Level 4</item>
-        <item>Level 5</item>
-        <item>Level 6</item>
-        <item>Level 7</item>
-        <item>Level 8</item>
-        <item>Level 9</item>
-        <item>Level 10</item>
-        <item>Level 11</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
     </string-array>
     <string-array name="compatible_mode">
         <item>Normal</item>
@@ -80,7 +80,7 @@
         <item>8x</item>
         <item>9x</item>
         <item>10x</item>
-        <item>Inf</item>
+        <item>∞</item>
     </string-array>
     <string-array name="output_db">
         <item>0 dB</item>
@@ -192,11 +192,11 @@
         <item>XHiFi</item>
     </string-array>
     <string-array name="vhs_qual">
-        <item>Level 1</item>
-        <item>Level 2</item>
-        <item>Level 3</item>
-        <item>Level 4</item>
-        <item>Level 5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
     </string-array>
     <string-array name="amplification_db_values">
         <item>100</item>
