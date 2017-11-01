@@ -1213,6 +1213,7 @@
     <public name="colorfulmusic_midimage" id="0x7f0b0003" type="array" />
     <public name="compatible_mode" id="0x7f0b0004" type="array" />
     <public name="cure_crossfeed" id="0x7f0b0006" type="array" />
+    <public name="dynamicsystem_bass" id="0x7f0b0008" type="array" />
     <public name="dynamicsystem_outputs" id="0x7f0b0009" type="array" />
     <public name="multi_factor" id="0x7f0b000a" type="array" />
     <public name="output_db" id="0x7f0b000b" type="array" />
@@ -1237,6 +1238,7 @@
     <public name="cure_crossfeed_values" id="0x7f0b0020" type="array" />
     <public name="diffsurround_delay" id="0x7f0b0021" type="array" />
     <public name="diffsurround_delay_values" id="0x7f0b0022" type="array" />
+    <public name="dynamicsystem_bass_values" id="0x7f0b0024" type="array" />
     <public name="dynamicsystem_outputs_values" id="0x7f0b0025" type="array" />
     <public name="equalizer_preset_modes" id="0x7f0b0026" type="array" />
     <public name="equalizer_preset_values" id="0x7f0b0027" type="array" />
@@ -1569,6 +1571,8 @@
     <public name="v4a_trb_diffsurr" id="0x7f0d00d8" type="id" />
     <public name="v4a_tv_dynamicsystem_output" id="0x7f0d00d9" type="id" />
     <public name="id_btn_dynamicsystem_output" id="0x7f0d00da" type="id" />
+    <public name="v4a_tv_dynamicsystem_bass" id="0x7f0d00db" type="id" />
+    <public name="v4a_tv_dynamicsystem_bass_val" id="0x7f0d00dc" type="id" />
     <public name="v4a_trb_dynamicsystem_bass" id="0x7f0d00dd" type="id" />
     <public name="v4a_pbv_dynamicsystem_bass" id="0x7f0d00de" type="id" />
     <public name="FrequencyResponse" id="0x7f0d00df" type="id" />
