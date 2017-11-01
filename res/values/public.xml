@@ -1258,7 +1258,6 @@
     <public name="vclarity_boost_values" id="0x7f0b0037" type="array" />
     <public name="vclarity_mode_values" id="0x7f0b0038" type="array" />
     <public name="vhs_qual_values" id="0x7f0b0039" type="array" />
-    <public name="vse_strength_values" id="0x7f0b003a" type="array" />
     <public name="abc_input_method_navigation_guard" id="0x7f0c0000" type="color" />
     <public name="abc_search_url_text_normal" id="0x7f0c0001" type="color" />
     <public name="abc_search_url_text_pressed" id="0x7f0c0002" type="color" />
