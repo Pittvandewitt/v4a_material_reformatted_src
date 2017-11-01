@@ -468,6 +468,16 @@
 	        <item>550</item>
 	        <item>600</item>
 	    </string-array>
+	    <string-array name="vbass_freq_values">
+	        <item>30</item>
+	        <item>40</item>
+	        <item>50</item>
+	        <item>60</item>
+	        <item>66</item>
+	        <item>78</item>
+	        <item>80</item>
+	        <item>100</item>
+	    </string-array>
 	    <string-array name="vbass_mode_values">
 	        <item>0</item>
 	        <item>1</item>

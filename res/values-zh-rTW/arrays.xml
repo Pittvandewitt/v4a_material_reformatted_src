@@ -159,6 +159,16 @@
         <item>16.3 分貝</item>
         <item>17.0 分貝</item>
     </string-array>
+    <string-array name="vbass_freq">
+        <item>30 赫茲</item>
+        <item>40 赫茲</item>
+        <item>50 赫茲</item>
+        <item>60 赫茲</item>
+        <item>66 赫茲</item>
+        <item>78 赫茲</item>
+        <item>80 赫茲</item>
+        <item>100 赫茲</item>
+    </string-array>
     <string-array name="vbass_mode">
         <item>自然低音</item>
         <item>醇低音+</item>
