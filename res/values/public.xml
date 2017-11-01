@@ -1213,7 +1213,6 @@
     <public name="colorfulmusic_midimage" id="0x7f0b0003" type="array" />
     <public name="compatible_mode" id="0x7f0b0004" type="array" />
     <public name="cure_crossfeed" id="0x7f0b0006" type="array" />
-    <public name="dynamicsystem_bass" id="0x7f0b0008" type="array" />
     <public name="dynamicsystem_outputs" id="0x7f0b0009" type="array" />
     <public name="multi_factor" id="0x7f0b000a" type="array" />
     <public name="output_db" id="0x7f0b000b" type="array" />

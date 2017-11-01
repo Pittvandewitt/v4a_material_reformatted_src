@@ -48,40 +48,6 @@
         <item>Gemiddeld</item>
         <item>Veel</item>
     </string-array>
-    <string-array name="dynamicsystem_bass">
-        <item>0#37;</item>
-        <item>1#37;</item>
-        <item>2#37;</item>
-        <item>3#37;</item>
-        <item>4#37;</item>
-        <item>5#37;</item>
-        <item>6#37;</item>
-        <item>7#37;</item>
-        <item>8#37;</item>
-        <item>9#37;</item>
-        <item>10#37;</item>
-        <item>12#37;</item>
-        <item>14#37;</item>
-        <item>16#37;</item>
-        <item>18#37;</item>
-        <item>20#37;</item>
-        <item>22#37;</item>
-        <item>24#37;</item>
-        <item>26#37;</item>
-        <item>28#37;</item>
-        <item>30#37;</item>
-        <item>33#37;</item>
-        <item>36#37;</item>
-        <item>40#37;</item>
-        <item>45#37;</item>
-        <item>50#37;</item>
-        <item>55#37;</item>
-        <item>60#37;</item>
-        <item>70#37;</item>
-        <item>80#37;</item>
-        <item>90#37;</item>
-        <item>100#37;</item>
-    </string-array>
     <string-array name="dynamicsystem_outputs">
         <item>Extreme Headphone(v2)</item>
         <item>High-end Headphone(v2)</item>
