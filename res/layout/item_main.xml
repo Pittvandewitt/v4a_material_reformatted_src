@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginLeft="16dp"
-        android:src="@drawable/power" />
+        android:src="@drawable/ic_power" />
 
     <android.support.v7.widget.SwitchCompat
         android:id="@id/v4a_item_enable"
