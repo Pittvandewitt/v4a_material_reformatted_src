@@ -148,9 +148,9 @@ Sampling Rate: %7$d"</string>
     <string name="text_drvinst_sdnotmounted">Installion failed because the external storage is not mounted</string>
     <string name="text_drvuninst_confim">Do you really want to uninstall the driver?</string>
     <string name="text_drvuninst_ok">Driver uninstalled</string>
-    <string name="text_drvvernotmatch">"The driver needs to be reinstalled. Do you want to do this now?"</string>
+    <string name="text_drvvernotmatch">The driver needs to be reinstalled. Do you want to do this now?</string>
     <string name="text_enter_developer">Enter developer mode</string>
-    <string name="text_enter_developer_msg">"Entering developer mode enables operations that may harm your operating system. Continue at your on risk"</string>
+    <string name="text_enter_developer_msg">Entering developer mode enables operations that may harm your operating system. Continue at your on risk</string>
     <string name="text_headset">Headset</string>
     <string name="text_help_content">"***General help*** 
  
@@ -175,7 +175,7 @@ Sampling Rate: %7$d"</string>
     <string name="text_ir_dir_isempty">The IR sample directory %1$s is empty</string>
     <string name="text_loadfxprofile">Load effect profile</string>
     <string name="text_lockeffect">Lock effect mode</string>
-    <string name="text_modifybuildprop">"Low Power Audio is enabled on your device, this may cause ViPER4Android to malfunction. Low Power Audio can be disabled through a build.prop edit. It is strongly recommended to make a NANDROID or DATA BACKUP before proceeding! Do you wish to disable Low Power Audio now?"</string>
+    <string name="text_modifybuildprop">Low Power Audio is enabled on your device, this may cause ViPER4Android to malfunction. Low Power Audio can be disabled through a build.prop edit. It is strongly recommended to make a NANDROID BACKUP before proceeding! Do you wish to disable Low Power Audio now?</string>
     <string name="text_ms">ms</string>
     <string name="text_newfxprofile">New Effect Profile…</string>
     <string name="text_no">No</string>
