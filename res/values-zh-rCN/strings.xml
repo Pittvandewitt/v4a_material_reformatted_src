@@ -22,8 +22,6 @@
     <string name="eq_preset_treble_reducer">高音弱化</string>
     <string name="eq_preset_vocal_booster">人声强化</string>
     <string name="headset_title">耳机</string>
-    <string name="navigation_drawer_close">关闭导航栏</string>
-    <string name="navigation_drawer_open">打开导航栏</string>
     <string name="pref_strength_title">选择强度</string>
     <string name="pref_analogx_title">AnalogX</string>
     <string name="pref_colorfulmusic_title">场环绕</string>

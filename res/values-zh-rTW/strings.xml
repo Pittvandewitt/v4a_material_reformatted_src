@@ -24,8 +24,6 @@
     <string name="eq_preset_treble_reducer">高音弱化</string>
     <string name="eq_preset_vocal_booster">人聲強化</string>
     <string name="headset_title">耳機</string>
-    <string name="navigation_drawer_close">關閉抽屜</string>
-    <string name="navigation_drawer_open">打開抽屜</string>
     <string name="pref_strength_title">選擇強度</string>
     <string name="pref_analogx_title">耳機放大器的暖底音質模擬(AnalogX)</string>
     <string name="pref_colorfulmusic_title">臨場感模擬</string>

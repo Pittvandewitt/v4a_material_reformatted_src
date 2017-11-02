@@ -22,8 +22,6 @@ Su uso comercial no está permitido sin permiso oficial."</string>
     <string name="eq_preset_treble_reducer">Reductor de agudos</string>
     <string name="eq_preset_vocal_booster">Potenciador vocal</string>
     <string name="headset_title">Auriculares</string>
-    <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
-    <string name="navigation_drawer_open">Abrir el cajón de navegación</string>
     <string name="pref_strength_title">Seleccione la potencia</string>
     <string name="pref_analogx_title">AnalogX</string>
     <string name="pref_colorfulmusic_title">Surround envolvente</string>

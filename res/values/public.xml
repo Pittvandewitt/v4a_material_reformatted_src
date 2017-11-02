@@ -577,8 +577,6 @@
     <public name="eq_preset_treble_reducer" id="0x7f060029" type="string" />
     <public name="eq_preset_vocal_booster" id="0x7f06002a" type="string" />
     <public name="headset_title" id="0x7f06002b" type="string" />
-    <public name="navigation_drawer_close" id="0x7f06002c" type="string" />
-    <public name="navigation_drawer_open" id="0x7f06002d" type="string" />
     <public name="pref_strength_title" id="0x7f06002e" type="string" />
     <public name="pref_analogx_title" id="0x7f06002f" type="string" />
     <public name="pref_colorfulmusic_title" id="0x7f060030" type="string" />
@@ -724,12 +722,8 @@
     <public name="appbar_scrolling_view_behavior" id="0x7f0600c3" type="string" />
     <public name="bottom_sheet_behavior" id="0x7f0600c4" type="string" />
     <public name="character_counter_pattern" id="0x7f0600c5" type="string" />
-    <public name="text_drvinst_sqdrv" id="0x7f0600c9" type="string" />
-    <public name="text_enabled" id="0x7f0600ca" type="string" />
     <public name="text_forum_link" id="0x7f0600cb" type="string" />
     <public name="text_hidetrayicon" id="0x7f0600cc" type="string" />
-    <public name="text_uiprefer" id="0x7f0600cd" type="string" />
-    <public name="text_uiprefer_dialog" id="0x7f0600ce" type="string" />
     <public name="text_updatelink" id="0x7f0600cf" type="string" />
     <public name="text_view_forum" id="0x7f0600d0" type="string" />
     <public name="abc_allow_stacked_button_bar" id="0x7f070000" type="bool" />
