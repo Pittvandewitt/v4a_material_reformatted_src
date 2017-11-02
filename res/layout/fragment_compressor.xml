@@ -46,7 +46,8 @@
                 android:id="@id/v4a_pbv_fetcompressor_threshold"
                 android:layout_width="230dp"
                 android:layout_height="230dp"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible" />
         </RelativeLayout>
 
         <View
@@ -92,7 +93,8 @@
                 android:id="@id/v4a_pbv_fetcompressor_ratio"
                 android:layout_width="230dp"
                 android:layout_height="230dp"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible" />
         </RelativeLayout>
 
         <View
@@ -161,7 +163,8 @@
                 android:layout_width="230dp"
                 android:layout_height="230dp"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -202,7 +205,8 @@
                 android:id="@id/v4a_pbv_fetcompressor_kneemulti"
                 android:layout_width="230dp"
                 android:layout_height="230dp"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible" />
         </RelativeLayout>
 
         <View
@@ -269,7 +273,8 @@
                 android:id="@id/v4a_pbv_fetcompressor_gain"
                 android:layout_width="230dp"
                 android:layout_height="230dp"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible" />
         </RelativeLayout>
 
         <View
@@ -336,7 +341,8 @@
                 android:id="@id/v4a_pbv_fetcompressor_attack"
                 android:layout_width="230dp"
                 android:layout_height="230dp"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -376,7 +382,8 @@
                 android:id="@id/v4a_pbv_fetcompressor_maxattack"
                 android:layout_width="230dp"
                 android:layout_height="230dp"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible" />
         </RelativeLayout>
 
         <View
@@ -443,7 +450,8 @@
                 android:id="@id/v4a_pbv_fetcompressor_release"
                 android:layout_width="230dp"
                 android:layout_height="230dp"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -483,7 +491,8 @@
                 android:id="@id/v4a_pbv_fetcompressor_maxrelease"
                 android:layout_width="230dp"
                 android:layout_height="230dp"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible" />
         </RelativeLayout>
 
         <View
@@ -528,7 +537,8 @@
                 android:id="@id/v4a_pbv_fetcompressor_crest"
                 android:layout_width="230dp"
                 android:layout_height="230dp"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible" />
         </RelativeLayout>
 
         <View
@@ -573,7 +583,8 @@
                 android:id="@id/v4a_pbv_fetcompressor_adapt"
                 android:layout_width="230dp"
                 android:layout_height="230dp"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible" />
         </RelativeLayout>
 
         <RelativeLayout
