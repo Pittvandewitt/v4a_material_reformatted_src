@@ -57,9 +57,9 @@ Zonder officiële toestemming is commercieel gebruik niet toegestaan"</string>
     <string name="pref_fetcompressor_title">FET Compressor</string>
     <string name="pref_fidelity_vb_bassfreq_title">Frequentie</string>
     <string name="pref_fidelity_vb_mode_title">Modus</string>
-    <string name="pref_fidelity_vb_title">Lage tonen</string>
+    <string name="pref_fidelity_vb_title">ViPER Bass</string>
     <string name="pref_fidelity_vc_mode_title">Modus</string>
-    <string name="pref_fidelity_vc_title">Helderheid</string>
+    <string name="pref_fidelity_vc_title">ViPER Clarity</string>
     <string name="pref_fx_limiter_threshold">Grenswaarde</string>
     <string name="pref_fx_limiter_title">Master</string>
     <string name="pref_fx_master_title">Hoofdschakelaar</string>
