@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_company">"
-Copyright © 2006-2016, ViPER ACOUSTIC. Todos los derechos reservados. 
-Su uso comercial no está permitido sin permiso oficial."</string>
+    <string name="about_company">"Copyright © 2006-2016, ViPER ACOUSTIC. Todos los derechos reservados
+Su uso comercial no está permitido sin permiso oficial"</string>
     <string name="about_exit">Salir</string>
     <string name="about_forum">Foro oficial: forum.vipersaudio.com</string>
     <string name="about_version">Versión %1$s (FX), Codename Beautiful</string>
