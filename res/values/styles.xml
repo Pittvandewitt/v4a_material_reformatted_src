@@ -1245,6 +1245,7 @@
         <item name="android:minHeight">?actionBarSize</item>
         <item name="contentInsetStart">72dp</item>
         <item name="titleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Title</item>
+        <item name="android:textSize">20dp</item>
         <item name="subtitleTextAppearance">
             @style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle
         </item>
