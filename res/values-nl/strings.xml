@@ -130,19 +130,24 @@ Sampling Rate: %7$d"</string>
     <string name="text_enter_developer">Ontwikkelaarsmodus inschakelen</string>
     <string name="text_enter_developer_msg">Ontwikkelaarsmodus geeft toegang tot opties die schade kunnen aanbrengen aan je systeem. Ga verder op eigen risico</string>
     <string name="text_headset">Hoofdtelefoon</string>
-    <string name="text_help_content">"***General help***
+    <string name="text_help_content">"Algemene hulp
 
-'Installeer Driver' - Installeer/Update ViPER4Android driver
-'Deïnstalleer Driver' - Deïnstaslleer ViPER4Android driver
-'FX Compitabale Modus' - Zet compitabiliteitsmodus aan
- 'Normaal' - Stel ViPER4Android als een globaal effect in
- 'Compitabel' - Stel ViPER4Android als een locaal effect in
+Installeer Driver:
+Installeer/Update ViPER4Android driver
+Deïnstalleer Driver:
+Deïnstalleer ViPER4Android driver
+FX Compitabale Modus:
+Zet compitabiliteitsmodus aan
+Normaal:
+Stel ViPER4Android als een globaal effect in
+Compitabel:
+Stel ViPER4Android als een locaal effect in
 
-"<b>Geen effect op (bijna) alle mediaspelers</b>"
- Schakel FX modus in op de compitabiliteitsmodus. Herstart daarna je apparaat
+Geen effect op (bijna) alle mediaspelers:
+Schakel FX modus in op de compitabiliteitsmodus. Herstart daarna je apparaat
 
-"<b>Batterijverbruik verminderen</b>"
- Schakel systeemgeluiden uit wanneer ViPER4Android in de normale modus opereert, inclusief aanraakgeluiden. Dit kan 1,2x tot 4x je batterijduur verlengen
+Batterijverbruik verminderen:
+Schakel systeemgeluiden uit wanneer ViPER4Android in de normale modus opereert, inclusief aanraakgeluiden. Dit kan 1,2x tot 4x je batterijduur verlengen
  
 "<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
     <string name="text_help_title">Help</string>
