@@ -20,8 +20,8 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="about_company">Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved
-Without the official permission, commercial use is disallowed</string>
+    <string name="about_company">"Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved
+Without the official permission, commercial use is disallowed"</string>
     <string name="about_exit">Exit</string>
     <string name="about_forum">Official forum: forum.vipersaudio.com</string>
     <string name="about_version">Version %1$s (FX), Codename Beautiful</string>
@@ -163,9 +163,6 @@ Sampling Rate: %7$d"</string>
 "<b>No V4A effect on all/most mediaplayers?</b>"
  You can switch the FX mode to compatible then restart your device and try again
  
-"<b>How to change driver audio quality?</b>"
- Uninstall driver in menu then restart your device and choose the quality you want
- 
 "<b>How to reduce battery consumption?</b>"
  When V4A is running in Normal Mode, switch off system sound settings including touch sounds and lock/unlock sounds to save up to 1.2~4 times battery life
  
@@ -232,5 +229,4 @@ Do you want to continue?"</string>
     <string name="text_uiprefer">UI setting</string>
     <string name="text_uiprefer_dialog">Please choose your preference</string>
     <string name="text_updatelink">http://vipersaudio.com/swupdate/viper4android/download.html</string>
-    <string name="text_view_forum">Forum</string>
 </resources>

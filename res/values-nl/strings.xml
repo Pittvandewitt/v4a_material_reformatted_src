@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_company">Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved
-Zonder officiële toestemming is commercieel gebruik niet toegestaan</string>
+    <string name="about_company">"Copyright © 2006-2016, ViPER ACOUSTIC. Alle rechten voorbehouden
+Zonder officiële toestemming is commercieel gebruik niet toegestaan"</string>
     <string name="about_exit">Sluiten</string>
     <string name="about_forum">Officieel forum: forum.vipersaudio.com</string>
     <string name="about_version">Versie %1$s (FX), Codenaam Beautiful</string>
@@ -198,5 +198,4 @@ Version %1$s (FX), Codename “Beautiful”
     <string name="text_hidetrayicon">Notificatie verbergen</string>
     <string name="text_uiprefer">UI instellingen</string>
     <string name="text_uiprefer_dialog">Voorkeur kiezen</string>
-    <string name="text_view_forum">Forum</string>
 </resources>

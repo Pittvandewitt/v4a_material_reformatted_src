@@ -731,7 +731,6 @@
     <public name="text_uiprefer" id="0x7f0600cd" type="string" />
     <public name="text_uiprefer_dialog" id="0x7f0600ce" type="string" />
     <public name="text_updatelink" id="0x7f0600cf" type="string" />
-    <public name="text_view_forum" id="0x7f0600d0" type="string" />
     <public name="abc_allow_stacked_button_bar" id="0x7f070000" type="bool" />
     <public name="abc_action_bar_embed_tabs_pre_jb" id="0x7f070001" type="bool" />
     <public name="abc_config_allowActionMenuItemTextWithIcon" id="0x7f070002" type="bool" />
