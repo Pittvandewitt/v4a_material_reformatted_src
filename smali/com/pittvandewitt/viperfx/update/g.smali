@@ -52,7 +52,7 @@
     :cond_0
     iget-object v0, p0, Lcom/pittvandewitt/viperfx/update/g;->b:Lcom/pittvandewitt/viperfx/update/e;
 
-    const-string v1, "http://api.pittvandewitt.com/viperfx/update.php"
+    const-string v1, "http://api.audlabs.com/viperfx/update.php"
 
     invoke-static {v0, v1}, Lcom/pittvandewitt/viperfx/update/e;->a(Lcom/pittvandewitt/viperfx/update/e;Ljava/lang/String;)Ljava/lang/String;
 

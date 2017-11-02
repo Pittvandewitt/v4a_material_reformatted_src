@@ -30,7 +30,7 @@
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    const-string v0, "http://api.pittvandewitt.com/viperfx/update.php"
+    const-string v0, "http://api.audlabs.com/viperfx/update.php"
 
     iput-object v0, p0, Lcom/pittvandewitt/viperfx/update/e;->a:Ljava/lang/String;
 
