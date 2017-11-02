@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--<string name="abc_action_bar_home_description">Beginscherm</string>-->
-    <!--<string name="abc_action_bar_home_description_format">%1$s, %2$s</string>-->
-    <!--<string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>-->
-    <!--<string name="abc_action_bar_up_description">Omhoog navigeren</string>-->
-    <!--<string name="abc_action_menu_overflow_description">Meer opties</string>-->
-    <!--<string name="abc_action_mode_done">Klaar</string>-->
-    <!--<string name="abc_activity_chooser_view_see_all">Alles tonen</string>-->
-    <!--<string name="abc_activitychooserview_choose_application">Applicatie kiezen</string>-->
-    <!--<string name="abc_capital_off">UIT</string>-->
-    <!--<string name="abc_capital_on">AAN</string>-->
-    <!--<string name="abc_search_hint">Zoeken…</string>-->
-    <!--<string name="abc_searchview_description_clear">Zoekopdracht wissen</string>-->
-    <!--<string name="abc_searchview_description_query">Zoekopdracht vinden</string>-->
-    <!--<string name="abc_searchview_description_search">Zoek</string>-->
-    <!--<string name="abc_searchview_description_submit">Zoekopdracht indienen</string>-->
-    <!--<string name="abc_searchview_description_voice">Spraakgestuurd zoeken</string>-->
-    <!--<string name="abc_shareactionprovider_share_with">Delen met</string>-->
-    <!--<string name="abc_shareactionprovider_share_with_application">Delen met %s</string>-->
-    <!--<string name="abc_toolbar_collapse_description">Samenvouwen</string>-->
-    <!--<string name="status_bar_notification_info_overflow">999+</string>-->
     <string name="about_company">"
 Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved.
 Without the official permission, commercial use is disallowed."</string>
