@@ -221,12 +221,8 @@ Version %1$s (FX), Codename “Beautiful”
     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern">%1$d / %2$d</string>
-    <string name="text_drvinst_sqdrv">"Super audio quality driver requires at least a dual-core cpu and may speed up battery drain. 
-Do you want to continue?"</string>
     <string name="text_enabled">Enabled</string>
     <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
     <string name="text_hidetrayicon">Hide notification</string>
-    <string name="text_uiprefer">UI setting</string>
-    <string name="text_uiprefer_dialog">Please choose your preference</string>
     <string name="text_updatelink">http://vipersaudio.com/swupdate/viper4android/download.html</string>
 </resources>

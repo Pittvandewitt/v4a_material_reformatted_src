@@ -196,6 +196,4 @@ Version %1$s (FX), Codename “Beautiful”
     <string name="about_title">Help en overige</string>
     <string name="text_enabled">Ingeschakeld</string>
     <string name="text_hidetrayicon">Notificatie verbergen</string>
-    <string name="text_uiprefer">UI instellingen</string>
-    <string name="text_uiprefer_dialog">Voorkeur kiezen</string>
 </resources>
