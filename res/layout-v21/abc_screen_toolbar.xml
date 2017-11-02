@@ -20,6 +20,7 @@
         <android.support.v7.widget.Toolbar
             android:id="@id/action_bar"
             style="?attr/toolbarStyle"
+            app:titleTextAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:navigationContentDescription="@string/abc_action_bar_up_description" />

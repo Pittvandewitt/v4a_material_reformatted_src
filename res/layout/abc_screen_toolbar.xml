@@ -21,7 +21,8 @@
             style="?attr/toolbarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:navigationContentDescription="@string/abc_action_bar_up_description" />
+            app:navigationContentDescription="@string/abc_action_bar_up_description"
+            app:titleTextAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
 
         <android.support.v7.widget.ActionBarContextView
             android:id="@id/action_context_bar"
