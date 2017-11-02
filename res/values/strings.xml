@@ -20,8 +20,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="about_company">
-Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved
+    <string name="about_company">Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved
 Without the official permission, commercial use is disallowed</string>
     <string name="about_exit">Exit</string>
     <string name="about_forum">Official forum: forum.vipersaudio.com</string>
@@ -144,7 +143,7 @@ Sampling Rate: %7$d"</string>
     <string name="text_drvinst_busybox_not_installed">Installion failed because there was no busybox installation found</string>
     <string name="text_drvinst_cfg_unsup">Installion failed because the ROM is not supported</string>
     <string name="text_drvinst_dataioerr">Installion failed because of an I/O error. Reboot your device and try again</string>
-    <string name="text_drvinst_failed">Installion failed because busybox is not functioning properly. Use Stericson's busybox and check if root access is available</string>
+    <string name="text_drvinst_failed">Installion failed because busybox is not functioning properly. Use Stericson\'s busybox and check if root access is available</string>
     <string name="text_drvinst_ok">Driver installed. Reboot your device to make use of the effects</string>
     <string name="text_drvinst_sdnotmounted">Installion failed because the external storage is not mounted</string>
     <string name="text_drvuninst_confim">Do you really want to uninstall the driver?</string>

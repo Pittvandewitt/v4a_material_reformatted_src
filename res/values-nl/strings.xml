@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about_company">"
-Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved.
-Without the official permission, commercial use is disallowed."</string>
+    <string name="about_company">Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved
+Zonder officiële toestemming is commercieel gebruik niet toegestaan</string>
     <string name="about_exit">Sluiten</string>
     <string name="about_forum">Officieel forum: forum.vipersaudio.com</string>
     <string name="about_version">Versie %1$s (FX), Codenaam Beautiful</string>
@@ -122,14 +121,14 @@ Sampling Rate: %7$d"</string>
     <string name="text_drvinst_busybox_not_installed">Installatie is mislukt omdat er geen juiste busybox is gevonden</string>
     <string name="text_drvinst_cfg_unsup">Installatie is mislukt omdat de ROM niet ondersteund wordt</string>
     <string name="text_drvinst_dataioerr">Installatie is mislukt vanwege een schrijffout. Herstart je toestel en probeer het opnieuw</string>
-    <string name="text_drvinst_failed">"Installatie is mislukt omdat busybox niet functioneert. Installeer Stericson's busybox of kijk of root beschikbaar is"</string>
+    <string name="text_drvinst_failed">Installatie is mislukt omdat busybox niet functioneert. Installeer Stericson\s busybox of kijk of root beschikbaar is</string>
     <string name="text_drvinst_ok">Driver geïnstalleerd. Herstart het apparaat om de functies te kunnen gebruiken</string>
     <string name="text_drvinst_sdnotmounted">/Installatie mislukt omdat de externe opslag niet is gekoppeld</string>
     <string name="text_drvuninst_confim">Wil je de driver deïnstalleren?</string>
     <string name="text_drvuninst_ok">Driver gedeïnstalleerd</string>
-    <string name="text_drvvernotmatch">"De driver moet opnieuw worden geïnstalleerd. Wil je dit nu doen?"</string>
+    <string name="text_drvvernotmatch">De driver moet opnieuw worden geïnstalleerd. Wil je dit nu doen?</string>
     <string name="text_enter_developer">Ontwikkelaarsmodus inschakelen</string>
-    <string name="text_enter_developer_msg">"Ontwikkelaarsmodus geeft toegang tot opties die schade kunnen aanbrengen aan je systeem. Ga verder op eigen risico"</string>
+    <string name="text_enter_developer_msg">Ontwikkelaarsmodus geeft toegang tot opties die schade kunnen aanbrengen aan je systeem. Ga verder op eigen risico</string>
     <string name="text_headset">Hoofdtelefoon</string>
     <string name="text_help_content">"***General help***
 
@@ -190,7 +189,7 @@ Do you wish to disable LPA now?"</string>
     <string name="about_text">"***Over ViPER4Android***
 
 'libv4a_xx_xx.so' is de kernel van ViPER4Android
-Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved
+Copyright © 2006-2016, ViPER ACOUSTIC. Alle rechten voorbehouden
 Zonder officiële toestemming is commercieel gebruik niet toegestaan
 Officieel Forum: http://vipersaudio.com/blog/
 
