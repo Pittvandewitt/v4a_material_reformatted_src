@@ -22,6 +22,8 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="eq_preset_treble_reducer">Hoge tonen vermindering</string>
     <string name="eq_preset_vocal_booster">Vocale versterking</string>
     <string name="headset_title">Hoofdtelefoon</string>
+    <string name="navigation_drawer_close">Navigatiemenu sluiten</string>
+    <string name="navigation_drawer_open">Navigatiemenu openen</string>
     <string name="pref_strength_title">Sterkte</string>
     <string name="pref_analogx_title">Versterker simulator</string>
     <string name="pref_colorfulmusic_title">Surround geluidsveld</string>
@@ -86,13 +88,11 @@ Without the official permission, commercial use is disallowed."</string>
     <string name="pref_viperddc_device_model">Model</string>
     <string name="pref_viperddc_tips">"ViPER-DDC wordt gebruikt voor de correctie van hoofdtelefoons. Bijna 500 koptelefoons worden ondersteund"</string>
     <string name="pref_viperddc_title">ViPER-DDC</string>
-    <string name="pref_vse_tips">"Spectrum extensie wordt gebruikt om het bereik van lage kwaliteit audio te verhogen.
-Aanbevolen bij MP3, AAC en OOG bestanden"</string>
+    <string name="pref_vse_tips">"Spectrum extensie wordt gebruikt om het bereik van lage kwaliteit audio te verhogen. Aanbevolen bij MP3, AAC en OOG bestanden"</string>
     <string name="pref_vse_title">Spectrum extensie</string>
     <string name="pref_xloud_output_amplifer">Output geluidssterkte</string>
     <string name="pref_xloud_spk_highfreq">Hoge frequentierespons</string>
     <string name="pref_xloud_spk_lowfreq">Lage frequentierespons</string>
-    <string name="pref_xloud_title">@string/pref_playback_title</string>
     <string name="speaker_title">Luidspreker</string>
     <string name="text_abnormal">Abnormaal</string>
     <string name="text_about_title">Overig en credits</string>
@@ -105,7 +105,6 @@ Aanbevolen bij MP3, AAC en OOG bestanden"</string>
     <string name="text_close_selinux">SELinux uitzetten</string>
     <string name="text_close_selinux_msg">SELinux zal uitgeschakeld zijn totdat het toestel herstart wordt. Probeer dit als de driverinstallatie niet lukt</string>
     <string name="text_commode">Compitabiliteitsmodus</string>
-    <string name="text_db">dB</string>
     <string name="text_default_storage">Standaardopslag instellen</string>
     <string name="text_disabled">Uitgeschakeld</string>
     <string name="text_down_ready">Klaar om te downloaden</string>
@@ -160,7 +159,6 @@ LPA is enabled on your device, this may cause V4A to malfunction.
 LPA, or 'Low Power Audio', can be disabled through modifying build.prop, which can be done automatically.
 We strongly recommend you to make a NANDROID or DATA BACKUP before proceeding!
 Do you wish to disable LPA now?"</string>
-    <string name="text_ms">ms</string>
     <string name="text_newfxprofile">Nieuw effectprofiel</string>
     <string name="text_no">Nee</string>
     <string name="text_no_busybox">Busybox is niet gevonden op je toestel. Wil je nu busybox installeren?</string>
@@ -176,10 +174,9 @@ Do you wish to disable LPA now?"</string>
     <string name="text_showtrayicon">Notificatie tonen</string>
     <string name="text_speaker">Luidspreker</string>
     <string name="text_supported">Ondersteund</string>
-    <string name="text_token_lost">ViPER4Android wordt tijdelijk uitgeschakeld omdat een andere applicatie gebruik maakt van dezelfde geluidseffecten</string>
+    <string name="text_token_lost">ViPER4Android wordt tijdelijk uitgeschakeld omdat een andere app gebruik maakt van dezelfde driver</string>
     <string name="text_uninstall">Driver deïnstalleren</string>
     <string name="text_unsupported">Niet ondersteund</string>
-    <string name="text_update_download">Download</string>
     <string name="text_update_error">Informatie kan niet worden opgehaald vanwege een netwerkfout</string>
     <string name="text_update_get_version">Informatie ophalen</string>
     <string name="text_update_ignore">Negeren</string>
@@ -190,24 +187,24 @@ Do you wish to disable LPA now?"</string>
     <string name="text_usb">USB/Dock</string>
     <string name="text_yes">Ja</string>
     <string name="usb_title">USB/Dock</string>
-    <string name="about_text">"***About ViPER4Android***
+    <string name="about_text">"***Over ViPER4Android***
 
-'libv4a_xx_xx.so' is the kernel of ViPER4Android.
-Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved.
-Without the official permission, commercial use is disallowed.
-Official Forum: http://vipersaudio.com/blog/
+'libv4a_xx_xx.so' is de kernel van ViPER4Android
+Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved
+Zonder officiële toestemming is commercieel gebruik niet toegestaan
+Officieel Forum: http://vipersaudio.com/blog/
 
-'ViPER4Android.apk' is the visual control panel of ViPER4Android.
-Based on Cyanogenmod's DSPManager.
-Great thanks to Zhuhang@XDA
-Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
+'ViPER4Android.apk' is het visuale controlepanel van ViPER4Android
+Gebaseerd op Cyanogenmod's DSPManager
+Met dank aan Zhuhang@XDA, pittvandewitt@xda, MrWhite214@xda
+Met dank aan M4570D0N@github, xLaMbChOpSx@github, bboa@github
 
-Version %1$s (FX), Codename “Beautiful”.
+Version %1$s (FX), Codename “Beautiful”
 "</string>
     <string name="about_title">Help en overige</string>
+    <string name="text_enabled">Ingeschakeld</string>
     <string name="text_hidetrayicon">Notificatie verbergen</string>
+    <string name="text_uiprefer">UI instellingen</string>
+    <string name="text_uiprefer_dialog">Voorkeur kiezen</string>
     <string name="text_view_forum">Forum</string>
-    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
-    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
-    <string name="character_counter_pattern">%1$d / %2$d</string>
 </resources>

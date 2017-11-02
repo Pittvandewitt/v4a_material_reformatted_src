@@ -22,6 +22,8 @@
     <string name="eq_preset_treble_reducer">高音弱化</string>
     <string name="eq_preset_vocal_booster">人声强化</string>
     <string name="headset_title">耳机</string>
+    <string name="navigation_drawer_close">关闭导航栏</string>
+    <string name="navigation_drawer_open">打开导航栏</string>
     <string name="pref_strength_title">选择强度</string>
     <string name="pref_analogx_title">AnalogX</string>
     <string name="pref_colorfulmusic_title">场环绕</string>
@@ -97,7 +99,6 @@ ViPER-DDC是一个用于耳机校准的HiFi音效。
     <string name="pref_xloud_output_amplifer">音量放大级别</string>
     <string name="pref_xloud_spk_highfreq">扬声器高响应频率</string>
     <string name="pref_xloud_spk_lowfreq">扬声器低响应频率</string>
-    <string name="pref_xloud_title">@string/pref_playback_title</string>
     <string name="speaker_title">扬声器</string>
     <string name="text_abnormal">出错</string>
     <string name="text_about_title">关于</string>
