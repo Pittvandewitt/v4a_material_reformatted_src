@@ -203,20 +203,6 @@ Sampling Rate: %7$d"</string>
     <string name="text_usb">USB/Dock</string>
     <string name="text_yes">Yes</string>
     <string name="usb_title">USB/Dock</string>
-    <string name="about_text">"***About ViPER4Android*** 
- 
-'libv4a_xx_xx.so' is the kernel of ViPER4Android.
-Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved
-Without the official permission, commercial use is disallowed
-Official Forum: http://vipersaudio.com/blog/ 
- 
-'ViPER4Android.apk' is the visual control panel of ViPER4Android
-Based on Cyanogenmod's DSPManager. 
-Great thanks to Zhuhang@XDA, pittvandewitt@xda, MrWhite214@xda
-Great thanks to M4570D0N@github, xLaMbChOpSx@github, bboa@github
- 
-Version %1$s (FX), Codename “Beautiful”
-"</string>
     <string name="about_title">Help and about</string>
     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>

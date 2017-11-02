@@ -719,7 +719,6 @@
     <public name="text_usb" id="0x7f0600be" type="string" />
     <public name="text_yes" id="0x7f0600bf" type="string" />
     <public name="usb_title" id="0x7f0600c0" type="string" />
-    <public name="about_text" id="0x7f0600c1" type="string" />
     <public name="about_title" id="0x7f0600c2" type="string" />
     <public name="appbar_scrolling_view_behavior" id="0x7f0600c3" type="string" />
     <public name="bottom_sheet_behavior" id="0x7f0600c4" type="string" />
