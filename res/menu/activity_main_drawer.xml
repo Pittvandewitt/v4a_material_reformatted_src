@@ -2,27 +2,27 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@id/loadprofile"
-        android:icon="@drawable/load"
+        android:icon="@drawable/ic_load"
         android:textColor="@color/colorMainText"
         android:title="@string/text_loadfxprofile" />
     <item
         android:id="@id/saveprofile"
-        android:icon="@drawable/save"
+        android:icon="@drawable/ic_save"
         android:textColor="@color/colorMainText"
         android:title="@string/text_savefxprofile" />
     <item
         android:id="@id/drvinst"
-        android:icon="@drawable/driver"
+        android:icon="@drawable/ic_driver"
         android:textColor="@color/colorMainText"
         android:title="@string/text_drv_blank" />
     <item
         android:id="@id/drvstatus"
-        android:icon="@drawable/status"
+        android:icon="@drawable/ic_status"
         android:textColor="@color/colorMainText"
         android:title="@string/text_drv_status" />
     <item
         android:id="@id/setting"
-        android:icon="@drawable/settings"
+        android:icon="@drawable/ic_settings"
         android:textColor="@color/colorMainText"
         android:title="@string/text_setting" />
 </menu>
