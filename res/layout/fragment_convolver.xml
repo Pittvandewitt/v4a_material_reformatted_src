@@ -36,8 +36,7 @@
         android:id="@id/v4a_layout_convolver_knl_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:animateLayoutChanges="true"
-        android:scrollbars="none">
+        android:animateLayoutChanges="true">
 
         <LinearLayout
             android:id="@id/v4a_layout_convolver_knl_search"
