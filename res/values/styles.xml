@@ -382,7 +382,9 @@
 
     <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle" />
 
-    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">20sp</item>"
+    </style>
 
     <style name="Base.Theme.AppCompat" parent="@style/Base.V7.Theme.AppCompat" />
 
@@ -1244,7 +1246,7 @@
         <item name="android:paddingRight">@dimen/abc_action_bar_default_padding_end_material</item>
         <item name="android:minHeight">?actionBarSize</item>
         <item name="contentInsetStart">72dp</item>
-        <item name="app:titleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Title</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Title</item>
         <item name="subtitleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle</item>
         <item name="titleMargins">4dp</item>
         <item name="maxButtonHeight">@dimen/abc_action_bar_default_height_material</item>
