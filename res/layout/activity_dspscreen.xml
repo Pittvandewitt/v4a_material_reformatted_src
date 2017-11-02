@@ -12,8 +12,7 @@
         <android.support.v7.widget.Toolbar
             android:id="@id/v4a_toolbar"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fitsSystemWindows="true">
+            android:layout_height="wrap_content">
 
             <android.support.v7.widget.SwitchCompat
                 android:id="@id/v4a_toolbar_enable"
@@ -28,6 +27,5 @@
     <FrameLayout
         android:id="@id/contentFrame"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fitsSystemWindows="true" />
+        android:layout_height="match_parent" />
 </LinearLayout>
