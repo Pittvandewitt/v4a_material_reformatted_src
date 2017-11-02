@@ -42,12 +42,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true" />
-
-            <com.pittvandewitt.viperfx.widget.ProgressBarView
-                android:id="@id/v4a_pbv_vse"
-                android:layout_width="230dp"
-                android:layout_height="230dp"
-                android:layout_centerHorizontal="true" />
         </RelativeLayout>
     </LinearLayout>
 </ScrollView>
