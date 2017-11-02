@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-	<resources>
-	    <string-array name="analogx_mode">
-	        <item>Peu</item>
-	        <item>Moyenne</item>
-	        <item>Extrême</item>
-	    </string-array>
-	    <string-array name="compatible_mode">
-	        <item>Normal</item>
-	        <item>Compatible</item>
-	    </string-array>
-	    <string-array name="cure_crossfeed">
-	        <item>Léger</item>
-	        <item>Modérer</item>
-	        <item>Extrême</item>
-	    </string-array>
-	    <string-array name="playbackgain_ratio">
-	        <item>Léger</item>
-	        <item>Modérer</item>
-	        <item>Extrême</item>
-	    </string-array>
-	</resources>
+<resources>
+    <string-array name="analogx_mode">
+        <item>Peu</item>
+        <item>Moyenne</item>
+        <item>Extrême</item>
+    </string-array>
+    <string-array name="compatible_mode">
+        <item>Normal</item>
+        <item>Compatible</item>
+    </string-array>
+    <string-array name="cure_crossfeed">
+        <item>Léger</item>
+        <item>Modérer</item>
+        <item>Extrême</item>
+    </string-array>
+    <string-array name="playbackgain_ratio">
+        <item>Léger</item>
+        <item>Modérer</item>
+        <item>Extrême</item>
+    </string-array>
+</resources>
 	
