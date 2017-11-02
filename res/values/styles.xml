@@ -1244,10 +1244,8 @@
         <item name="android:paddingRight">@dimen/abc_action_bar_default_padding_end_material</item>
         <item name="android:minHeight">?actionBarSize</item>
         <item name="contentInsetStart">72dp</item>
-        <item name="titleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Title</item>
-        <item name="subtitleTextAppearance">
-            @style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle
-        </item>
+        <item name="app:titleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Title</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle</item>
         <item name="titleMargins">4dp</item>
         <item name="maxButtonHeight">@dimen/abc_action_bar_default_height_material</item>
         <item name="collapseIcon">?homeAsUpIndicator</item>
