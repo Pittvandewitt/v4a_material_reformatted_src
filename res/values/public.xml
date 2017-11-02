@@ -537,6 +537,26 @@
     <public name="design_snackbar_out" id="0x7f05000f" type="anim" />
     <public name="slide_in_right" id="0x7f050010" type="anim" />
     <public name="slide_out_right" id="0x7f050011" type="anim" />
+    <public name="abc_action_bar_home_description" id="0x7f060000" type="string" />
+    <public name="abc_action_bar_home_description_format" id="0x7f060001" type="string" />
+    <public name="abc_action_bar_home_subtitle_description_format" id="0x7f060002" type="string" />
+    <public name="abc_action_bar_up_description" id="0x7f060003" type="string" />
+    <public name="abc_action_menu_overflow_description" id="0x7f060004" type="string" />
+    <public name="abc_action_mode_done" id="0x7f060005" type="string" />
+    <public name="abc_activity_chooser_view_see_all" id="0x7f060006" type="string" />
+    <public name="abc_activitychooserview_choose_application" id="0x7f060007" type="string" />
+    <public name="abc_capital_off" id="0x7f060008" type="string" />
+    <public name="abc_capital_on" id="0x7f060009" type="string" />
+    <public name="abc_search_hint" id="0x7f06000a" type="string" />
+    <public name="abc_searchview_description_clear" id="0x7f06000b" type="string" />
+    <public name="abc_searchview_description_query" id="0x7f06000c" type="string" />
+    <public name="abc_searchview_description_search" id="0x7f06000d" type="string" />
+    <public name="abc_searchview_description_submit" id="0x7f06000e" type="string" />
+    <public name="abc_searchview_description_voice" id="0x7f06000f" type="string" />
+    <public name="abc_shareactionprovider_share_with" id="0x7f060010" type="string" />
+    <public name="abc_shareactionprovider_share_with_application" id="0x7f060011" type="string" />
+    <public name="abc_toolbar_collapse_description" id="0x7f060012" type="string" />
+    <public name="status_bar_notification_info_overflow" id="0x7f060013" type="string" />
     <public name="about_company" id="0x7f060014" type="string" />
     <public name="about_exit" id="0x7f060015" type="string" />
     <public name="about_forum" id="0x7f060016" type="string" />
