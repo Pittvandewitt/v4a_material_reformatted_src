@@ -169,7 +169,7 @@ No V4A effect on all/most mediaplayers:
 You can switch the FX mode to compatible then restart your device and try again
  
 Reduce battery consumption:
-WWhen V4A is running in Normal Mode, switch off system sound settings including touch sounds and lock/unlock sounds to save up to 1.2~4 times battery life
+When V4A is running in Normal Mode, switch off system sound settings including touch sounds and lock/unlock sounds to save up to 1.2~4 times battery life
  
 "<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
     <string name="text_help_title">Help</string>
