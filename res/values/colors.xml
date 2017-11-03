@@ -89,7 +89,7 @@
     <color name="colorPrimary">#ff212121</color>
 
     <!-- statusbar -->
-    <color name="colorPrimaryDark">#55000000</color>
+    <color name="colorPrimaryDark">#ff000000</color>
 
     <!-- ripple color -->
     <color name="ripple_material_dark">#33ffffff</color>
