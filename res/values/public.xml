@@ -418,29 +418,9 @@
     <public name="knob_point" id="0x7f02007b" type="drawable" />
     <public name="icon" id="0x7f030010" type="mipmap" />
     <public name="smalllogo" id="0x7f030034" type="mipmap" />
-    <public name="add" id="0x7f030000" type="mipmap" />
-    <public name="add1" id="0x7f030001" type="mipmap" />
-    <public name="bgbig" id="0x7f030005" type="mipmap" />
-    <public name="bglight" id="0x7f030006" type="mipmap" />
-    <public name="input" id="0x7f030011" type="mipmap" />
-    <public name="minus" id="0x7f03001f" type="mipmap" />
-    <public name="minus1" id="0x7f030020" type="mipmap" />
-    <public name="old_btn_bg" id="0x7f030021" type="mipmap" />
-    <public name="old_btn_center_default" id="0x7f030022" type="mipmap" />
-    <public name="old_btn_center_press" id="0x7f030023" type="mipmap" />
-    <public name="old_btn_default" id="0x7f030024" type="mipmap" />
-    <public name="old_btn_left_default" id="0x7f030025" type="mipmap" />
-    <public name="old_btn_left_press" id="0x7f030026" type="mipmap" />
-    <public name="old_btn_press" id="0x7f030027" type="mipmap" />
-    <public name="old_btn_right_default" id="0x7f030028" type="mipmap" />
-    <public name="old_btn_right_press" id="0x7f030029" type="mipmap" />
     <public name="radio_noselect" id="0x7f03002d" type="mipmap" />
     <public name="radio_select" id="0x7f03002e" type="mipmap" />
-    <public name="seekbar_rule_double" id="0x7f03002f" type="mipmap" />
-    <public name="seekbar_thumb" id="0x7f030030" type="mipmap" />
     <public name="side_nav_bar" id="0x7f030033" type="mipmap" />
-    <public name="start" id="0x7f030035" type="mipmap" />
-    <public name="yuandian" id="0x7f03003d" type="mipmap" />
     <public name="abc_action_bar_title_item" id="0x7f040000" type="layout" />
     <public name="abc_action_bar_up_container" id="0x7f040001" type="layout" />
     <public name="abc_action_bar_view_list_nav_layout" id="0x7f040002" type="layout" />
