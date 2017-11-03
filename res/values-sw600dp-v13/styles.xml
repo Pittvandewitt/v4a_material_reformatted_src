@@ -2,7 +2,6 @@
 <resources>
 
     <style name="Widget.Design.TabLayout" parent="@style/Base.Widget.Design.TabLayout">
-        <item name="tabMode">fixed</item>
         <item name="tabGravity">center</item>
     </style>
 </resources>
