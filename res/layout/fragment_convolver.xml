@@ -29,7 +29,8 @@
             android:id="@id/v4a_convolver_knl_recyclerview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingTop="8dp" />
+            android:paddingTop="8dp"
+			android:overScrollMode="never" />
     </LinearLayout>
 
     <ScrollView
