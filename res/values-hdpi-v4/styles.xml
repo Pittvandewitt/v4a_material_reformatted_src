@@ -4,6 +4,6 @@
     <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="@style/Base.Widget.AppCompat.DrawerArrowToggle.Common">
         <item name="drawableSize">24dp</item>
         <item name="gapBetweenBars">3dp</item>
-        <item name="barLength">18pp</item>
+        <item name="barLength">18dp</item>
     </style>
 </resources>
