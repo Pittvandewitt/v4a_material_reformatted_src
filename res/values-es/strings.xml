@@ -8,8 +8,8 @@ Su uso comercial no está permitido sin permiso oficial"</string>
     <string name="app_name">ViPER4Android FX</string>
     <string name="bluetooth_title">Dispositivo Bluetooth</string>
     <string name="eq_preset_acoustic">Acústico</string>
-    <string name="eq_preset_bass_booster">Bass Booster</string>
-    <string name="eq_preset_bass_reducer">Bass Reducer</string>
+    <string name="eq_preset_bass_booster">Propulsor de Bajos</string>
+    <string name="eq_preset_bass_reducer">Reductor de Bajos</string>
     <string name="eq_preset_classical">Clásico</string>
     <string name="eq_preset_custom">Personalizado</string>
     <string name="eq_preset_deep">Profundo</string>
@@ -17,56 +17,175 @@ Su uso comercial no está permitido sin permiso oficial"</string>
     <string name="eq_preset_r_and_b">R&amp;B</string>
     <string name="eq_preset_rock">Rock</string>
     <string name="eq_preset_small_speakers">Altavoces Pequeños</string>
-    <string name="eq_preset_treble_booster">Amplificador de agudos</string>
-    <string name="eq_preset_treble_reducer">Reductor de agudos</string>
-    <string name="eq_preset_vocal_booster">Potenciador vocal</string>
-    <string name="headset_title">Auriculares</string>
+    <string name="eq_preset_treble_booster">Propulsor de Agudos</string>
+    <string name="eq_preset_treble_reducer">Reductor de Agudos</string>
+    <string name="eq_preset_vocal_booster">Propulsor de Vocales</string>
+    <string name="headset_title">Audífonos</string>
     <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
     <string name="navigation_drawer_open">Abrir el cajón de navegación</string>
-    <string name="pref_strength_title">Seleccione la potencia</string>
+    <string name="pref_strength_title">Seleccionar potencia</string>
     <string name="pref_analogx_title">AnalogX</string>
-    <string name="pref_colorfulmusic_title">Surround envolvente</string>
-    <string name="pref_convolver_crosschannel_title">Seleccionar cross channel</string>
+    <string name="pref_colorfulmusic_title">Campo envolvente</string>
+    <string name="pref_convolver_crosschannel_title">Seleccionar canal de cruce</string>
     <string name="pref_convolver_knl">Respuesta de impulso</string>
     <string name="pref_convolver_knl_title">Selecione la respuesta de impulso</string>
     <string name="pref_convolver_title">Convolver</string>
     <string name="pref_curesystem_title">Sistema de protección auditiva</string>
-    <string name="pref_diffsurr_title">Surround Diferencial</string>
-    <string name="pref_dynamicsystem_output">Dispositivo de escucha</string>
-    <string name="pref_dynamicsystem_output_title">Seleccione dispositivo de escucha</string>
+    <string name="pref_diffsurr_title">Diferencial Envolvente</string>
+    <string name="pref_dynamicsystem_output">Dispositivo para escuchar</string>
+    <string name="pref_dynamicsystem_output_title">Seleccione dispositivo para escuchar</string>
     <string name="pref_dynamicsystem_title">Sistema dinámico</string>
     <string name="pref_dynamicsystem_tube_title">Simulador de sonido de tubo (6N1J)</string>
-    <string name="pref_equalizer_preset_title">Seleccionar preset</string>
+    <string name="pref_equalizer_preset_title">Seleccionar perfil</string>
     <string name="pref_equalizer_title">FIREqualizer</string>
     <string name="pref_fetcompressor_adapt">Adaptar</string>
-    <string name="pref_fetcompressor_attack">Atacar</string>
-    <string name="pref_fetcompressor_autoattack">Auto atacark</string>
-    <string name="pref_fetcompressor_autogain">Ganacia automática</string>
-    <string name="pref_fetcompressor_autoknee">Auto knee</string>
+    <string name="pref_fetcompressor_attack">Ataque</string>
+    <string name="pref_fetcompressor_autoattack">Auto ataque</string>
+    <string name="pref_fetcompressor_autogain">Auto ganacia</string>
+    <string name="pref_fetcompressor_autoknee">Auto rótula</string>
     <string name="pref_fetcompressor_autorelease">Liberación automática</string>
     <string name="pref_fetcompressor_crest">Cresta</string>
     <string name="pref_fetcompressor_gain">Ganancia</string>
     <string name="pref_fetcompressor_knee">inflexión</string>
-    <string name="pref_fetcompressor_kneemulti">Ganacia de punto de inflexión</string>
+    <string name="pref_fetcompressor_kneemulti">Ganacia del punto de inflexión</string>
     <string name="pref_fetcompressor_maxattack">Ataque máximo</string>
     <string name="pref_fetcompressor_maxrelease">Liberación máxima</string>
-    <string name="pref_fetcompressor_noclipenable">Evitar recorte</string>
-    <string name="pref_fetcompressor_ratio">Ratio de compresión</string>
+    <string name="pref_fetcompressor_noclipenable">Prevenir recortes</string>
+    <string name="pref_fetcompressor_ratio">Compresión proporcional</string>
     <string name="pref_fetcompressor_release">Salida</string>
     <string name="pref_fetcompressor_threshold">Umbral de trabajo</string>
     <string name="pref_fetcompressor_title">Compresor FET</string>
-    <string name="pref_fidelity_vb_bassfreq_title">Seleccionar frecuencia de graves</string>
+    <string name="pref_fidelity_vb_bassfreq_title">Seleccionar frecuencia de bajos</string>
     <string name="pref_fidelity_vb_mode_title">Seleccionar el modo de bajos</string>
-    <string name="pref_fidelity_vb_title">ViPER bass</string>
-    <string name="pref_fidelity_vc_mode_title">Seleccionar el modo de claridad</string>
-    <string name="pref_fidelity_vc_title">ViPER clarity</string>
-    <string name="pref_fx_limiter_threshold">Umbral límite</string>
+    <string name="pref_fidelity_vb_title">Bajo ViPER</string>
+    <string name="pref_fidelity_vc_mode_title">Seleccionar modo de claridad</string>
+    <string name="pref_fidelity_vc_title">Claridad ViPER</string>
+    <string name="pref_fx_limiter_threshold">Umbral</string>
     <string name="pref_fx_limiter_title">Puerta principal</string>
     <string name="pref_fx_master_title">Potencia maestra</string>
     <string name="pref_output_gain">Ganacia de salida</string>
-    <string name="pref_output_pan">Canal PAN</string>
+    <string name="pref_output_pan">Desplazar Canal</string>
     <string name="pref_playback_maxgain">Ganacia máxima</string>
     <string name="pref_playback_output_threshold">Salida máxima</string>
-    <string name="pref_playback_title">Control de ganancia de reproducción</string>
+    <string name="pref_playback_title">Control de ganancia de salida</string>
     <string name="pref_reverb_damp">Factor de amortiguamiento</string>
+    <string name="pref_reverb_dry">Señal en seco</string>
+    <string name="pref_reverb_roomsize">Tamaño del cuarto</string>
+    <string name="pref_reverb_title">Reverberación</string>
+    <string name="pref_reverb_wet">Señal en húmedo</string>
+    <string name="pref_reverb_width">Campo sonoro</string>
+    <string name="pref_select_colorfulmusic_mi_title">Seleccionar fuerza media de imagen</string>
+    <string name="pref_select_colorfulmusic_title">Seleccionar fuerza del efecto envolvente</string>
+    <string name="pref_select_diffsurr_ms_title">Seleccionar retraso</string>
+    <string name="pref_spk_opt_title">Optimización de bocinas</string>
+    <string name="pref_spkfx_limiter_threshold">Umbral</string>
+    <string name="pref_spkfx_limiter_title">Puerta principal</string>
+    <string name="pref_spkfx_master_title">Potencia principal</string>
+    <string name="pref_vhs_title">Sonido envolvente +</string>
+    <string name="pref_viperddc_device">Dispositivo auditivo</string>
+    <string name="pref_viperddc_device_manufacturer">Seleccionar fabricante</string>
+    <string name="pref_viperddc_device_model">Seleccionar modelo</string>
+    <string name="pref_viperddc_tips">"ViPER-DDC es usado para corregir audífonos. Aproximadamente 500 modelos son compatibles"</string>
+    <string name="pref_viperddc_title">ViPER-DDC</string>
+    <string name="pref_vse_tips">"Utilizado para extender espectros comprimidos. Se recomienda activarlo al reproducir archivos MP3, AAC y OGG."</string>
+    <string name="pref_vse_title">Extender espectro</string>
+    <string name="pref_xloud_output_amplifer">Ganancia de salida</string>
+    <string name="pref_xloud_spk_highfreq">Alta respuesta</string>
+    <string name="pref_xloud_spk_lowfreq">Baja respuesta</string>
+    <string name="speaker_title">Bocina del teléfono</string>
+    <string name="text_abnormal">Anormal</string>
+    <string name="text_about_title">Acerca De y Créditos</string>
+    <string name="text_bluetooth">Bluetooth</string>
+    <string name="text_cancel">Cancelar</string>
+    <string name="text_changelog">Historial de cambios</string>
+    <string name="text_checkupdate">Revisar actualizaciones</string>
+    <string name="text_close">Apagar</string>
+    <string name="text_close_developer">Desactivar modo desarrollador</string>
+    <string name="text_close_selinux">Desactivar SELinux</string>
+    <string name="text_close_selinux_msg">SELinux será desactivado hasta que se reinicia el dispositivo. Intenta ésto sólo si han fallado otras maneras de activar el controlador.</string>
+    <string name="text_commode">Modo compatible FX</string>
+    <string name="text_default_storage">Especificar ruta de almacenamiento</string>
+    <string name="text_disabled">Desactivado</string>
+    <string name="text_down_ready">Listo para la descarga</string>
+    <string name="text_down_state">%s descargados</string>
+    <string name="text_drv_blank" />
+    <string name="text_drv_status">Estado del controlador</string>
+    <string name="text_drv_status_view">"Versión del controlador: %1$s
+NEON Activado: %2$s 
+Activado: %3$s 
+Estado: %4$s 
+Formato de Audio: %5$s 
+Procesando: %6$s 
+Frecuencia de Muestreo: %7$d"</string>
+    <string name="text_drvinst_acquireroot">La instalación falló por no tener permisos para usar root</string>
+    <string name="text_drvinst_busybox_not_installed">La instalación falló al no encontrarse una instalación de busybox</string>
+    <string name="text_drvinst_cfg_unsup">La instalación falló debido a que el ROM actual no es compatible</string>
+    <string name="text_drvinst_dataioerr">La instalación falló debido a un error I/O. Reinicia tu dispositivo e inténtalo de nuevo</string>
+    <string name="text_drvinst_failed">La instalación falló debido a que tu versión de busybox no funciona correctamente. U Stericson\'s busybox and check if root access is available</string>
+    <string name="text_drvinst_ok">Controlador instalado. Reinicia tu dispositivo y utiliza los efectos</string>
+    <string name="text_drvinst_sdnotmounted">La instalación falló debido a que no se encontró el dispositivo de almacenamiento externo</string>
+    <string name="text_drvuninst_confim">Realmente deseas desinstalar el controlador?</string>
+    <string name="text_drvuninst_ok">Controlador desinstalado</string>
+    <string name="text_drvvernotmatch">El controlador necesita ser reinstalado. Quieres hacerlo ahora?</string>
+    <string name="text_enter_developer">Activar modo desarrollador</string>
+    <string name="text_enter_developer_msg">El modo desarrollador activa operaciones que pueden dañar tu dispositivo. Continúa bajo tu propio riesgo</string>
+    <string name="text_headset">Audífonos</string>
+    <string name="text_help_content">"Ayuda general
+ 
+Instalar Controlador:
+Instalar/Actualizar controlador ViPER4Android
+Desinstalar Controlador:
+Desinstalar controlador ViPER4Android
+Modo FX Compatible:
+Seleccionar compatibilidad
+Normal:
+Establecer ViPER4Android como efecto global
+Compatible:
+Establecer ViPER4Android como efecto local
+ 
+Sin efecto V4A en la mayoría/todos los reproductores:
+Puedes alternar el modo a FX Compatible, reiniciar tu dispositivo e intentar de nuevo
+ 
+Para reducir consumo de batería:
+Cuando V4A está funcionando en modo Normal, desactiva los sonidos al tocar y bloquear/desbloquear para ahorrar de 1.2 a 4 veces el nivel de batería
+ 
+"<b>Foro: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
+    <string name="text_help_title">Ayuda</string>
+    <string name="text_install">Instalar controlador</string>
+    <string name="text_ir_dir_isempty">El directorio de muestras IR %1$s está vacío</string>
+    <string name="text_loadfxprofile">Cargar perfil de efectos</string>
+    <string name="text_lockeffect">Fijar efectos</string>
+    <string name="text_modifybuildprop">El modo de Bajo Poder de Audio está activado en tu dispositivo; ésto podría causar fallos en el funcionamiento de ViPER4Android. Puede desactivarse editando el archivo build.prop. Se recomienda hacer un RESPALDO NANDROID previo a esta modificación. Deseas desactivar el modo de Bajo Poder de Audio ahora?</string>
+    <string name="text_newfxprofile">Nuevo Perfil de Efectos…</string>
+    <string name="text_no">No</string>
+    <string name="text_no_busybox">No se detectó Busybox en tu dispositivo. Instalar ahora?</string>
+    <string name="text_normal">Normal</string>
+    <string name="text_ok">Aceptar</string>
+    <string name="text_open">On</string>
+    <string name="text_profileload_tip">Aplicar perfil</string>
+    <string name="text_profilesaved_overwrite">Deseas sobre-escribir este perfil?</string>
+    <string name="text_rated">Califícanos en XDA Labs</string>
+    <string name="text_savefxprofile">Guardar Perfil de Efectos</string>
+    <string name="text_service_error">Se generó un fallo de comunicación con el servicio ViPER4Android.</string>
+    <string name="text_setting">Ajustes</string>
+    <string name="text_showtrayicon">Mostrar Notificaciones</string>
+    <string name="text_speaker">Altavoz</string>
+    <string name="text_supported">Compatible</string>
+    <string name="text_token_lost">ViPER4Android será desactivado debido a que otro app solicitó el uso del mismo controlador</string>
+    <string name="text_uninstall">Desinstalar Controlador</string>
+    <string name="text_unsupported">Incompatible</string>
+    <string name="text_update_download">Descargar</string>
+    <string name="text_update_error">Error de conectividad de red. No se puede revisar la versíon con el servidor.</string>
+    <string name="text_update_get_version">Descargando la información de versión…</string>
+    <string name="text_update_ignore">Ignorar</string>
+    <string name="text_update_is_new">Tienes la versión más reciente</string>
+    <string name="text_update_new_title">Se encontró una versión más reciente</string>
+    <string name="text_update_no_wifi">No estás conectado a WiFi. Continuar usando conectividad móvil?</string>
+    <string name="text_update_no_wifi_title">WiFi no conectado</string>
+    <string name="text_usb">USB/Dock</string>
+    <string name="text_yes">Sí</string>
+    <string name="usb_title">USB/Dock</string>
+    <string name="about_title">Ayuda y Acerca De</string>
+    <string name="text_enabled">Activado</string>
+    <string name="text_hidetrayicon">Esconder notificación</string>
 </resources>

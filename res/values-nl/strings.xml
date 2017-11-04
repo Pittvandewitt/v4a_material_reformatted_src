@@ -174,6 +174,7 @@ Schakel systeemgeluiden uit wanneer ViPER4Android in de normale modus opereert, 
     <string name="text_token_lost">ViPER4Android wordt tijdelijk uitgeschakeld omdat een andere app gebruik maakt van dezelfde driver</string>
     <string name="text_uninstall">Driver deïnstalleren</string>
     <string name="text_unsupported">Niet ondersteund</string>
+    <string name="text_update_download">Download</string>
     <string name="text_update_error">Informatie kan niet worden opgehaald vanwege een netwerkfout</string>
     <string name="text_update_get_version">Informatie ophalen</string>
     <string name="text_update_ignore">Negeren</string>
