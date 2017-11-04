@@ -1261,12 +1261,12 @@
 
     <style name="BaseAppTheme" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@color/backgroundMain</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/colorMainText</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:colorEdgeEffect">@color/colorAccent</item>
-		<item name="selectableItemBackground">?android:selectableItemBackground</item>
     </style>
 
     <style name="SwipeBackLayout">
@@ -1633,9 +1633,7 @@
         <item name="statusBarScrim">?colorPrimaryDark</item>
     </style>
 
-    <style name="Widget.Design.CoordinatorLayout" parent="@android:style/Widget">
-		<item name="android:windowIsTranslucent">true</item>
-		</style>
+    <style name="Widget.Design.CoordinatorLayout" parent="@android:style/Widget"></style>
 
     <style name="Widget.Design.FloatingActionButton" parent="@android:style/Widget">
         <item name="android:background">@drawable/design_fab_background</item>
