@@ -984,7 +984,6 @@
     <public name="Base.ThemeOverlay.AppCompat" id="0x7f0900a1" type="style" />
     <public name="Base.ThemeOverlay.AppCompat.ActionBar" id="0x7f0900a2" type="style" />
     <public name="Base.ThemeOverlay.AppCompat.Dark" id="0x7f0900a3" type="style" />
-    <public name="Base.ThemeOverlay.AppCompat.Dark.ActionBar" id="0x7f0900a4" type="style" />
     <public name="Base.ThemeOverlay.AppCompat.Light" id="0x7f0900a5" type="style" />
     <public name="Base.V7.Theme.AppCompat" id="0x7f0900a6" type="style" />
     <public name="Base.V7.Theme.AppCompat.Dialog" id="0x7f0900a7" type="style" />
@@ -1088,7 +1087,6 @@
     <public name="ThemeOverlay.AppCompat" id="0x7f090109" type="style" />
     <public name="ThemeOverlay.AppCompat.ActionBar" id="0x7f09010a" type="style" />
     <public name="ThemeOverlay.AppCompat.Dark" id="0x7f09010b" type="style" />
-    <public name="ThemeOverlay.AppCompat.Dark.ActionBar" id="0x7f09010c" type="style" />
     <public name="ThemeOverlay.AppCompat.Light" id="0x7f09010d" type="style" />
     <public name="Widget.AppCompat.ActionBar" id="0x7f09010e" type="style" />
     <public name="Widget.AppCompat.ActionBar.Solid" id="0x7f09010f" type="style" />
