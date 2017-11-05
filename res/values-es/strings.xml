@@ -122,7 +122,7 @@ Frecuencia de Muestreo: %7$d"</string>
     <string name="text_drvinst_cfg_unsup">La instalación falló debido a que el ROM actual no es compatible</string>
     <string name="text_drvinst_dataioerr">La instalación falló debido a un error I/O. Reinicia tu dispositivo e inténtalo de nuevo</string>
     <string name="text_drvinst_failed">La instalación falló debido a que tu versión de busybox no funciona correctamente. Utiliza la versión de busybox de Stericson y verifica que hay acceso de root disponible</string>
-+    <string name="text_drvinst_ok">Controlador instalado. Reinicia tu dispositivo para poder utilizar los efectos</string>
+    <string name="text_drvinst_ok">Controlador instalado. Reinicia tu dispositivo para poder utilizar los efectos</string>
     <string name="text_drvinst_sdnotmounted">La instalación falló debido a que no se encontró el dispositivo de almacenamiento externo</string>
     <string name="text_drvuninst_confim">Realmente deseas desinstalar el controlador?</string>
     <string name="text_drvuninst_ok">Controlador desinstalado</string>
