@@ -67,10 +67,6 @@
 
     <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" />
 
-    <style name="Base.Theme.AppCompat" parent="@style/Base.V21.Theme.AppCompat" />
-
-    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V21.Theme.AppCompat.Light" />
-
     <style name="Base.Widget.AppCompat.ActionBar.TabText" parent="@android:style/Widget.Material.ActionBar.TabText" />
 
     <style name="Base.Widget.AppCompat.ActionBar.TabView" parent="@android:style/Widget.Material.ActionBar.TabView" />
