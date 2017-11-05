@@ -735,7 +735,7 @@
         <item name="android:divider">@null</item>
     </style>
 
-    <style name="Base.Widget.AppCompat.ListView.Menu" parent="@android:style/Widget.AppCompat.ListView">
+    <style name="Base.Widget.AppCompat.ListView.Menu" parent="@style/Base.Widget.AppCompat.ListView">
         <item name="android:listSelector">?listChoiceBackgroundIndicator</item>
         <item name="android:divider">?dividerHorizontal</item>
     </style>
@@ -1416,7 +1416,7 @@
 
     <style name="Base.Widget.AppCompat.ButtonBar.AlertDialog" parent="@style/Base.Widget.AppCompat.ButtonBar" />
 
-    <style name="Base.Widget.AppCompat.CompoundButton.Switch" parent="@android:style/Widget.Material.CompoundButton">
+    <style name="Base.Widget.AppCompat.CompoundButton.Switch" parent="@android:style/Widget.CompoundButton">
         <item name="android:background">?controlBackground</item>
         <item name="android:textOn">@string/abc_capital_on</item>
         <item name="android:textOff">@string/abc_capital_off</item>
