@@ -4,8 +4,8 @@
     android:layout_height="@dimen/nav_header_height"
     android:background="@mipmap/side_nav_bar"
     android:orientation="vertical"
-    android:paddingTop="@dimen/abc_dialog_padding_top_material"
     android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/abc_dialog_padding_top_material"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
