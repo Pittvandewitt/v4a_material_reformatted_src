@@ -5,7 +5,8 @@
     android:background="@mipmap/side_nav_bar"
     android:orientation="vertical"
     android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/abc_dialog_padding_top_material">
+    android:paddingTop="@dimen/abc_dialog_padding_top_material"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
         android:id="@id/imageView"
@@ -19,5 +20,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/nav_header_vertical_spacing"
         android:text="@string/app_name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="@dimen/abc_text_size_large_material" />
 </LinearLayout>

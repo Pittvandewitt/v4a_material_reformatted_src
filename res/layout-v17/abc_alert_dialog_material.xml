@@ -32,10 +32,11 @@
             <android.support.v7.widget.DialogTitle
                 android:id="@id/alertTitle"
                 style="?attr/android:windowTitleStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
-                android:singleLine="true" />
+                android:singleLine="true"
+                android:textAlignment="viewStart" />
         </LinearLayout>
     </LinearLayout>
 
