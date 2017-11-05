@@ -96,8 +96,7 @@
                     android:id="@id/id_pbv_convolver_crosschannel"
                     android:layout_width="230dp"
                     android:layout_height="230dp"
-                    android:layout_centerHorizontal="true"
-                android:visibility="invisible" />
+                    android:layout_centerHorizontal="true" />
             </RelativeLayout>
         </LinearLayout>
     </ScrollView>
