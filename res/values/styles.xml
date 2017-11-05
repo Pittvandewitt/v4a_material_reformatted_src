@@ -1636,7 +1636,7 @@
     </style>
 
     <style name="Widget.Design.CoordinatorLayout" parent="@android:style/Widget">
-        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsTranslucent">true</item>
 	</style>
 
     <style name="Widget.Design.FloatingActionButton" parent="@android:style/Widget">
