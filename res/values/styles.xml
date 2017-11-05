@@ -1262,7 +1262,6 @@
     <style name="BaseAppTheme" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@color/backgroundMain</item>
 		<item name="android:windowDrawsSystemBarBackgrounds">true</item>
-		<item name="android:statusBarColor">@color/black30</item>
 		<item name="android:windowIsTranslucent">true</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/colorMainText</item>
