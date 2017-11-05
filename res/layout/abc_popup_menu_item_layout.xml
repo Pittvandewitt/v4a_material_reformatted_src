@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.view.menu.ListMenuItemView xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/RtlOverlay.Widget.AppCompat.PopupMenuItem"
     android:layout_width="match_parent"
     android:layout_height="?dropdownListPreferredItemHeight"
     android:minWidth="196dp">
 
     <RelativeLayout
-        style="@style/RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
@@ -15,7 +13,6 @@
 
         <TextView
             android:id="@id/title"
-            style="@style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -27,7 +24,6 @@
 
         <TextView
             android:id="@id/shortcut"
-            style="@style/RtlOverlay.Widget.AppCompat.PopupMenuItem.Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/title"
