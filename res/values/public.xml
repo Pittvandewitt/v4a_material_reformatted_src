@@ -325,10 +325,6 @@
     <public name="eq_btn_add" id="0x7f02004f" type="drawable" />
     <public name="eq_btn_minus" id="0x7f020050" type="drawable" />
     <public name="eq_seekbar" id="0x7f020052" type="drawable" />
-    <public name="select_btn" id="0x7f020054" type="drawable" />
-    <public name="select_btn_center" id="0x7f020055" type="drawable" />
-    <public name="select_btn_left" id="0x7f020056" type="drawable" />
-    <public name="select_btn_right" id="0x7f020057" type="drawable" />
     <public name="select_effect" id="0x7f020058" type="drawable" />
     <public name="select_effect_light" id="0x7f020059" type="drawable" />
     <public name="start_bg" id="0x7f02005e" type="drawable" />
@@ -418,15 +414,6 @@
     <public name="knob_point" id="0x7f02007b" type="drawable" />
     <public name="icon" id="0x7f030010" type="mipmap" />
     <public name="smalllogo" id="0x7f030034" type="mipmap" />
-    <public name="old_btn_bg" id="0x7f030021" type="mipmap" />
-    <public name="old_btn_center_default" id="0x7f030022" type="mipmap" />
-    <public name="old_btn_center_press" id="0x7f030023" type="mipmap" />
-    <public name="old_btn_default" id="0x7f030024" type="mipmap" />
-    <public name="old_btn_left_default" id="0x7f030025" type="mipmap" />
-    <public name="old_btn_left_press" id="0x7f030026" type="mipmap" />
-    <public name="old_btn_press" id="0x7f030027" type="mipmap" />
-    <public name="old_btn_right_default" id="0x7f030028" type="mipmap" />
-    <public name="old_btn_right_press" id="0x7f030029" type="mipmap" />
     <public name="radio_noselect" id="0x7f03002d" type="mipmap" />
     <public name="radio_select" id="0x7f03002e" type="mipmap" />
     <public name="side_nav_bar" id="0x7f030033" type="mipmap" />
