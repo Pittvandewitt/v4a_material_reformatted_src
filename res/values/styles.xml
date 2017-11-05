@@ -1635,7 +1635,9 @@
         <item name="statusBarScrim">?colorPrimaryDark</item>
     </style>
 
-    <style name="Widget.Design.CoordinatorLayout" parent="@android:style/Widget"></style>
+    <style name="Widget.Design.CoordinatorLayout" parent="@android:style/Widget">
+        <item name="android:windowIsTranslucent">false</item>
+	</style>
 
     <style name="Widget.Design.FloatingActionButton" parent="@android:style/Widget">
         <item name="android:background">@drawable/design_fab_background</item>
