@@ -33,6 +33,21 @@
         <item name="android:textColorLink">?android:textColorLinkInverse</item>
     </style>
 
+    <style name="Base.V11.Theme.AppCompat.Dialog" parent="@style/Base.V7.Theme.AppCompat.Dialog">
+        <item name="android:borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="android:buttonBarStyle">@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item name="android:windowCloseOnTouchOutside">
+            @bool/abc_config_closeDialogWhenTouchOutside
+        </item>
+    </style>
+
+    <style name="Base.V11.Theme.AppCompat.Light.Dialog" parent="@style/Base.V7.Theme.AppCompat.Light.Dialog">
+        <item name="android:borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
+        <item name="android:buttonBarStyle">@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item name="android:windowCloseOnTouchOutside">
+            @bool/abc_config_closeDialogWhenTouchOutside
+        </item>
+    </style>
 
     <style name="Base.Widget.AppCompat.ProgressBar" parent="@android:style/Widget.Material.ProgressBar" />
 
@@ -271,7 +286,6 @@
         <item name="dividerHorizontal">?android:dividerHorizontal</item>
         <item name="editTextColor">?android:editTextColor</item>
         <item name="editTextBackground">@drawable/abc_edit_text_material</item>
-        <item name="actionModeShareDrawable">?android:actionModeShareDrawable</item>
         <item name="listPreferredItemHeightSmall">?android:listPreferredItemHeightSmall</item>
         <item name="listChoiceBackgroundIndicator">?android:listChoiceBackgroundIndicator</item>
         <item name="buttonStyle">?android:buttonStyle</item>
@@ -339,29 +353,10 @@
         <item name="android:listPreferredItemPaddingRight">
             @dimen/abc_list_item_padding_horizontal_material
         </item>
-        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
-        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
-        <item name="controlBackground">@drawable/abc_control_background_material</item>
-        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
-        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
     </style>
 
-    <style name="Base.Theme.AppCompat.Dialog" parent="">
+    <style name="Base.V21.Theme.AppCompat.Dialog" parent="@style/Base.V11.Theme.AppCompat.Dialog">
         <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
-        <item name="android:borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
-        <item name="android:buttonBarStyle">@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
-        <item name="android:windowCloseOnTouchOutside">
-            @bool/abc_config_closeDialogWhenTouchOutside
-        </item>
-    </style>
-
-    <style name="Base.Theme.AppCompat.Light.Dialog" parent="">
-        <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
-        <item name="android:borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
-        <item name="android:buttonBarStyle">@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
-        <item name="android:windowCloseOnTouchOutside">
-            @bool/abc_config_closeDialogWhenTouchOutside
-        </item>
     </style>
 
     <style name="Base.V21.Theme.AppCompat.Light" parent="@style/Base.V7.Theme.AppCompat.Light">
@@ -388,7 +383,6 @@
             ?android:selectableItemBackgroundBorderless
         </item>
         <item name="borderlessButtonStyle">?android:borderlessButtonStyle</item>
-        <item name="actionModeShareDrawable">?android:actionModeShareDrawable</item>
         <item name="dividerVertical">?android:dividerVertical</item>
         <item name="dividerHorizontal">?android:dividerHorizontal</item>
         <item name="editTextColor">?android:editTextColor</item>
@@ -462,11 +456,10 @@
         <item name="android:listPreferredItemPaddingRight">
             @dimen/abc_list_item_padding_horizontal_material
         </item>
-        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
-        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
-        <item name="controlBackground">@drawable/abc_control_background_material</item>
-        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
-        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+
+    <style name="Base.V21.Theme.AppCompat.Light.Dialog" parent="@style/Base.V11.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
     </style>
 
     <style name="TextAppearance.StatusBar.EventContent.Line2" parent="@style/TextAppearance.StatusBar.EventContent">
