@@ -353,6 +353,12 @@
         <item name="android:listPreferredItemPaddingRight">
             @dimen/abc_list_item_padding_horizontal_material
         </item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+        <item name="actionModeShareDrawable">?android:actionModeShareDrawable</item>
     </style>
 
     <style name="Base.V21.Theme.AppCompat.Dialog" parent="@style/Base.V11.Theme.AppCompat.Dialog">
@@ -456,6 +462,12 @@
         <item name="android:listPreferredItemPaddingRight">
             @dimen/abc_list_item_padding_horizontal_material
         </item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+        <item name="actionModeShareDrawable">?android:actionModeShareDrawable</item>
     </style>
 
     <style name="Base.V21.Theme.AppCompat.Light.Dialog" parent="@style/Base.V11.Theme.AppCompat.Light.Dialog">
