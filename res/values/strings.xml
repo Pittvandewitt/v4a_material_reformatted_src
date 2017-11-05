@@ -21,7 +21,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="about_company">"Copyright © 2006-2016, ViPER ACOUSTIC. All rights reserved
-Without the official permission, commercial use is disallowed"</string>
+Commercial use is disallowed without official permission.</string>
     <string name="about_exit">Exit</string>
     <string name="about_forum">Official forum: forum.vipersaudio.com</string>
     <string name="about_version">Version %1$s (FX), Codename Beautiful</string>
@@ -61,7 +61,7 @@ Without the official permission, commercial use is disallowed"</string>
     <string name="pref_fetcompressor_adapt">Adapt</string>
     <string name="pref_fetcompressor_attack">Attack</string>
     <string name="pref_fetcompressor_autoattack">Auto attack</string>
-    <string name="pref_fetcompressor_autogain">Automatic gain</string>
+    <string name="pref_fetcompressor_autogain">Auto gain</string>
     <string name="pref_fetcompressor_autoknee">Auto knee</string>
     <string name="pref_fetcompressor_autorelease">Auto release</string>
     <string name="pref_fetcompressor_crest">Crest</string>
@@ -133,19 +133,19 @@ Without the official permission, commercial use is disallowed"</string>
     <string name="text_drv_blank" />
     <string name="text_drv_status">Driver status</string>
     <string name="text_drv_status_view">"Driver version: %1$s
-NEON Enabled: %2$s 
-Enabled: %3$s 
-Status: %4$s 
-Audio Format: %5$s 
-Processing: %6$s 
+NEON Enabled: %2$s
+Enabled: %3$s
+Status: %4$s
+Audio Format: %5$s
+Processing: %6$s
 Sampling Rate: %7$d"</string>
     <string name="text_drvinst_acquireroot">Installation failed because of lacking root permission</string>
-    <string name="text_drvinst_busybox_not_installed">Installion failed because there was no busybox installation found</string>
-    <string name="text_drvinst_cfg_unsup">Installion failed because the ROM is not supported</string>
-    <string name="text_drvinst_dataioerr">Installion failed because of an I/O error. Reboot your device and try again</string>
-    <string name="text_drvinst_failed">Installion failed because busybox is not functioning properly. Use Stericson\'s busybox and check if root access is available</string>
+    <string name="text_drvinst_busybox_not_installed">Installation failed because there was no busybox installation found</string>
++    <string name="text_drvinst_cfg_unsup">Installation failed because the ROM is not supported</string>
++    <string name="text_drvinst_dataioerr">Installation failed because of an I/O error. Reboot your device and try again</string>
++    <string name="text_drvinst_failed">Installation failed because busybox is not functioning properly. Use Stericson\'s busybox and check if root access is available</string>
     <string name="text_drvinst_ok">Driver installed. Reboot your device to make use of the effects</string>
-    <string name="text_drvinst_sdnotmounted">Installion failed because the external storage is not mounted</string>
+    <string name="text_drvinst_sdnotmounted">Installation failed because the external storage is not mounted</string>
     <string name="text_drvuninst_confim">Do you really want to uninstall the driver?</string>
     <string name="text_drvuninst_ok">Driver uninstalled</string>
     <string name="text_drvvernotmatch">The driver needs to be reinstalled. Do you want to do this now?</string>
@@ -157,27 +157,27 @@ Sampling Rate: %7$d"</string>
 Install Driver:
 Install/Update ViPER4Android effect driver
 Uninstall Driver:
-Uninstall ViPER4Android effect driver 
+Uninstall ViPER4Android effect driver
 FX Compatible Mode:
 Set effect compatibility mode
 Normal:
 Make ViPER4Android a global effect
 Compatible:
 Make ViPER4Android a local effect
- 
-No V4A effect on all/most mediaplayers:
+
+No V4A effect on all/most media players:
 You can switch the FX mode to compatible then restart your device and try again
- 
+
 Reduce battery consumption:
-When V4A is running in Normal Mode, switch off system sound settings including touch sounds and lock/unlock sounds to save up to 1.2~4 times battery life
- 
+Switch off system sound settings when V4A is running in Normal Mode (including touch sounds and lock/unlock sounds) to save up to 1.2~4 times battery life
+
 "<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
     <string name="text_help_title">Help</string>
     <string name="text_install">Install driver</string>
     <string name="text_ir_dir_isempty">The IR sample directory %1$s is empty</string>
     <string name="text_loadfxprofile">Load effect profile</string>
     <string name="text_lockeffect">Lock effect mode</string>
-    <string name="text_modifybuildprop">Low Power Audio is enabled on your device, this may cause ViPER4Android to malfunction. Low Power Audio can be disabled through a build.prop edit. It is strongly recommended to make a NANDROID BACKUP before proceeding! Do you wish to disable Low Power Audio now?</string>
+    <string name="text_modifybuildprop">Low Power Audio is enabled on your device, which may cause ViPER4Android to malfunction. Low Power Audio can be disabled through a build.prop edit. It is strongly recommended to make a NANDROID BACKUP before proceeding! Do you wish to disable Low Power Audio now?</string>
     <string name="text_ms">ms</string>
     <string name="text_newfxprofile">New Effect Profile…</string>
     <string name="text_no">No</string>
@@ -198,7 +198,7 @@ When V4A is running in Normal Mode, switch off system sound settings including t
     <string name="text_uninstall">Uninstall Driver</string>
     <string name="text_unsupported">Unsupported</string>
     <string name="text_update_download">Download</string>
-    <string name="text_update_error">Network error, new version information could not be retrieved</string>
+    <string name="text_update_error">Network error. New version information could not be retrieved</string>
     <string name="text_update_get_version">Getting new version information…</string>
     <string name="text_update_ignore">Ignore</string>
     <string name="text_update_is_new">You have the latest version</string>
