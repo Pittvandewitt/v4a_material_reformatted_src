@@ -62,13 +62,7 @@
     <item name="android:windowElevation">@dimen/abc_floating_window_z</item>
     </style>
 
-    <style name="Base.Theme.AppCompat.Light.Dialog" parent="@style/Base.V7.Theme.AppCompat.Light.Dialog" >
-    <item name="android:borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
-    <item name="android:buttonBarStyle">@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
-    <item name="android:windowCloseOnTouchOutside">
-        @bool/abc_config_closeDialogWhenTouchOutside
-    </item>
-</style>
+    <style name="Base.Theme.AppCompat.Light.Dialog" parent="@style/Base.V7.Theme.AppCompat.Light.Dialog" />
 
     <style name="Base.Widget.AppCompat.ProgressBar" parent="@android:style/Widget.ProgressBar">
         <item name="android:maxWidth">@dimen/abc_action_bar_progress_bar_size</item>
@@ -949,11 +943,6 @@
         <item name="windowActionModeOverlay">true</item>
         <item name="listPreferredItemPaddingLeft">16dp</item>
         <item name="listPreferredItemPaddingRight">16dp</item>
-        <item name="android:borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
-        <item name="android:buttonBarStyle">@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
-        <item name="android:windowCloseOnTouchOutside">
-            @bool/abc_config_closeDialogWhenTouchOutside
-        </item>
     </style>
 
     <style name="Base.V7.Theme.AppCompat.Light" parent="@style/Platform.AppCompat.Light">
