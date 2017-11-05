@@ -111,18 +111,18 @@ Su uso comercial no está permitido sin permiso oficial"</string>
     <string name="text_drv_blank" />
     <string name="text_drv_status">Estado del controlador</string>
     <string name="text_drv_status_view">"Versión del controlador: %1$s
-NEON Activado: %2$s 
-Activado: %3$s 
-Estado: %4$s 
-Formato de Audio: %5$s 
-Procesando: %6$s 
+NEON Activado: %2$s
+Activado: %3$s
+Estado: %4$s
+Formato de Audio: %5$s
+Procesando: %6$s
 Frecuencia de Muestreo: %7$d"</string>
     <string name="text_drvinst_acquireroot">La instalación falló por no tener permisos para usar root</string>
     <string name="text_drvinst_busybox_not_installed">La instalación falló al no encontrarse una instalación de busybox</string>
     <string name="text_drvinst_cfg_unsup">La instalación falló debido a que el ROM actual no es compatible</string>
     <string name="text_drvinst_dataioerr">La instalación falló debido a un error I/O. Reinicia tu dispositivo e inténtalo de nuevo</string>
-    <string name="text_drvinst_failed">La instalación falló debido a que tu versión de busybox no funciona correctamente. U Stericson\'s busybox and check if root access is available</string>
-    <string name="text_drvinst_ok">Controlador instalado. Reinicia tu dispositivo y utiliza los efectos</string>
+    <string name="text_drvinst_failed">La instalación falló debido a que tu versión de busybox no funciona correctamente. Utiliza la versión de busybox de Stericson y verifica que hay acceso de root disponible</string>
+    <string name="text_drvinst_ok">Controlador instalado. Reinicia tu dispositivo para poder utilizar los efectos</string>
     <string name="text_drvinst_sdnotmounted">La instalación falló debido a que no se encontró el dispositivo de almacenamiento externo</string>
     <string name="text_drvuninst_confim">Realmente deseas desinstalar el controlador?</string>
     <string name="text_drvuninst_ok">Controlador desinstalado</string>
@@ -142,13 +142,13 @@ Normal:
 Establecer ViPER4Android como efecto global
 Compatible:
 Establecer ViPER4Android como efecto local
- 
+
 Sin efecto V4A en la mayoría/todos los reproductores:
 Puedes alternar el modo a FX Compatible, reiniciar tu dispositivo e intentar de nuevo
- 
+
 Para reducir consumo de batería:
 Cuando V4A está funcionando en modo Normal, desactiva los sonidos al tocar y bloquear/desbloquear para ahorrar de 1.2 a 4 veces el nivel de batería
- 
+
 "<b>Foro: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
     <string name="text_help_title">Ayuda</string>
     <string name="text_install">Instalar controlador</string>
