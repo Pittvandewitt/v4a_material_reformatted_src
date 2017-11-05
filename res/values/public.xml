@@ -857,6 +857,18 @@
     <public name="Base.Widget.AppCompat.AutoCompleteTextView" id="0x7f09001f" type="style" />
     <public name="Base.Widget.AppCompat.EditText" id="0x7f090020" type="style" />
     <public name="Base.TextAppearance.AppCompat.Button" id="0x7f090021" type="style" />
+    <public name="RtlOverlay.DialogWindowTitle.AppCompat" id="0x7f090029" type="style" />
+    <public name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" id="0x7f09002a" type="style" />
+    <public name="RtlOverlay.Widget.AppCompat.DialogTitle.Icon" id="0x7f09002b" type="style" />
+    <public name="RtlOverlay.Widget.AppCompat.PopupMenuItem" id="0x7f09002c" type="style" />
+    <public name="RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup" id="0x7f09002d" type="style" />
+    <public name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Text" id="0x7f09002e" type="style" />
+    <public name="RtlOverlay.Widget.AppCompat.Search.DropDown" id="0x7f09002f" type="style" />
+    <public name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1" id="0x7f090030" type="style" />
+    <public name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2" id="0x7f090031" type="style" />
+    <public name="RtlOverlay.Widget.AppCompat.Search.DropDown.Query" id="0x7f090032" type="style" />
+    <public name="RtlOverlay.Widget.AppCompat.Search.DropDown.Text" id="0x7f090033" type="style" />
+    <public name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon" id="0x7f090034" type="style" />
     <public name="RtlUnderlay.Widget.AppCompat.ActionButton" id="0x7f090035" type="style" />
     <public name="RtlUnderlay.Widget.AppCompat.ActionButton.Overflow" id="0x7f090036" type="style" />
     <public name="AppTheme" id="0x7f090037" type="style" />

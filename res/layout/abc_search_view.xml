@@ -39,6 +39,7 @@
 
         <ImageView
             android:id="@id/search_mag_icon"
+            style="@style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon"
             android:layout_width="@dimen/abc_dropdownitem_icon_width"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
