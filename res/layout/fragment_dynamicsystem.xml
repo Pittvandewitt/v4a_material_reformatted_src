@@ -58,7 +58,8 @@
                 android:id="@id/v4a_pbv_dynamicsystem_bass"
                 android:layout_width="230dp"
                 android:layout_height="230dp"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:visibility="invisible" />
         </RelativeLayout>
     </LinearLayout>
 </ScrollView>
