@@ -1159,7 +1159,6 @@
     <public name="Widget.Design.TextInputLayout" id="0x7f09015c" type="style" />
     <public name="Base.V21.Theme.AppCompat" id="0x7f09005b" type="style" />
     <public name="Base.V21.Theme.AppCompat.Light" id="0x7f09005d" type="style" />
-    <public name="Base.V21.Theme.AppCompat.Light.Dialog" id="0x7f09005e" type="style" />
     <public name="abc_max_action_buttons" id="0x7f0a0000" type="integer" />
     <public name="design_snackbar_text_max_lines" id="0x7f0a0001" type="integer" />
     <public name="abc_config_activityDefaultDur" id="0x7f0a0002" type="integer" />

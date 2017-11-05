@@ -8,8 +8,7 @@
         android:layout_weight="1.0"
         android:drawablePadding="@dimen/design_navigation_icon_padding"
         android:gravity="start|center"
-        android:maxLines="1"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        android:maxLines="1" />
 
     <ViewStub
         android:id="@id/design_menu_item_action_area_stub"

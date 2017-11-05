@@ -23,7 +23,6 @@
 
             <ImageView
                 android:id="@android:id/icon"
-                style="@style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon"
                 android:layout_width="32dp"
                 android:layout_height="32dp"
                 android:scaleType="fitCenter"
@@ -67,7 +66,6 @@
 
                 <TextView
                     android:id="@android:id/message"
-                    style="@style/TextAppearance.AppCompat.Subhead"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:paddingLeft="?dialogPreferredPadding"
