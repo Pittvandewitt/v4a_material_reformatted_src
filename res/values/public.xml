@@ -857,11 +857,6 @@
     <public name="Base.Widget.AppCompat.AutoCompleteTextView" id="0x7f09001f" type="style" />
     <public name="Base.Widget.AppCompat.EditText" id="0x7f090020" type="style" />
     <public name="Base.TextAppearance.AppCompat.Button" id="0x7f090021" type="style" />
-    <public name="TextAppearance.StatusBar.EventContent" id="0x7f090024" type="style" />
-    <public name="TextAppearance.StatusBar.EventContent.Info" id="0x7f090025" type="style" />
-    <public name="TextAppearance.StatusBar.EventContent.Line2" id="0x7f090026" type="style" />
-    <public name="TextAppearance.StatusBar.EventContent.Time" id="0x7f090027" type="style" />
-    <public name="TextAppearance.StatusBar.EventContent.Title" id="0x7f090028" type="style" />
     <public name="RtlOverlay.DialogWindowTitle.AppCompat" id="0x7f090029" type="style" />
     <public name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" id="0x7f09002a" type="style" />
     <public name="RtlOverlay.Widget.AppCompat.DialogTitle.Icon" id="0x7f09002b" type="style" />
