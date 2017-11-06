@@ -384,31 +384,31 @@
     <public name="shadow_bottom" id="0x7f02005b" type="drawable" />
     <public name="shadow_left" id="0x7f02005c" type="drawable" />
     <public name="shadow_right" id="0x7f02005d" type="drawable" />
-    <public name="ic_analogx" id="0x7f020060" type="drawable" />
-    <public name="ic_bass" id="0x7f020061" type="drawable" />
-    <public name="ic_clarity" id="0x7f020062" type="drawable" />
-    <public name="ic_compressor" id="0x7f020063" type="drawable" />
-    <public name="ic_convolver" id="0x7f020064" type="drawable" />
-    <public name="ic_diff_surround" id="0x7f020065" type="drawable" />
-    <public name="ic_dynamic_system" id="0x7f020066" type="drawable" />
-    <public name="ic_equalizer" id="0x7f020067" type="drawable" />
-    <public name="ic_extraloud" id="0x7f020068" type="drawable" />
-    <public name="ic_fx_limiter" id="0x7f020069" type="drawable" />
-    <public name="ic_headphone_surround" id="0x7f02006a" type="drawable" />
-    <public name="ic_playback_control" id="0x7f02006b" type="drawable" />
-    <public name="ic_power" id="0x7f02006c" type="drawable" />
-    <public name="ic_protection" id="0x7f02006d" type="drawable" />
-    <public name="ic_reverb" id="0x7f02006e" type="drawable" />
-    <public name="ic_speaker" id="0x7f02006f" type="drawable" />
-    <public name="ic_surround" id="0x7f020070" type="drawable" />
-    <public name="ic_tubeamp" id="0x7f020071" type="drawable" />
-    <public name="ic_viperddc" id="0x7f020072" type="drawable" />
-    <public name="ic_vse" id="0x7f020073" type="drawable" />
-    <public name="ic_driver" id="0x7f020074" type="drawable" />
-    <public name="ic_load" id="0x7f020075" type="drawable" />
-    <public name="ic_save" id="0x7f020076" type="drawable" />
-    <public name="ic_settings" id="0x7f020077" type="drawable" />
-    <public name="ic_status" id="0x7f020078" type="drawable" />
+    <public type="drawable" name="ic_analogx" id="0x7f020060" />
+    <public type="drawable" name="ic_bass" id="0x7f020061" />
+    <public type="drawable" name="ic_clarity" id="0x7f020062" />
+    <public type="drawable" name="ic_compressor" id="0x7f020063" />
+    <public type="drawable" name="ic_convolver" id="0x7f020064" />
+    <public type="drawable" name="ic_diff_surround" id="0x7f020065" />
+    <public type="drawable" name="ic_dynamic_system" id="0x7f020066" />
+    <public type="drawable" name="ic_equalizer" id="0x7f020067" />
+    <public type="drawable" name="ic_extraloud" id="0x7f020068" />
+    <public type="drawable" name="ic_fx_limiter" id="0x7f020069" />
+    <public type="drawable" name="ic_headphone_surround" id="0x7f02006a" />
+    <public type="drawable" name="ic_playback_control" id="0x7f02006b" />
+    <public type="drawable" name="ic_power" id="0x7f02006c" />
+    <public type="drawable" name="ic_protection" id="0x7f02006d" />
+    <public type="drawable" name="ic_reverb" id="0x7f02006e" />
+    <public type="drawable" name="ic_speaker" id="0x7f02006f" />
+    <public type="drawable" name="ic_surround" id="0x7f020070" />
+    <public type="drawable" name="ic_tubeamp" id="0x7f020071" />
+    <public type="drawable" name="ic_viperddc" id="0x7f020072" />
+    <public type="drawable" name="ic_vse" id="0x7f020073" />
+    <public type="drawable" name="ic_driver" id="0x7f020074" />
+    <public type="drawable" name="ic_load" id="0x7f020075" />
+    <public type="drawable" name="ic_save" id="0x7f020076" />
+    <public type="drawable" name="ic_settings" id="0x7f020077" />
+    <public type="drawable" name="ic_status" id="0x7f020078" />
     <public name="knob_default" id="0x7f020079" type="drawable" />
     <public name="knob_pressed" id="0x7f02007a" type="drawable" />
     <public name="knob_point" id="0x7f02007b" type="drawable" />
@@ -844,6 +844,11 @@
     <public name="Base.Widget.AppCompat.AutoCompleteTextView" id="0x7f09001f" type="style" />
     <public name="Base.Widget.AppCompat.EditText" id="0x7f090020" type="style" />
     <public name="Base.TextAppearance.AppCompat.Button" id="0x7f090021" type="style" />
+    <public name="TextAppearance.StatusBar.EventContent" id="0x7f090024" type="style" />
+    <public name="TextAppearance.StatusBar.EventContent.Info" id="0x7f090025" type="style" />
+    <public name="TextAppearance.StatusBar.EventContent.Line2" id="0x7f090026" type="style" />
+    <public name="TextAppearance.StatusBar.EventContent.Time" id="0x7f090027" type="style" />
+    <public name="TextAppearance.StatusBar.EventContent.Title" id="0x7f090028" type="style" />
     <public name="RtlOverlay.DialogWindowTitle.AppCompat" id="0x7f090029" type="style" />
     <public name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" id="0x7f09002a" type="style" />
     <public name="RtlOverlay.Widget.AppCompat.DialogTitle.Icon" id="0x7f09002b" type="style" />
@@ -1144,6 +1149,10 @@
     <public name="Widget.Design.ScrimInsetsFrameLayout" id="0x7f09015a" type="style" />
     <public name="Widget.Design.Snackbar" id="0x7f09015b" type="style" />
     <public name="Widget.Design.TextInputLayout" id="0x7f09015c" type="style" />
+    <public name="Base.V21.Theme.AppCompat" id="0x7f09005b" type="style" />
+    <public name="Base.V21.Theme.AppCompat.Dialog" id="0x7f09005c" type="style" />
+    <public name="Base.V21.Theme.AppCompat.Light" id="0x7f09005d" type="style" />
+    <public name="Base.V21.Theme.AppCompat.Light.Dialog" id="0x7f09005e" type="style" />
     <public name="abc_max_action_buttons" id="0x7f0a0000" type="integer" />
     <public name="design_snackbar_text_max_lines" id="0x7f0a0001" type="integer" />
     <public name="abc_config_activityDefaultDur" id="0x7f0a0002" type="integer" />

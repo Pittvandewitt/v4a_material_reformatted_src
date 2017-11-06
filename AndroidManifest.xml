@@ -34,7 +34,8 @@
         <activity
             android:name="com.pittvandewitt.viperfx.screen.DSPScreenActivity"
             android:configChanges="orientation|screenSize"
-            android:label="@string/app_name" />
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="com.pittvandewitt.viperfx.setting.SettingActivity"
             android:configChanges="orientation|screenSize"

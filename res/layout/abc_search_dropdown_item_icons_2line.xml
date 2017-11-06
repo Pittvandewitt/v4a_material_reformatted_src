@@ -11,7 +11,8 @@
         android:layout_height="48dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true"
-        android:scaleType="centerInside" />
+        android:scaleType="centerInside"
+        android:visibility="invisible" />
 
     <ImageView
         android:id="@id/edit_query"
