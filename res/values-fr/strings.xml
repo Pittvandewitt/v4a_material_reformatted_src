@@ -160,7 +160,7 @@ Dêsactiver les sons du système lorsque ViPER4Android fonctionne en mode normal
     <string name="text_no">Non</string>
     <string name="text_no_busybox">Busybox n\'a pas été trouvé sur votre appareil. Voulez-vous installer busybox maintenant?</string>
     <string name="text_normal">Normale</string>
-    <string name="text_ok">OK</string>
+    <string name="text_ok">OUI</string>
     <string name="text_open">Activé</string>
     <string name="text_profileload_tip">Appliquer le profil</string>
     <string name="text_profilesaved_overwrite">Souhaitez-vous personnaliser ce profil?</string>
