@@ -1511,8 +1511,7 @@
 
     <style name="BaseAppTheme" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowBackground">@color/backgroundMain</item>
-        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:statusBarColor">@color/black30</item>
+        <item name="android:windowIsTranslucent">true</item>
         <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/colorMainText</item>
         <item name="colorPrimary">@color/colorPrimary</item>
@@ -1886,9 +1885,7 @@
         <item name="statusBarScrim">?colorPrimaryDark</item>
     </style>
 
-    <style name="Widget.Design.CoordinatorLayout" parent="@android:style/Widget">
-        <item name="android:windowIsTranslucent">true</item>
-    </style>
+    <style name="Widget.Design.CoordinatorLayout" parent="@android:style/Widget"/>
 
     <style name="Widget.Design.FloatingActionButton" parent="@android:style/Widget">
         <item name="android:background">@drawable/design_fab_background</item>
