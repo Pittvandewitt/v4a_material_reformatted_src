@@ -11,14 +11,15 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_vhs"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
                 android:gravity="center_vertical"
                 android:text="@string/pref_strength_title" />
 
@@ -27,15 +28,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_vhs"
-                android:layout_alignParentRight="true"
-                android:focusable="false" />
+                android:layout_alignParentEnd="true"
+                android:focusable="false"
+                android:inputType="none" />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <ImageView
                 android:id="@id/v4a_iv_knob_bg_3point"

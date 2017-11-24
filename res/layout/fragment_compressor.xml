@@ -11,13 +11,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_fetcompressor_threshold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/pref_fetcompressor_threshold" />
 
@@ -26,9 +27,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_threshold"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:focusable="false"
-                android:gravity="center" />
+                android:gravity="center"
+                android:inputType="none" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -56,13 +58,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_fetcompressor_ratio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/pref_fetcompressor_ratio" />
 
@@ -71,9 +74,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_ratio"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:focusable="false"
-                android:gravity="center" />
+                android:gravity="center"
+                android:inputType="none" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -102,13 +106,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_fetcompressor_autoknee"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/pref_fetcompressor_autoknee" />
 
@@ -117,20 +122,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_autoknee"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:checked="true" />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_fetcompressor_knee"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/pref_fetcompressor_knee" />
 
@@ -139,9 +145,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_knee"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:focusable="false"
-                android:gravity="center" />
+                android:gravity="center"
+                android:inputType="none" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -166,13 +173,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_fetcompressor_kneemulti"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/pref_fetcompressor_kneemulti" />
 
@@ -181,9 +189,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_kneemulti"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:focusable="false"
-                android:gravity="center" />
+                android:gravity="center"
+                android:inputType="none" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -212,13 +221,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_fetcompressor_autogain"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/pref_fetcompressor_autogain" />
 
@@ -227,20 +237,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_autogain"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:checked="true" />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_fetcompressor_gain"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/pref_fetcompressor_gain" />
 
@@ -249,9 +260,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_gain"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:focusable="false"
-                android:gravity="center" />
+                android:gravity="center"
+                android:inputType="none" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -279,13 +291,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_fetcompressor_autoattack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/pref_fetcompressor_autoattack" />
 
@@ -294,20 +307,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_autoattack"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:checked="true" />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_fetcompressor_attack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/pref_fetcompressor_attack" />
 
@@ -316,9 +330,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_attack"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:focusable="false"
-                android:gravity="center" />
+                android:gravity="center"
+                android:inputType="none" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -341,13 +356,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_fetcompressor_maxattack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/pref_fetcompressor_maxattack" />
 
@@ -356,9 +372,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_maxattack"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:focusable="false"
-                android:gravity="center" />
+                android:gravity="center"
+                android:inputType="none" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -387,13 +404,14 @@
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
             android:gravity="center_vertical"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_fetcompressor_autorelease"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:text="@string/pref_fetcompressor_autorelease" />
 
             <CheckBox
@@ -401,20 +419,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_autorelease"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:checked="true" />
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_fetcompressor_release"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/pref_fetcompressor_release" />
 
@@ -423,9 +442,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_release"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:focusable="false"
-                android:gravity="center" />
+                android:gravity="center"
+                android:inputType="none" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -448,13 +468,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_fetcompressor_maxrelease"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/pref_fetcompressor_maxrelease" />
 
@@ -463,9 +484,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_maxrelease"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:focusable="false"
-                android:gravity="center" />
+                android:gravity="center"
+                android:inputType="none" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -493,13 +515,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_fetcompressor_crest"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/pref_fetcompressor_crest" />
 
@@ -508,9 +531,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_crest"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:focusable="false"
-                android:gravity="center" />
+                android:gravity="center"
+                android:inputType="none" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -538,13 +562,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_fetcompressor_adapt"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/pref_fetcompressor_adapt" />
 
@@ -553,9 +578,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_adapt"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:focusable="false"
-                android:gravity="center" />
+                android:gravity="center"
+                android:inputType="none" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -578,13 +604,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_fetcompressor_noclipenable"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
                 android:text="@string/pref_fetcompressor_noclipenable" />
 
@@ -593,7 +620,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_fetcompressor_noclipenable"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:checked="true" />
         </RelativeLayout>
     </LinearLayout>

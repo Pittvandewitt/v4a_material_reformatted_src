@@ -6,7 +6,7 @@
     android:ellipsize="marquee"
     android:gravity="center_vertical"
     android:minHeight="?listPreferredItemHeightSmall"
-    android:paddingLeft="@dimen/abc_dialog_padding_material"
-    android:paddingRight="@dimen/abc_dialog_padding_material"
+    android:paddingStart="@dimen/abc_dialog_padding_material"
+    android:paddingEnd="@dimen/abc_dialog_padding_material"
     android:textAppearance="?textAppearanceListItemSmall"
     android:textColor="?textColorAlertDialogListItem" />

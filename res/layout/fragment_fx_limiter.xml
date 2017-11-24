@@ -11,13 +11,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="88dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp">
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp">
 
             <TextView
                 android:id="@id/id_tv_output_pan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_marginTop="16dp"
                 android:gravity="center"
                 android:text="@string/pref_output_pan" />
@@ -28,8 +29,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/id_tv_output_pan"
                 android:layout_alignBottom="@id/id_tv_output_pan"
-                android:layout_marginLeft="16dp"
-                android:layout_toRightOf="@id/id_tv_output_pan"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@id/id_tv_output_pan"
                 android:button="@null"
                 android:checked="true" />
 
@@ -38,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/id_tv_output_pan"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:focusable="false"
                 android:inputType="textNoSuggestions" />
 
@@ -61,13 +62,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="88dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp">
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp">
 
             <TextView
                 android:id="@id/id_tv_output_gain"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_marginTop="16dp"
                 android:gravity="center"
                 android:text="@string/pref_output_gain" />
@@ -78,8 +80,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/id_tv_output_gain"
                 android:layout_alignBottom="@id/id_tv_output_gain"
-                android:layout_marginLeft="16dp"
-                android:layout_toRightOf="@id/id_tv_output_gain"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@id/id_tv_output_gain"
                 android:button="@null"
                 android:checked="true" />
 
@@ -88,7 +90,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/id_tv_output_gain"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:focusable="false"
                 android:inputType="textNoSuggestions" />
 
@@ -111,13 +113,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="88dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp">
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp">
 
             <TextView
                 android:id="@id/id_tv_limiter_threshold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_marginTop="16dp"
                 android:gravity="center"
                 android:text="@string/pref_fx_limiter_threshold" />
@@ -128,8 +131,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/id_tv_limiter_threshold"
                 android:layout_alignBottom="@id/id_tv_limiter_threshold"
-                android:layout_marginLeft="16dp"
-                android:layout_toRightOf="@id/id_tv_limiter_threshold"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@id/id_tv_limiter_threshold"
                 android:button="@null"
                 android:checked="true" />
 
@@ -138,7 +141,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/id_tv_limiter_threshold"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:focusable="false"
                 android:inputType="textNoSuggestions" />
 

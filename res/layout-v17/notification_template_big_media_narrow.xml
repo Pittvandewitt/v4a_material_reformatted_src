@@ -15,17 +15,14 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginLeft="2dp"
-        android:layout_marginRight="2dp" />
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp" />
 
     <include
         layout="@layout/notification_template_lines"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="128dp"
         android:layout_marginStart="128dp"
-        android:layout_toLeftOf="@id/cancel_action"
         android:layout_toStartOf="@id/cancel_action" />
 
     <LinearLayout
@@ -33,10 +30,9 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginLeft="12dp"
-        android:layout_marginRight="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
         android:layout_toEndOf="@id/icon"
-        android:layout_toRightOf="@id/icon"
         android:layoutDirection="ltr"
         android:orientation="horizontal" />
 
@@ -46,6 +42,5 @@
         android:layout_height="1dp"
         android:layout_above="@id/media_actions"
         android:layout_toEndOf="@id/icon"
-        android:layout_toRightOf="@id/icon"
         android:background="?android:dividerHorizontal" />
 </RelativeLayout>

@@ -4,7 +4,7 @@
     android:layout_height="?listPreferredItemHeightSmall"
     android:gravity="start|center"
     android:maxLines="1"
-    android:paddingLeft="?listPreferredItemPaddingLeft"
-    android:paddingRight="?listPreferredItemPaddingRight"
+    android:paddingStart="?listPreferredItemPaddingLeft"
+    android:paddingEnd="?listPreferredItemPaddingRight"
     android:textAppearance="@style/TextAppearance.AppCompat.Body2"
     android:textColor="?android:textColorSecondary" />

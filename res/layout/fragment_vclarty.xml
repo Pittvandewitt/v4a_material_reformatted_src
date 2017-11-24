@@ -11,8 +11,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_clarty_mode"
@@ -22,42 +22,40 @@
                 android:text="@string/pref_fidelity_vc_mode_title" />
         </RelativeLayout>
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+        <RadioGroup
+            android:id="@id/v4a_rg_clarty_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
             android:layout_marginBottom="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp">
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
 
-            <RadioGroup
-                android:id="@id/v4a_rg_clarty_mode"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true">
+            <RadioButton
+                android:id="@id/v4a_rb_clarty_mode_natural"
+                android:layout_width="match_parent"
+                android:layout_height="?listPreferredItemHeightSmall"
+                android:checked="true"
+                android:foreground="?selectableItemBackground"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
 
-                <RadioButton
-                    android:id="@id/v4a_rb_clarty_mode_natural"
-                    android:layout_width="match_parent"
-                    android:layout_height="?listPreferredItemHeightSmall"
-                    android:checked="true"
-                    android:foreground="?selectableItemBackground"
-                    android:paddingRight="8dp" />
+            <RadioButton
+                android:id="@id/v4a_rb_clarty_mode_ozone"
+                android:layout_width="match_parent"
+                android:layout_height="?listPreferredItemHeightSmall"
+                android:foreground="?selectableItemBackground"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
 
-                <RadioButton
-                    android:id="@id/v4a_rb_clarty_mode_ozone"
-                    android:layout_width="match_parent"
-                    android:layout_height="?listPreferredItemHeightSmall"
-                    android:foreground="?selectableItemBackground"
-                    android:paddingRight="8dp" />
-
-                <RadioButton
-                    android:id="@id/v4a_rb_clarty_mode_xhifi"
-                    android:layout_width="match_parent"
-                    android:layout_height="?listPreferredItemHeightSmall"
-                    android:foreground="?selectableItemBackground"
-                    android:paddingRight="8dp" />
-            </RadioGroup>
-        </RelativeLayout>
+            <RadioButton
+                android:id="@id/v4a_rb_clarty_mode_xhifi"
+                android:layout_width="match_parent"
+                android:layout_height="?listPreferredItemHeightSmall"
+                android:foreground="?selectableItemBackground"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
+        </RadioGroup>
 
         <View
             android:layout_width="match_parent"
@@ -67,8 +65,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_clarty"
@@ -82,7 +80,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_clarty"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:focusable="false"
                 android:inputType="textNoSuggestions" />
         </RelativeLayout>
@@ -90,8 +88,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <ImageView
                 android:id="@id/v4a_iv_knob_bg_3point"

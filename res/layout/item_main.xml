@@ -2,7 +2,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="56dp"
-    android:clickable="true"
     android:foreground="?selectableItemBackground">
 
     <ImageView
@@ -10,7 +9,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
         android:src="@drawable/ic_power" />
 
     <android.support.v7.widget.SwitchCompat
@@ -18,17 +17,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@id/v4a_item_title"
-        android:layout_alignParentRight="true"
-        android:checked="false"
-        android:layout_marginRight="16dp" />
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:checked="false" />
 
     <TextView
         android:id="@id/v4a_item_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
+        android:layout_marginStart="72dp"
         android:maxLines="1"
-        android:layout_marginLeft="72dp"
         android:text="@string/app_name"
         android:textColor="@color/colorMainText" />
 </RelativeLayout>

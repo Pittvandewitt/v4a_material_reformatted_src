@@ -11,8 +11,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
             android:gravity="center_vertical">
 
             <TextView
@@ -24,8 +24,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true">
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:id="@id/v4a_iv_knob_bg_3point"
@@ -62,18 +61,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginRight="47dp"
+                android:layout_marginEnd="47dp"
                 android:layout_marginTop="20dp"
-                android:layout_toLeftOf="@id/v4a_tv_playback_effect_moderate" />
+                android:layout_toStartOf="@id/v4a_tv_playback_effect_moderate" />
 
             <TextView
                 android:id="@id/v4a_tv_playback_effect_extreme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginLeft="47dp"
+                android:layout_marginStart="47dp"
                 android:layout_marginTop="20dp"
-                android:layout_toRightOf="@id/v4a_tv_playback_effect_moderate" />
+                android:layout_toEndOf="@id/v4a_tv_playback_effect_moderate" />
         </RelativeLayout>
 
         <View
@@ -84,13 +83,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="88dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp">
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_playback_maxgain"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_marginTop="16dp"
                 android:text="@string/pref_playback_maxgain" />
 
@@ -99,8 +99,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_playback_maxgain"
-                android:layout_alignParentRight="true"
-                android:focusable="false" />
+                android:layout_alignParentEnd="true"
+                android:focusable="false"
+                android:inputType="none" />
 
             <SeekBar
                 android:id="@id/v4a_sb_playback_maxgain"
@@ -120,13 +121,14 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="88dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp">
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_playback_output_threshold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
                 android:layout_marginTop="16dp"
                 android:gravity="center"
                 android:text="@string/pref_playback_output_threshold" />
@@ -136,7 +138,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignBaseline="@id/v4a_tv_playback_output_threshold"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:focusable="false"
                 android:inputType="textNoSuggestions" />
 

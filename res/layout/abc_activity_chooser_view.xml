@@ -16,8 +16,8 @@
         android:background="?actionBarItemBackground"
         android:focusable="true"
         android:paddingBottom="2dp"
-        android:paddingLeft="12dp"
-        android:paddingRight="12dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
         android:paddingTop="2dp">
 
         <ImageView
@@ -38,8 +38,8 @@
         android:background="?actionBarItemBackground"
         android:focusable="true"
         android:paddingBottom="2dp"
-        android:paddingLeft="12dp"
-        android:paddingRight="12dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
         android:paddingTop="2dp">
 
         <ImageView

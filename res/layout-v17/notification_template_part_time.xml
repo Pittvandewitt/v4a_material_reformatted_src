@@ -6,7 +6,7 @@
     android:layout_gravity="center"
     android:layout_weight="0.0"
     android:gravity="center"
-    android:paddingLeft="8dp"
     android:paddingStart="8dp"
+    android:paddingEnd="8dp"
     android:singleLine="true"
     android:textAppearance="@style/TextAppearance.StatusBar.EventContent.Time" />

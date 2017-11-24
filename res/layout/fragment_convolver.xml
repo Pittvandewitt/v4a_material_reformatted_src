@@ -13,8 +13,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <EditText
                 android:id="@id/v4a_et_convolver_knl_search"
@@ -28,8 +28,8 @@
             android:id="@id/v4a_convolver_knl_recyclerview"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingTop="8dp"
-			android:overScrollMode="never" />
+            android:overScrollMode="never"
+            android:paddingTop="8dp" />
     </LinearLayout>
 
     <ScrollView
@@ -44,8 +44,8 @@
             android:layout_height="wrap_content"
             android:animateLayoutChanges="true"
             android:orientation="vertical"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -70,6 +70,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
                     android:text="@string/pref_convolver_crosschannel_title" />
 
                 <EditText
@@ -77,8 +78,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignBaseline="@id/id_tv_convolver_crosschannel"
-                    android:layout_alignParentRight="true"
-                    android:focusable="false" />
+                    android:layout_alignParentEnd="true"
+                    android:focusable="false"
+                    android:inputType="none" />
             </RelativeLayout>
 
             <RelativeLayout

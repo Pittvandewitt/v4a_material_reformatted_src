@@ -6,38 +6,31 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:id="@id/topPanel"
+        android:id="@id/title_template"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="?dialogPreferredPadding"
+        android:paddingStart="?dialogPreferredPadding"
+        android:paddingTop="@dimen/abc_dialog_padding_top_material">
 
-        <LinearLayout
-            android:id="@id/title_template"
+        <ImageView
+            android:id="@android:id/icon"
+            style="@style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:scaleType="fitCenter"
+            android:src="@null" />
+
+        <android.support.v7.widget.DialogTitle
+            android:id="@id/alertTitle"
+            style="?attr/android:windowTitleStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:paddingLeft="?dialogPreferredPadding"
-            android:paddingRight="?dialogPreferredPadding"
-            android:paddingTop="@dimen/abc_dialog_padding_top_material">
-
-            <ImageView
-                android:id="@android:id/icon"
-                style="@style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon"
-                android:layout_width="32dp"
-                android:layout_height="32dp"
-                android:scaleType="fitCenter"
-                android:src="@null" />
-
-            <android.support.v7.widget.DialogTitle
-                android:id="@id/alertTitle"
-                style="?attr/android:windowTitleStyle"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ellipsize="end"
-                android:singleLine="true"
-                android:textAlignment="viewStart" />
-        </LinearLayout>
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textAlignment="viewStart" />
     </LinearLayout>
 
     <FrameLayout
@@ -71,8 +64,8 @@
                     style="@style/TextAppearance.AppCompat.Subhead"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="?dialogPreferredPadding"
-                    android:paddingRight="?dialogPreferredPadding"
+                    android:paddingEnd="?dialogPreferredPadding"
+                    android:paddingStart="?dialogPreferredPadding"
                     android:paddingTop="@dimen/abc_dialog_padding_top_material" />
 
                 <View

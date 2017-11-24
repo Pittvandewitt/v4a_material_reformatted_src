@@ -7,8 +7,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="?listPreferredItemHeightSmall"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp">
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
 
         <EditText
             android:id="@id/v4a_et_ddc_search"
@@ -23,6 +23,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clipToPadding="false"
-        android:paddingTop="8dp"
-		android:overScrollMode="never" />
+        android:overScrollMode="never"
+        android:paddingTop="8dp" />
 </LinearLayout>
