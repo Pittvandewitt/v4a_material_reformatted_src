@@ -409,13 +409,13 @@
     <public type="drawable" name="ic_save" id="0x7f020076" />
     <public type="drawable" name="ic_settings" id="0x7f020077" />
     <public type="drawable" name="ic_status" id="0x7f020078" />
+    <public type="drawable" name="radio_select" id="0x7f02007c" />
+    <public type="drawable" name="radio_noselect" id="0x7f02007d" />
     <public name="knob_default" id="0x7f020079" type="drawable" />
     <public name="knob_pressed" id="0x7f02007a" type="drawable" />
     <public name="knob_point" id="0x7f02007b" type="drawable" />
     <public name="icon" id="0x7f030010" type="mipmap" />
     <public name="smalllogo" id="0x7f030034" type="mipmap" />
-    <public name="radio_noselect" id="0x7f03002d" type="mipmap" />
-    <public name="radio_select" id="0x7f03002e" type="mipmap" />
     <public name="side_nav_bar" id="0x7f030033" type="mipmap" />
     <public name="start" id="0x7f030035" type="mipmap" />
     <public name="abc_action_bar_title_item" id="0x7f040000" type="layout" />
