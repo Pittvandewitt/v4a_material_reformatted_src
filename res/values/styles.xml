@@ -1131,7 +1131,6 @@
         <item name="height">?actionBarSize</item>
         <item name="displayOptions">showTitle</item>
         <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionBar.Title</item>
-        <item name="android:textSize">20dp</item>
         <item name="subtitleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle
         </item>
         <item name="divider">?dividerVertical</item>
@@ -1405,7 +1404,9 @@
 
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" />
 
-    <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title" />
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title">        
+        <item name="android:textSize">@dimen/abc_text_size_title_material</item>
+    </style>
 
     <style name="Theme.AppCompat" parent="@style/Base.Theme.AppCompat" />
 
