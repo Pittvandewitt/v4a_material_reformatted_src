@@ -11,15 +11,15 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="88dp"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/id_tv_reverb_roomsize"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
                 android:gravity="center"
                 android:text="@string/pref_reverb_roomsize" />
 
@@ -37,9 +37,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="16dp"
                 android:focusable="true"
-                android:max="100" />
+                android:max="100"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp" />
         </RelativeLayout>
 
         <View
@@ -50,15 +51,15 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="88dp"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/id_tv_reverb_width"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
                 android:gravity="center"
                 android:text="@string/pref_reverb_width" />
 
@@ -76,9 +77,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="16dp"
                 android:focusable="true"
-                android:max="100" />
+                android:max="100"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp" />
         </RelativeLayout>
 
         <View
@@ -89,15 +91,15 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="88dp"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/id_tv_reverb_damp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
                 android:gravity="center"
                 android:text="@string/pref_reverb_damp" />
 
@@ -115,9 +117,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="16dp"
                 android:focusable="true"
-                android:max="100" />
+                android:max="100"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp" />
         </RelativeLayout>
 
         <View
@@ -128,8 +131,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="88dp"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/id_tv_reverb_wet"
@@ -154,9 +157,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="16dp"
                 android:focusable="true"
-                android:max="100" />
+                android:max="100"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp" />
         </RelativeLayout>
 
         <View
@@ -167,8 +171,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="88dp"
-            android:paddingStart="16dp"
-            android:paddingEnd="16dp">
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp">
 
             <TextView
                 android:id="@id/id_tv_reverb_dry"
@@ -193,9 +197,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="16dp"
                 android:focusable="true"
-                android:max="100" />
+                android:max="100"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp" />
         </RelativeLayout>
 
         <View
