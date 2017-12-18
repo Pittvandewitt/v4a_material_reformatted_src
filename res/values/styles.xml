@@ -1640,9 +1640,7 @@
         <item name="statusBarScrim">?colorPrimaryDark</item>
     </style>
 
-    <style name="Widget.Design.CoordinatorLayout" parent="@android:style/Widget">
-        <item name="statusBarBackground">?colorPrimaryDark</item>
-    </style>
+    <style name="Widget.Design.CoordinatorLayout" parent="@android:style/Widget"/>
 
     <style name="Widget.Design.FloatingActionButton" parent="@android:style/Widget">
         <item name="android:background">@drawable/design_fab_background</item>
@@ -1661,9 +1659,7 @@
         <item name="elevation">@dimen/design_navigation_elevation</item>
     </style>
 
-    <style name="Widget.Design.ScrimInsetsFrameLayout" parent="">
-        <item name="insetForeground">#44000000</item>
-    </style>
+    <style name="Widget.Design.ScrimInsetsFrameLayout" parent=""/>
 
     <style name="Widget.Design.Snackbar" parent="@android:style/Widget">
         <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark</item>
