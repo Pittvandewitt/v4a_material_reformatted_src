@@ -95,7 +95,9 @@
         <FrameLayout
             android:id="@id/custom"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:paddingEnd="16dp"
+            android:paddingStart="16dp" />
     </FrameLayout>
 
     <include layout="@layout/abc_alert_dialog_button_bar_material" />
