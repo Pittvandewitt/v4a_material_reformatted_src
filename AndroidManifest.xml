@@ -4,10 +4,6 @@
     platformBuildVersionCode="23"
     platformBuildVersionName="6.0-2438415">
 
-    <uses-sdk
-        android:minSdkVersion="19"
-        android:targetSdkVersion="26" />
-
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
@@ -59,7 +55,6 @@
 
         <service
             android:name="com.pittvandewitt.viperfx.service.ViPER4AndroidService"
-			android:directBootAware="true"
             android:exported="false" />
         <service android:name="com.pittvandewitt.viperfx.update.DownloadService" />
 
