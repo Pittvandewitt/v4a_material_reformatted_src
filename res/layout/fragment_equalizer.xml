@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingTop="16dp">
+        android:paddingTop="8dp">
 
         <com.pittvandewitt.viperfx.widget.EqualizerViewBar
             android:id="@id/FrequencyResponse"
@@ -21,34 +21,31 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="32dp">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@id/eq_preset_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:text="@string/pref_equalizer_preset_title"
                 android:textAllCaps="true"
                 android:textColor="@color/colorMainText" />
-        </RelativeLayout>
 
-        <com.pittvandewitt.viperfx.widget.Gallery
-            android:id="@id/eqPresets"
-            android:layout_width="match_parent"
-            android:layout_height="?listPreferredItemHeightSmall"
-            android:gravity="center_vertical" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="32dp">
+            <com.pittvandewitt.viperfx.widget.Gallery
+                android:id="@id/eqPresets"
+                android:layout_width="match_parent"
+                android:layout_height="?listPreferredItemHeightSmall"
+                android:layout_below="@id/eq_preset_label"
+                android:gravity="center_vertical" />
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
+                android:layout_below="@id/eqPresets"
                 android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
                 android:src="@drawable/eq_circle_shape" />
         </RelativeLayout>
     </LinearLayout>
