@@ -11,8 +11,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
             android:gravity="center_vertical">
 
             <TextView
@@ -83,8 +83,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="88dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp">
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_playback_maxgain"
@@ -108,7 +108,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="16dp"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp"
                 android:focusable="true"
                 android:max="100" />
         </RelativeLayout>
@@ -121,8 +122,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="88dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp">
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_playback_output_threshold"
@@ -147,7 +148,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
-                android:layout_marginBottom="16dp"
+                android:paddingBottom="16dp"
+                android:paddingTop="16dp"
                 android:focusable="true"
                 android:max="50" />
         </RelativeLayout>
