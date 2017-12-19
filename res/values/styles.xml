@@ -251,9 +251,7 @@
 
     <style name="AppTheme" parent="@style/BaseAppTheme" />
 
-    <style name="AppTheme.Main" parent="@style/AppTheme">
-        <item name="android:windowIsTranslucent">false</item>
-    </style>
+    <style name="AppTheme.Main" parent="@style/AppTheme" />
 
     <style name="Base.TextAppearance.AppCompat" parent="@android:style/TextAppearance">
         <item name="android:textSize">@dimen/abc_text_size_body_1_material</item>
