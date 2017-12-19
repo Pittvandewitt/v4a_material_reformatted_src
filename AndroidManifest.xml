@@ -55,6 +55,7 @@
 
         <service
             android:name="com.pittvandewitt.viperfx.service.ViPER4AndroidService"
+			android:directBootAware="true"
             android:exported="false" />
         <service android:name="com.pittvandewitt.viperfx.update.DownloadService" />
 
