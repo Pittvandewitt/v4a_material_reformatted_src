@@ -415,6 +415,8 @@
     <public name="knob_pressed" id="0x7f02007a" type="drawable" />
     <public name="knob_point" id="0x7f02007b" type="drawable" />
     <public name="icon" id="0x7f030010" type="mipmap" />
+    <public name="ic_launcher" id="0x7f030011" type="mipmap" />
+    <public name="ic_launcher_beta" id="0x7f030012" type="mipmap" />
     <public name="smalllogo" id="0x7f030034" type="mipmap" />
     <public name="side_nav_bar" id="0x7f030033" type="mipmap" />
     <public name="start" id="0x7f030035" type="mipmap" />
