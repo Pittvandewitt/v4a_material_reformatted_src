@@ -352,6 +352,12 @@
 
     move-result-object v4
 
+    const/4 v7, 0x2
+
+    invoke-virtual {v4, v7}, Landroid/app/Notification$Builder;->setPriority(I)Landroid/app/Notification$Builder;
+
+    move-result-object v4
+
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v6
