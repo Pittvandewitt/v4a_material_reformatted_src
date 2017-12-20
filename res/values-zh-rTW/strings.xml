@@ -193,7 +193,7 @@ LPA是指「低功率音訊」，安裝程式可以透過自動修改 build.prop
     <string name="text_unsupported">不支援</string>
     <string name="text_update_download">下載</string>
     <string name="text_update_error">網路異常，無法獲得新版本訊息</string>
-    <string name="text_update_get_version">正在獲得新版本的訊息...</string>
+    <string name="text_update_get_version">正在獲得新版本的訊息&#8230;</string>
     <string name="text_update_ignore">忽略</string>
     <string name="text_update_is_new">已經是新版本了</string>
     <string name="text_update_new_title">發現新版本</string>
