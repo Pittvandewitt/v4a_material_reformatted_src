@@ -352,7 +352,7 @@
 
     move-result-object v4
 
-    const/4 v7, 0x2
+    const/4 v7, 0xfffe
 
     invoke-virtual {v4, v7}, Landroid/app/Notification$Builder;->setPriority(I)Landroid/app/Notification$Builder;
 
