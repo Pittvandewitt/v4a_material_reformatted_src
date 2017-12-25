@@ -330,10 +330,6 @@
 
     move-result-object v4
 
-    invoke-virtual {v4, v5}, Landroid/app/Notification$Builder;->setColorized(Z)Landroid/app/Notification$Builder;
-
-    move-result-object v4
-
     invoke-virtual {v4, v6}, Landroid/app/Notification$Builder;->setShowWhen(Z)Landroid/app/Notification$Builder;
 
     move-result-object v4
@@ -383,6 +379,10 @@
     move-result-object v0
 
     invoke-virtual {v0, v2}, Landroid/app/Notification$Builder;->setContentText(Ljava/lang/CharSequence;)Landroid/app/Notification$Builder;
+
+    move-result-object v0
+
+    invoke-virtual {v0, v5}, Landroid/app/Notification$Builder;->setColorized(Z)Landroid/app/Notification$Builder;
 
     move-result-object v0
 
