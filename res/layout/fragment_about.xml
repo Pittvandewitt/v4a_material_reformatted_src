@@ -19,7 +19,7 @@
                 android:layout_height="192dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="48dp"
-                android:src="@mipmap/icon" />
+                android:src="@drawable/icon" />
         </RelativeLayout>
 
         <RelativeLayout
