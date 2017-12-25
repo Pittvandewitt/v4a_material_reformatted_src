@@ -26,7 +26,7 @@ Commercial use is disallowed without official permission.</string>
     <string name="about_forum">Official forum: forum.vipersaudio.com</string>
     <string name="about_version">Version %1$s (FX), Codename Beautiful</string>
     <string name="app_name">ViPER4Android FX</string>
-    <string name="bluetooth_title">Bluetooth Device</string>
+    <string name="bluetooth_title">Bluetooth</string>
     <string name="eq_preset_acoustic">Acoustic</string>
     <string name="eq_preset_bass_booster">Bass Booster</string>
     <string name="eq_preset_bass_reducer">Bass Reducer</string>

@@ -83,7 +83,7 @@
     <!-- custom colors, mainly needed for theming -->
 
     <!-- accent -->
-    <color name="colorAccent">#ffaa00ff</color>
+    <color name="colorAccent">#ff9c27b0</color>
 
     <!-- header -->
     <color name="colorPrimary">#ff212121</color>
@@ -102,6 +102,9 @@
 
     <!-- subheader textcolor (header in settings fragment) -->
     <color name="colorSubheaderText">@color/colorAccent</color>
+	
+	<!-- Overscroll color -->
+	<color name="color_overscroll">#ff5f2469</color>
 
     <!-- Icon colors -->
     <color name="colorMainIcon">@color/colorMainText</color>
