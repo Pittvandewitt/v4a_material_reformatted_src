@@ -382,10 +382,6 @@
 
     move-result-object v0
 
-    invoke-virtual {v0, v5}, Landroid/app/Notification$Builder;->setColorized(Z)Landroid/app/Notification$Builder;
-
-    move-result-object v0
-
     :goto_2b
 
     invoke-virtual {v0, v3}, Landroid/app/Notification$Builder;->setContentIntent(Landroid/app/PendingIntent;)Landroid/app/Notification$Builder;
