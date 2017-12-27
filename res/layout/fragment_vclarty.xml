@@ -15,7 +15,7 @@
             android:paddingEnd="16dp">
 
             <TextView
-                android:id="@id/v4a_tv_clarty_mode"
+                android:id="@id/v4a_tv_clarity_mode"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
@@ -23,7 +23,7 @@
         </RelativeLayout>
 
         <RadioGroup
-            android:id="@id/v4a_rg_clarty_mode"
+            android:id="@id/v4a_rg_clarity_mode"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
@@ -32,7 +32,7 @@
             android:layout_marginEnd="16dp">
 
             <RadioButton
-                android:id="@id/v4a_rb_clarty_mode_natural"
+                android:id="@id/v4a_rb_clarity_mode_natural"
                 android:layout_width="match_parent"
                 android:layout_height="?listPreferredItemHeightSmall"
                 android:checked="true"
@@ -41,7 +41,7 @@
                 android:paddingEnd="8dp" />
 
             <RadioButton
-                android:id="@id/v4a_rb_clarty_mode_ozone"
+                android:id="@id/v4a_rb_clarity_mode_ozone"
                 android:layout_width="match_parent"
                 android:layout_height="?listPreferredItemHeightSmall"
                 android:foreground="?selectableItemBackground"
@@ -49,7 +49,7 @@
                 android:paddingEnd="8dp" />
 
             <RadioButton
-                android:id="@id/v4a_rb_clarty_mode_xhifi"
+                android:id="@id/v4a_rb_clarity_mode_xhifi"
                 android:layout_width="match_parent"
                 android:layout_height="?listPreferredItemHeightSmall"
                 android:foreground="?selectableItemBackground"
@@ -69,17 +69,17 @@
             android:paddingEnd="16dp">
 
             <TextView
-                android:id="@id/v4a_tv_clarty"
+                android:id="@id/v4a_tv_clarity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:text="@string/pref_strength_title" />
 
             <EditText
-                android:id="@id/v4a_tv_clarty_val"
+                android:id="@id/v4a_tv_clarity_val"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignBaseline="@id/v4a_tv_clarty"
+                android:layout_alignBaseline="@id/v4a_tv_clarity"
                 android:layout_alignParentEnd="true"
                 android:focusable="false"
                 android:inputType="textNoSuggestions" />
@@ -107,7 +107,7 @@
                 android:src="@drawable/knob_point" />
 
             <com.pittvandewitt.viperfx.widget.TouchRotateButton
-                android:id="@id/v4a_trb_clarty"
+                android:id="@id/v4a_trb_clarity"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true" />

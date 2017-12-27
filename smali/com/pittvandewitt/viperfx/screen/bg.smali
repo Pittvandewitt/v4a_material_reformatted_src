@@ -53,7 +53,7 @@
 
     iget-object v1, p0, Lcom/pittvandewitt/viperfx/screen/bg;->a:Lcom/pittvandewitt/viperfx/screen/VClarityFragment;
 
-    iget-object v1, v1, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclartyBoostVals:[Ljava/lang/String;
+    iget-object v1, v1, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclarityBoostVals:[Ljava/lang/String;
 
     aget-object v1, v1, v0
 
@@ -79,11 +79,11 @@
 
     iget-object v1, p0, Lcom/pittvandewitt/viperfx/screen/bg;->a:Lcom/pittvandewitt/viperfx/screen/VClarityFragment;
 
-    iget-object v1, v1, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTvClartyVal:Landroid/widget/TextView;
+    iget-object v1, v1, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTvClarityVal:Landroid/widget/TextView;
 
     iget-object v2, p0, Lcom/pittvandewitt/viperfx/screen/bg;->a:Lcom/pittvandewitt/viperfx/screen/VClarityFragment;
 
-    iget-object v2, v2, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclartyBoosts:[Ljava/lang/String;
+    iget-object v2, v2, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclarityBoosts:[Ljava/lang/String;
 
     aget-object v2, v2, v0
 
@@ -141,7 +141,7 @@
 
     iget-object v3, p0, Lcom/pittvandewitt/viperfx/screen/bg;->a:Lcom/pittvandewitt/viperfx/screen/VClarityFragment;
 
-    iget-object v3, v3, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclartyBoostVals:[Ljava/lang/String;
+    iget-object v3, v3, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclarityBoostVals:[Ljava/lang/String;
 
     aget-object v0, v3, v0
 

@@ -19,7 +19,7 @@
 
     const v0, 0x7f0d0125
 
-    const-string v1, "field \'mRgVclartyMode\'"
+    const-string v1, "field \'mRgVclarityMode\'"
 
     const-class v2, Landroid/widget/RadioGroup;
 
@@ -29,7 +29,7 @@
 
     check-cast v0, Landroid/widget/RadioGroup;
 
-    iput-object v0, p1, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mRgVclartyMode:Landroid/widget/RadioGroup;
+    iput-object v0, p1, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mRgVclarityMode:Landroid/widget/RadioGroup;
 
     const v0, 0x7f0d0126
 
@@ -75,7 +75,7 @@
 
     const v0, 0x7f0d012a
 
-    const-string v1, "field \'mTvClartyVal\'"
+    const-string v1, "field \'mTvClarityVal\'"
 
     const-class v2, Landroid/widget/TextView;
 
@@ -85,11 +85,11 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTvClartyVal:Landroid/widget/TextView;
+    iput-object v0, p1, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTvClarityVal:Landroid/widget/TextView;
 
     const v0, 0x7f0d012b
 
-    const-string v1, "field \'mTrbClarty\'"
+    const-string v1, "field \'mTrbClarity\'"
 
     const-class v2, Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
 
@@ -99,7 +99,7 @@
 
     check-cast v0, Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
 
-    iput-object v0, p1, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTrbClarty:Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
+    iput-object v0, p1, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTrbClarity:Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
 
     const v0, 0x7f0d0083
 
@@ -121,7 +121,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclartyMode:[Ljava/lang/String;
+    iput-object v0, p1, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclarityMode:[Ljava/lang/String;
 
     const v0, 0x7f0b0015
 
@@ -129,7 +129,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclartyBoosts:[Ljava/lang/String;
+    iput-object v0, p1, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclarityBoosts:[Ljava/lang/String;
 
     const v0, 0x7f0b0037
 
@@ -137,7 +137,7 @@
 
     move-result-object v0
 
-    iput-object v0, p1, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclartyBoostVals:[Ljava/lang/String;
+    iput-object v0, p1, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclarityBoostVals:[Ljava/lang/String;
 
     return-void
 .end method

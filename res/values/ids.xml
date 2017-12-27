@@ -243,14 +243,14 @@
     <item name="v4a_tv_bass_gain" type="id">false</item>
     <item name="v4a_tv_bass_gain_val" type="id">false</item>
     <item name="v4a_trb_bass_gain" type="id">false</item>
-    <item name="v4a_tv_clarty_mode" type="id">false</item>
-    <item name="v4a_rg_clarty_mode" type="id">false</item>
-    <item name="v4a_rb_clarty_mode_natural" type="id">false</item>
-    <item name="v4a_rb_clarty_mode_ozone" type="id">false</item>
-    <item name="v4a_rb_clarty_mode_xhifi" type="id">false</item>
-    <item name="v4a_tv_clarty" type="id">false</item>
-    <item name="v4a_tv_clarty_val" type="id">false</item>
-    <item name="v4a_trb_clarty" type="id">false</item>
+    <item name="v4a_tv_clarity_mode" type="id">false</item>
+    <item name="v4a_rg_clarity_mode" type="id">false</item>
+    <item name="v4a_rb_clarity_mode_natural" type="id">false</item>
+    <item name="v4a_rb_clarity_mode_ozone" type="id">false</item>
+    <item name="v4a_rb_clarity_mode_xhifi" type="id">false</item>
+    <item name="v4a_tv_clarity" type="id">false</item>
+    <item name="v4a_tv_clarity_val" type="id">false</item>
+    <item name="v4a_trb_clarity" type="id">false</item>
     <item name="v4a_tv_vhs" type="id">false</item>
     <item name="id_tv_vsh_val" type="id">false</item>
     <item name="v4a_trb_vhs" type="id">false</item>

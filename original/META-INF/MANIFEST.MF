@@ -240,7 +240,7 @@ SHA1-Digest: jC9K1QqTSvkhXlcb3Aol+O/mvmg=
 Name: res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
 SHA1-Digest: OqSIVlkrKIYR7cyOW2HdJP/h5io=
 
-Name: res/layout-v17/fragment_vclarty.xml
+Name: res/layout-v17/fragment_vclarity.xml
 SHA1-Digest: NLqDw2Cw6tEvjopHMj4EwDsYVWE=
 
 Name: res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
@@ -591,7 +591,7 @@ SHA1-Digest: wyVY1u/Vb2qez4fUWrFEL5DsW/w=
 Name: res/drawable/eq_btn_minus.xml
 SHA1-Digest: Ogd6BhTmL7NXDzom7X6cNKdTeDY=
 
-Name: res/layout/fragment_vclarty.xml
+Name: res/layout/fragment_vclarity.xml
 SHA1-Digest: Bc80tDtGwbAFCiqW4HZGsT3OR2A=
 
 Name: res/layout-v17/fragment_compressor.xml

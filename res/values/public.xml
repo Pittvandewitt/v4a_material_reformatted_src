@@ -478,7 +478,7 @@
     <public name="fragment_reverb" id="0x7f040037" type="layout" />
     <public name="fragment_setting" id="0x7f040038" type="layout" />
     <public name="fragment_vbass" id="0x7f040039" type="layout" />
-    <public name="fragment_vclarty" id="0x7f04003a" type="layout" />
+    <public name="fragment_vclarity" id="0x7f04003a" type="layout" />
     <public name="fragment_vhs" id="0x7f04003b" type="layout" />
     <public name="fragment_viperddc" id="0x7f04003c" type="layout" />
     <public name="fragment_vse" id="0x7f04003d" type="layout" />
@@ -1586,14 +1586,14 @@
     <public name="v4a_tv_bass_gain" id="0x7f0d0121" type="id" />
     <public name="v4a_tv_bass_gain_val" id="0x7f0d0122" type="id" />
     <public name="v4a_trb_bass_gain" id="0x7f0d0123" type="id" />
-    <public name="v4a_tv_clarty_mode" id="0x7f0d0124" type="id" />
-    <public name="v4a_rg_clarty_mode" id="0x7f0d0125" type="id" />
-    <public name="v4a_rb_clarty_mode_natural" id="0x7f0d0126" type="id" />
-    <public name="v4a_rb_clarty_mode_ozone" id="0x7f0d0127" type="id" />
-    <public name="v4a_rb_clarty_mode_xhifi" id="0x7f0d0128" type="id" />
-    <public name="v4a_tv_clarty" id="0x7f0d0129" type="id" />
-    <public name="v4a_tv_clarty_val" id="0x7f0d012a" type="id" />
-    <public name="v4a_trb_clarty" id="0x7f0d012b" type="id" />
+    <public name="v4a_tv_clarity_mode" id="0x7f0d0124" type="id" />
+    <public name="v4a_rg_clarity_mode" id="0x7f0d0125" type="id" />
+    <public name="v4a_rb_clarity_mode_natural" id="0x7f0d0126" type="id" />
+    <public name="v4a_rb_clarity_mode_ozone" id="0x7f0d0127" type="id" />
+    <public name="v4a_rb_clarity_mode_xhifi" id="0x7f0d0128" type="id" />
+    <public name="v4a_tv_clarity" id="0x7f0d0129" type="id" />
+    <public name="v4a_tv_clarity_val" id="0x7f0d012a" type="id" />
+    <public name="v4a_trb_clarity" id="0x7f0d012b" type="id" />
     <public name="v4a_tv_vhs" id="0x7f0d012c" type="id" />
     <public name="id_tv_vsh_val" id="0x7f0d012d" type="id" />
     <public name="v4a_trb_vhs" id="0x7f0d012e" type="id" />

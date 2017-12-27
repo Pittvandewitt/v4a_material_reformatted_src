@@ -31,32 +31,32 @@
     .end annotation
 .end field
 
-.field mRgVclartyMode:Landroid/widget/RadioGroup;
+.field mRgVclarityMode:Landroid/widget/RadioGroup;
     .annotation build Lbutterknife/BindView;
     .end annotation
 .end field
 
-.field mTrbClarty:Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
+.field mTrbClarity:Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
     .annotation build Lbutterknife/BindView;
     .end annotation
 .end field
 
-.field mTvClartyVal:Landroid/widget/TextView;
+.field mTvClarityVal:Landroid/widget/TextView;
     .annotation build Lbutterknife/BindView;
     .end annotation
 .end field
 
-.field vclartyBoostVals:[Ljava/lang/String;
+.field vclarityBoostVals:[Ljava/lang/String;
     .annotation build Lbutterknife/BindArray;
     .end annotation
 .end field
 
-.field vclartyBoosts:[Ljava/lang/String;
+.field vclarityBoosts:[Ljava/lang/String;
     .annotation build Lbutterknife/BindArray;
     .end annotation
 .end field
 
-.field vclartyMode:[Ljava/lang/String;
+.field vclarityMode:[Ljava/lang/String;
     .annotation build Lbutterknife/BindArray;
     .end annotation
 .end field
@@ -84,7 +84,7 @@
 
     iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mRbModeNatural:Landroid/widget/RadioButton;
 
-    iget-object v1, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclartyMode:[Ljava/lang/String;
+    iget-object v1, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclarityMode:[Ljava/lang/String;
 
     const/4 v2, 0x0
 
@@ -94,7 +94,7 @@
 
     iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mRbModeOzone:Landroid/widget/RadioButton;
 
-    iget-object v1, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclartyMode:[Ljava/lang/String;
+    iget-object v1, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclarityMode:[Ljava/lang/String;
 
     const/4 v2, 0x1
 
@@ -104,7 +104,7 @@
 
     iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mRbModeXhifi:Landroid/widget/RadioButton;
 
-    iget-object v1, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclartyMode:[Ljava/lang/String;
+    iget-object v1, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclarityMode:[Ljava/lang/String;
 
     const/4 v2, 0x2
 
@@ -112,7 +112,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RadioButton;->setText(Ljava/lang/CharSequence;)V
 
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mRgVclartyMode:Landroid/widget/RadioGroup;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mRgVclarityMode:Landroid/widget/RadioGroup;
 
     new-instance v1, Lcom/pittvandewitt/viperfx/screen/bf;
 
@@ -156,31 +156,31 @@
 
     iput v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->e:F
 
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTrbClarty:Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTrbClarity:Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
 
     const v1, 0x7f020079
 
     invoke-virtual {v0, v1}, Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;->setBgImageInt(I)V
 
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTrbClarty:Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTrbClarity:Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
 
     const v1, 0x7f02007a
 
     invoke-virtual {v0, v1}, Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;->setBgPressImageInt(I)V
 
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTrbClarty:Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTrbClarity:Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
 
     const/high16 v1, 0x42340000    # 45.0f
 
     invoke-virtual {v0, v1}, Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;->setMIN_DEGREE(F)V
 
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTrbClarty:Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTrbClarity:Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
 
     const v1, 0x439d8000    # 315.0f
 
     invoke-virtual {v0, v1}, Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;->setMAX_DEGREE(F)V
 
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTrbClarty:Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTrbClarity:Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
 
     new-instance v1, Lcom/pittvandewitt/viperfx/screen/bg;
 
@@ -228,7 +228,7 @@
 
     :cond_0
     :goto_0
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclartyBoostVals:[Ljava/lang/String;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclarityBoostVals:[Ljava/lang/String;
 
     invoke-static {v0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
@@ -248,15 +248,15 @@
 
     move-result v0
 
-    iget-object v1, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTvClartyVal:Landroid/widget/TextView;
+    iget-object v1, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTvClarityVal:Landroid/widget/TextView;
 
-    iget-object v2, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclartyBoosts:[Ljava/lang/String;
+    iget-object v2, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->vclarityBoosts:[Ljava/lang/String;
 
     aget-object v2, v2, v0
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    iget-object v1, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTrbClarty:Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
+    iget-object v1, p0, Lcom/pittvandewitt/viperfx/screen/VClarityFragment;->mTrbClarity:Lcom/pittvandewitt/viperfx/widget/TouchRotateButton;
 
     mul-int/lit8 v2, v0, 0x1e
 
