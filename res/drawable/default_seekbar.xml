@@ -9,7 +9,7 @@
     <item android:id="@android:id/secondaryProgress">
         <clip>
             <shape>
-                <solid android:color="@color/accentColor" />
+                <solid android:color="@color/color_accent" />
                 <corners android:radius="2dp" />
             </shape>
         </clip>
@@ -17,7 +17,7 @@
     <item android:id="@android:id/progress">
         <clip>
             <shape>
-                <solid android:color="@color/accentColor" />
+                <solid android:color="@color/color_accent" />
                 <corners android:radius="2dp" />
             </shape>
         </clip>
