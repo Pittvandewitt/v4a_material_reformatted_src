@@ -448,7 +448,6 @@
     <public name="activity_dspscreen" id="0x7f040019" type="layout" />
     <public name="activity_main" id="0x7f04001a" type="layout" />
     <public name="activity_setting" id="0x7f04001b" type="layout" />
-    <public name="activity_start" id="0x7f04001c" type="layout" />
     <public name="design_bottom_sheet_dialog" id="0x7f04001d" type="layout" />
     <public name="design_layout_snackbar" id="0x7f04001e" type="layout" />
     <public name="design_layout_snackbar_include" id="0x7f04001f" type="layout" />

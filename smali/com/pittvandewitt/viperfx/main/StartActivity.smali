@@ -95,10 +95,6 @@
 
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    const v0, 0x7f04001c
-
-    invoke-virtual {p0, v0}, Lcom/pittvandewitt/viperfx/main/StartActivity;->setContentView(I)V
-
     invoke-static {p0}, Lbutterknife/ButterKnife;->a(Landroid/app/Activity;)Lbutterknife/Unbinder;
 
     invoke-direct {p0}, Lcom/pittvandewitt/viperfx/main/StartActivity;->a()V
