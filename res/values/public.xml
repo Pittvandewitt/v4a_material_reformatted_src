@@ -1223,9 +1223,9 @@
     <public name="bright_foreground_material_light" id="0x7f0c0013" type="color" />
     <public name="button_material_dark" id="0x7f0c0014" type="color" />
     <public name="button_material_light" id="0x7f0c0015" type="color" />
-    <public name="colorAccent" id="0x7f0c0016" type="color" />
-    <public name="colorPrimary" id="0x7f0c0017" type="color" />
-    <public name="colorPrimaryDark" id="0x7f0c0018" type="color" />
+    <public name="color_accent" id="0x7f0c0016" type="color" />
+    <public name="color_primary" id="0x7f0c0017" type="color" />
+    <public name="color_primary_dark" id="0x7f0c0018" type="color" />
     <public name="design_fab_shadow_end_color" id="0x7f0c0019" type="color" />
     <public name="design_fab_shadow_mid_color" id="0x7f0c001a" type="color" />
     <public name="design_fab_shadow_start_color" id="0x7f0c001b" type="color" />

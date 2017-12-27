@@ -3,26 +3,26 @@
     <item
         android:id="@id/loadprofile"
         android:icon="@drawable/ic_load"
-        android:textColor="@color/colorMainText"
+        android:textColor="@color/color_main_text"
         android:title="@string/text_loadfxprofile" />
     <item
         android:id="@id/saveprofile"
         android:icon="@drawable/ic_save"
-        android:textColor="@color/colorMainText"
+        android:textColor="@color/color_main_text"
         android:title="@string/text_savefxprofile" />
     <item
         android:id="@id/drvinst"
         android:icon="@drawable/ic_driver"
-        android:textColor="@color/colorMainText"
+        android:textColor="@color/color_main_text"
         android:title="@string/text_drv_blank" />
     <item
         android:id="@id/drvstatus"
         android:icon="@drawable/ic_status"
-        android:textColor="@color/colorMainText"
+        android:textColor="@color/color_main_text"
         android:title="@string/text_drv_status" />
     <item
         android:id="@id/setting"
         android:icon="@drawable/ic_settings"
-        android:textColor="@color/colorMainText"
+        android:textColor="@color/color_main_text"
         android:title="@string/text_setting" />
 </menu>

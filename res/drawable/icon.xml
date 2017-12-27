@@ -6,7 +6,7 @@
     android:height="48dp">
     <path
         android:pathData="M7 43C5.89543 43 5 42.10457 5 41L5 7C5 5.89543 5.89543 5 7 5l34 0c1.10457 0 2 0.89543 2 2l0 34c0 1.10457 -0.89543 2 -2 2z"
-        android:fillColor="@color/colorAccent"
+        android:fillColor="@color/color_accent"
         android:strokeLineJoin="miter"
         android:strokeLineCap="butt"
         android:strokeMiterLimit="10" />

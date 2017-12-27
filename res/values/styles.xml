@@ -918,7 +918,7 @@
         <item name="alertDialogStyle">@style/AlertDialog.AppCompat</item>
         <item name="alertDialogCenterButtons">false</item>
         <item name="alertDialogTheme">@style/Theme.AppCompat.Dialog.Alert</item>
-        <item name="textColorAlertDialogListItem">@color/colorMainText</item>
+        <item name="textColorAlertDialogListItem">@color/color_main_text</item>
         <item name="buttonBarPositiveButtonStyle">?buttonBarButtonStyle</item>
         <item name="buttonBarNegativeButtonStyle">?buttonBarButtonStyle</item>
         <item name="buttonBarNeutralButtonStyle">?buttonBarButtonStyle</item>
@@ -1175,7 +1175,7 @@
 
     <style name="Base.Widget.AppCompat.Button.ButtonBar.AlertDialog" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
         <item name="android:minWidth">64dp</item>
-        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColor">@color/color_accent</item>
         <item name="android:minHeight">@dimen/abc_alert_dialog_button_bar_height</item>
         <item name="android:maxLines">2</item>
     </style>
@@ -1264,13 +1264,13 @@
     </style>
 
     <style name="BaseAppTheme" parent="@style/Theme.AppCompat.NoActionBar">
-        <item name="android:windowBackground">@color/backgroundMain</item>
+        <item name="android:windowBackground">@color/background_main</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/colorMainText</item>
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/color_main_text</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
         <item name="android:colorEdgeEffect">@color/color_overscroll</item>
     </style>
 
@@ -1389,7 +1389,7 @@
 
     <style name="TextAppearance.Design.Snackbar.Message" parent="@android:style/TextAppearance">
         <item name="android:textSize">@dimen/design_snackbar_text_size</item>
-        <item name="android:textColor">@color/colorMainText</item>
+        <item name="android:textColor">@color/color_main_text</item>
     </style>
 
     <style name="TextAppearance.Design.Tab" parent="@style/TextAppearance.AppCompat.Button">
@@ -1647,7 +1647,7 @@
         <item name="fabSize">normal</item>
         <item name="pressedTranslationZ">@dimen/design_fab_translation_z_pressed</item>
         <item name="borderWidth">@dimen/design_fab_border_width</item>
-        <item name="backgroundTint">?colorAccent</item>
+        <item name="backgroundTint">?color_accent</item>
     </style>
 
     <style name="Widget.Design.NavigationView" parent="">
