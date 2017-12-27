@@ -1274,6 +1274,10 @@
         <item name="android:colorEdgeEffect">@color/color_overscroll</item>
     </style>
 
+	<style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/start_bg</item>
+    </style>
+	
     <style name="SwipeBackLayout">
         <item name="edge_size">50dp</item>
         <item name="shadow_left">@drawable/shadow_left</item>

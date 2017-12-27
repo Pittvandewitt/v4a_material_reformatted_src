@@ -20,7 +20,8 @@
         android:theme="@style/AppTheme">
 		<activity
             android:name="com.pittvandewitt.viperfx.main.StartActivity"
-			android:configChanges="orientation">
+			android:configChanges="orientation"
+			android:theme=android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
