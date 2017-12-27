@@ -327,6 +327,7 @@
     <public name="eq_seekbar" id="0x7f020052" type="drawable" />
     <public name="select_effect" id="0x7f020058" type="drawable" />
     <public name="select_effect_light" id="0x7f020059" type="drawable" />
+    <public name="start_bg" id="0x7f02005e" type="drawable" />
     <public name="notification_template_icon_bg" id="0x7f02005f" type="drawable" />
     <public name="abc_action_bar_item_background_material" id="0x7f020001" type="drawable" />
     <public name="abc_control_background_material" id="0x7f020012" type="drawable" />

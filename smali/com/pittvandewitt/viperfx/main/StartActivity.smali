@@ -3,10 +3,8 @@
 
 
 # instance fields
-.field mIVEntry:Landroid/widget/ImageView;
-    .annotation build Lbutterknife/Override;
-    .end annotation
-.end field
+.annotation build Lbutterknife/Override;
+.end annotation
 
 
 # direct methods
@@ -21,16 +19,19 @@
 
 # virtual methods
 .method protected onCreate(Landroid/os/Bundle;)V
-    .locals 1
+    .locals 3
+	.parameter "savedInstanceState"
 	.prologue
 
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V	
 	
 	new-instance v0, Landroid/content/Intent;
 	
-	const-class v1, Lcom/pittvandewitt/viperfx/main/Activity;
+	const-class v1, Lcom/pittvandewitt/viperfx/main/MainActivity;
 	
-    invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/pittvandewitt/viperfx/main/Activity;Ljava/lang/Class;)V
+    invoke-direct {v0, p0, v1}, Landroid/content/Intent;-><init>(Landroid/pittvandewitt/viperfx/main/StartActivity;Ljava/lang/Class;)V
+	
+	invoke-virtual {v0, v1}, Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
 
     invoke-static {p0}, Lbutterknife/ButterKnife;->a(Landroid/app/Activity;)Lbutterknife/Unbinder;
 
