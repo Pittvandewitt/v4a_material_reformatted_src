@@ -39,6 +39,14 @@
                 android:layout_height="?listPreferredItemHeightSmall"
                 android:layout_below="@id/eq_preset_label"
                 android:gravity="center_vertical" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/eqPresets"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/eq_circle_shape" />
         </RelativeLayout>
     </LinearLayout>
 </ScrollView>
