@@ -51,7 +51,7 @@
 
     invoke-direct {v2}, Landroid/animation/AnimatorSet;-><init>()V
 
-    const-wide/16 v4, 0x7d0
+    const-wide/16 v4, 0x0
 
     invoke-virtual {v2, v4, v5}, Landroid/animation/AnimatorSet;->setDuration(J)Landroid/animation/AnimatorSet;
 
