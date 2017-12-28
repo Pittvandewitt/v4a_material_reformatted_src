@@ -746,7 +746,7 @@
 
     const v9, 0x7f0c002a
 
-    const v8, 0x7f0c000d
+    const v8, 0x7f0c0016
 
     const/4 v5, 0x0
 
