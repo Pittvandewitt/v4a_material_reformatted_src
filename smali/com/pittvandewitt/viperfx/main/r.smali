@@ -43,11 +43,11 @@
 
     iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/r;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
 
-    invoke-static {v0}, Lcom/pittvandewitt/viperfx/main/MainFragment;->d(Lcom/pittvandewitt/viperfx/main/MainFragment;)Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+    invoke-static {v0}, Lcom/pittvandewitt/viperfx/main/MainFragment;->d(Lcom/pittvandewitt/viperfx/main/MainFragment;)Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;->e()V
+    invoke-virtual {v0}, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;->e()V
 
     goto :goto_0
 .end method

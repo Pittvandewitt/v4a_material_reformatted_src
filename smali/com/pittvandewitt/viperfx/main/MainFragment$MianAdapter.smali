@@ -1,4 +1,4 @@
-.class public Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+.class public Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 .super Landroid/support/v7/widget/dh;
 
 
@@ -10,7 +10,7 @@
 .method public constructor <init>(Lcom/pittvandewitt/viperfx/main/MainFragment;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
+    iput-object p1, p0, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
 
     invoke-direct {p0}, Landroid/support/v7/widget/dh;-><init>()V
 
@@ -22,7 +22,7 @@
 .method public a()I
     .locals 1
 
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
 
     invoke-static {v0}, Lcom/pittvandewitt/viperfx/main/MainFragment;->a(Lcom/pittvandewitt/viperfx/main/MainFragment;)Ljava/util/List;
 
@@ -35,12 +35,12 @@
     return v0
 .end method
 
-.method public a(Landroid/view/ViewGroup;I)Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;
+.method public a(Landroid/view/ViewGroup;I)Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;
     .locals 4
 
-    new-instance v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;
+    new-instance v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;
 
-    iget-object v1, p0, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
+    iget-object v1, p0, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
 
     invoke-virtual {v1}, Lcom/pittvandewitt/viperfx/main/MainFragment;->getActivity()Landroid/app/Activity;
 
@@ -58,7 +58,7 @@
 
     move-result-object v1
 
-    invoke-direct {v0, p0, v1}, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;-><init>(Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;Landroid/view/View;)V
+    invoke-direct {v0, p0, v1}, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;-><init>(Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;Landroid/view/View;)V
 
     return-object v0
 .end method
@@ -66,18 +66,18 @@
 .method public bridge synthetic a(Landroid/support/v7/widget/eg;I)V
     .locals 0
 
-    check-cast p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;
+    check-cast p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;
 
-    invoke-virtual {p0, p1, p2}, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;->a(Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;I)V
+    invoke-virtual {p0, p1, p2}, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;->a(Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;I)V
 
     return-void
 .end method
 
-.method public a(Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;I)V
+.method public a(Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;I)V
     .locals 5
 
     const/4 v4, 0x0
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
 
     invoke-static {v0}, Lcom/pittvandewitt/viperfx/main/MainFragment;->a(Lcom/pittvandewitt/viperfx/main/MainFragment;)Ljava/util/List;
 
@@ -89,7 +89,7 @@
 
     check-cast v0, Ljava/util/HashMap;
 
-    iget-object v2, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->ivIcon:Landroid/widget/ImageView;
+    iget-object v2, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;->ivIcon:Landroid/widget/ImageView;
 
     const-string v1, "ICON"
 
@@ -109,7 +109,7 @@
 
     invoke-virtual {v2, v1}, Landroid/widget/ImageView;->setImageResource(I)V
 
-    iget-object v2, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->tvTilte:Landroid/widget/TextView;
+    iget-object v2, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;->tvTilte:Landroid/widget/TextView;
 
     const-string v1, "TITLE"
 
@@ -129,13 +129,13 @@
 
     if-eqz v1, :cond_1
 
-    iget-object v1, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v1, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
 
     invoke-virtual {v1, v4}, Landroid/support/v7/widget/SwitchCompat;->setVisibility(I)V
 
-    iget-object v2, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v2, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    iget-object v1, p0, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
+    iget-object v1, p0, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
 
     invoke-static {v1}, Lcom/pittvandewitt/viperfx/main/MainFragment;->b(Lcom/pittvandewitt/viperfx/main/MainFragment;)Landroid/content/SharedPreferences;
 
@@ -156,26 +156,26 @@
     invoke-virtual {v2, v1}, Landroid/support/v7/widget/SwitchCompat;->setChecked(Z)V
 
     :goto_1
-    iget-object v1, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v1, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
 
     new-instance v2, Lcom/pittvandewitt/viperfx/main/o;
 
-    invoke-direct {v2, p0, v0, p1}, Lcom/pittvandewitt/viperfx/main/o;-><init>(Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;Ljava/util/HashMap;Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;)V
+    invoke-direct {v2, p0, v0, p1}, Lcom/pittvandewitt/viperfx/main/o;-><init>(Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;Ljava/util/HashMap;Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;)V
 
     invoke-virtual {v1, v2}, Landroid/support/v7/widget/SwitchCompat;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    iget-object v1, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->a:Landroid/view/View;
+    iget-object v1, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;->a:Landroid/view/View;
 
     new-instance v2, Lcom/pittvandewitt/viperfx/main/p;
 
-    invoke-direct {v2, p0, v0, p1}, Lcom/pittvandewitt/viperfx/main/p;-><init>(Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;Ljava/util/HashMap;Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;)V
+    invoke-direct {v2, p0, v0, p1}, Lcom/pittvandewitt/viperfx/main/p;-><init>(Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;Ljava/util/HashMap;Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;)V
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     return-void
 
     :cond_1
-    iget-object v1, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v1, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
 
     const/4 v2, 0x4
 
@@ -187,7 +187,7 @@
 .method public synthetic b(Landroid/view/ViewGroup;I)Landroid/support/v7/widget/eg;
     .locals 1
 
-    invoke-virtual {p0, p1, p2}, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;->a(Landroid/view/ViewGroup;I)Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;
+    invoke-virtual {p0, p1, p2}, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;->a(Landroid/view/ViewGroup;I)Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;
 
     move-result-object v0
 

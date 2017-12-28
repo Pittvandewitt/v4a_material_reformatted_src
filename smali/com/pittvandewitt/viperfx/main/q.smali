@@ -6,16 +6,16 @@
 
 
 # instance fields
-.field protected b:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;
+.field protected b:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;
 
 
 # direct methods
-.method public constructor <init>(Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;Lbutterknife/a/a;Ljava/lang/Object;)V
+.method public constructor <init>(Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;Lbutterknife/a/a;Ljava/lang/Object;)V
     .locals 3
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    iput-object p1, p0, Lcom/pittvandewitt/viperfx/main/q;->b:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;
+    iput-object p1, p0, Lcom/pittvandewitt/viperfx/main/q;->b:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;
 
     const v0, 0x7f0d0135
 
@@ -29,7 +29,7 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    iput-object v0, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->ivIcon:Landroid/widget/ImageView;
+    iput-object v0, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;->ivIcon:Landroid/widget/ImageView;
 
     const v0, 0x7f0d0137
 
@@ -43,7 +43,7 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iput-object v0, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->tvTilte:Landroid/widget/TextView;
+    iput-object v0, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;->tvTilte:Landroid/widget/TextView;
 
     const v0, 0x7f0d0136
 
@@ -57,7 +57,7 @@
 
     check-cast v0, Landroid/support/v7/widget/SwitchCompat;
 
-    iput-object v0, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
+    iput-object v0, p1, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
 
     return-void
 .end method

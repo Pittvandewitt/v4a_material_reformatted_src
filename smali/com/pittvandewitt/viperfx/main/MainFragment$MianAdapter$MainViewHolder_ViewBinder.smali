@@ -1,4 +1,4 @@
-.class public final Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder_ViewBinder;
+.class public final Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder_ViewBinder;
 .super Ljava/lang/Object;
 
 # interfaces
@@ -16,12 +16,12 @@
 
 
 # virtual methods
-.method public a(Lbutterknife/a/a;Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;Ljava/lang/Object;)Lbutterknife/Unbinder;
+.method public a(Lbutterknife/a/a;Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;Ljava/lang/Object;)Lbutterknife/Unbinder;
     .locals 1
 
     new-instance v0, Lcom/pittvandewitt/viperfx/main/q;
 
-    invoke-direct {v0, p2, p1, p3}, Lcom/pittvandewitt/viperfx/main/q;-><init>(Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;Lbutterknife/a/a;Ljava/lang/Object;)V
+    invoke-direct {v0, p2, p1, p3}, Lcom/pittvandewitt/viperfx/main/q;-><init>(Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;Lbutterknife/a/a;Ljava/lang/Object;)V
 
     return-object v0
 .end method
@@ -29,9 +29,9 @@
 .method public bridge synthetic a(Lbutterknife/a/a;Ljava/lang/Object;Ljava/lang/Object;)Lbutterknife/Unbinder;
     .locals 1
 
-    check-cast p2, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;
+    check-cast p2, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;
 
-    invoke-virtual {p0, p1, p2, p3}, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder_ViewBinder;->a(Lbutterknife/a/a;Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;Ljava/lang/Object;)Lbutterknife/Unbinder;
+    invoke-virtual {p0, p1, p2, p3}, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder_ViewBinder;->a(Lbutterknife/a/a;Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;Ljava/lang/Object;)Lbutterknife/Unbinder;
 
     move-result-object v0
 

@@ -7,7 +7,7 @@
 
 .field private b:Ljava/lang/String;
 
-.field private c:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+.field private c:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
 .field private d:Ljava/util/List;
 
@@ -69,10 +69,10 @@
     return-object v0
 .end method
 
-.method static synthetic d(Lcom/pittvandewitt/viperfx/main/MainFragment;)Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+.method static synthetic d(Lcom/pittvandewitt/viperfx/main/MainFragment;)Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
     .locals 1
 
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/MainFragment;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/MainFragment;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
     return-object v0
 .end method
@@ -1217,11 +1217,11 @@
     iput-object v0, p0, Lcom/pittvandewitt/viperfx/main/MainFragment;->d:Ljava/util/List;
 
     :cond_0
-    new-instance v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+    new-instance v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
-    invoke-direct {v0, p0}, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;-><init>(Lcom/pittvandewitt/viperfx/main/MainFragment;)V
+    invoke-direct {v0, p0}, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;-><init>(Lcom/pittvandewitt/viperfx/main/MainFragment;)V
 
-    iput-object v0, p0, Lcom/pittvandewitt/viperfx/main/MainFragment;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+    iput-object v0, p0, Lcom/pittvandewitt/viperfx/main/MainFragment;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
     new-instance v0, Lcom/pittvandewitt/viperfx/main/r;
 
@@ -1277,7 +1277,7 @@
 
     iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/MainFragment;->f:Landroid/support/v7/widget/RecyclerView;
 
-    iget-object v1, p0, Lcom/pittvandewitt/viperfx/main/MainFragment;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+    iget-object v1, p0, Lcom/pittvandewitt/viperfx/main/MainFragment;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
     invoke-virtual {v0, v1}, Landroid/support/v7/widget/RecyclerView;->setAdapter(Landroid/support/v7/widget/dh;)V
 

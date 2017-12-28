@@ -8,20 +8,20 @@
 # instance fields
 .field final synthetic a:Ljava/util/HashMap;
 
-.field final synthetic b:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;
+.field final synthetic b:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;
 
-.field final synthetic c:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+.field final synthetic c:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
 
 # direct methods
-.method constructor <init>(Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;Ljava/util/HashMap;Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;)V
+.method constructor <init>(Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;Ljava/util/HashMap;Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/pittvandewitt/viperfx/main/p;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+    iput-object p1, p0, Lcom/pittvandewitt/viperfx/main/p;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
     iput-object p2, p0, Lcom/pittvandewitt/viperfx/main/p;->a:Ljava/util/HashMap;
 
-    iput-object p3, p0, Lcom/pittvandewitt/viperfx/main/p;->b:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;
+    iput-object p3, p0, Lcom/pittvandewitt/viperfx/main/p;->b:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,13 +45,13 @@
 
     if-nez v0, :cond_1
 
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/p;->b:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/p;->b:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;
 
-    iget-object v2, v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v2, v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
 
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/p;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/p;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
-    iget-object v0, v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
+    iget-object v0, v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
 
     invoke-static {v0}, Lcom/pittvandewitt/viperfx/main/MainFragment;->b(Lcom/pittvandewitt/viperfx/main/MainFragment;)Landroid/content/SharedPreferences;
 
@@ -78,9 +78,9 @@
     :goto_0
     invoke-virtual {v2, v0}, Landroid/support/v7/widget/SwitchCompat;->setChecked(Z)V
 
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/p;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/p;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
-    iget-object v0, v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
+    iget-object v0, v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
 
     invoke-static {v0}, Lcom/pittvandewitt/viperfx/main/MainFragment;->b(Lcom/pittvandewitt/viperfx/main/MainFragment;)Landroid/content/SharedPreferences;
 
@@ -100,9 +100,9 @@
 
     check-cast v0, Ljava/lang/String;
 
-    iget-object v2, p0, Lcom/pittvandewitt/viperfx/main/p;->b:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;
+    iget-object v2, p0, Lcom/pittvandewitt/viperfx/main/p;->b:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;
 
-    iget-object v2, v2, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
+    iget-object v2, v2, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;->cbEnable:Landroid/support/v7/widget/SwitchCompat;
 
     invoke-virtual {v2}, Landroid/support/v7/widget/SwitchCompat;->isChecked()Z
 
@@ -114,9 +114,9 @@
 
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/p;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/p;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
-    iget-object v0, v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
+    iget-object v0, v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
 
     invoke-virtual {v0}, Lcom/pittvandewitt/viperfx/main/MainFragment;->getActivity()Landroid/app/Activity;
 
@@ -141,9 +141,9 @@
     :cond_1
     new-instance v2, Landroid/content/Intent;
 
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/p;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/p;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
-    iget-object v0, v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
+    iget-object v0, v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
 
     invoke-virtual {v0}, Lcom/pittvandewitt/viperfx/main/MainFragment;->getActivity()Landroid/app/Activity;
 
@@ -197,9 +197,9 @@
 
     const-string v0, "CONFIG"
 
-    iget-object v3, p0, Lcom/pittvandewitt/viperfx/main/p;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+    iget-object v3, p0, Lcom/pittvandewitt/viperfx/main/p;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
-    iget-object v3, v3, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
+    iget-object v3, v3, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
 
     invoke-static {v3}, Lcom/pittvandewitt/viperfx/main/MainFragment;->c(Lcom/pittvandewitt/viperfx/main/MainFragment;)Ljava/lang/String;
 
@@ -207,9 +207,9 @@
 
     invoke-virtual {v2, v0, v3}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/p;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/p;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
-    iget-object v0, v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
+    iget-object v0, v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
 
     invoke-virtual {v0}, Lcom/pittvandewitt/viperfx/main/MainFragment;->getActivity()Landroid/app/Activity;
 
@@ -217,9 +217,9 @@
 
     invoke-virtual {v0, v2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/p;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+    iget-object v0, p0, Lcom/pittvandewitt/viperfx/main/p;->c:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
-    iget-object v0, v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
+    iget-object v0, v0, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;->a:Lcom/pittvandewitt/viperfx/main/MainFragment;
 
     invoke-virtual {v0}, Lcom/pittvandewitt/viperfx/main/MainFragment;->getActivity()Landroid/app/Activity;
 

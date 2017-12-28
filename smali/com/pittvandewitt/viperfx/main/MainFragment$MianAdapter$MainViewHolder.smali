@@ -1,4 +1,4 @@
-.class Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;
+.class Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;
 .super Landroid/support/v7/widget/eg;
 
 
@@ -13,7 +13,7 @@
     .end annotation
 .end field
 
-.field final synthetic l:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+.field final synthetic l:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
 .field tvTilte:Landroid/widget/TextView;
     .annotation build Lbutterknife/BindView;
@@ -22,10 +22,10 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;Landroid/view/View;)V
+.method public constructor <init>(Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;Landroid/view/View;)V
     .locals 0
 
-    iput-object p1, p0, Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter$MainViewHolder;->l:Lcom/pittvandewitt/viperfx/main/MainFragment$MianAdapter;
+    iput-object p1, p0, Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter$MainViewHolder;->l:Lcom/pittvandewitt/viperfx/main/MainFragment$MainAdapter;
 
     invoke-direct {p0, p2}, Landroid/support/v7/widget/eg;-><init>(Landroid/view/View;)V
 
