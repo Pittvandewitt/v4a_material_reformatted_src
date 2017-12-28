@@ -303,16 +303,6 @@
     <public name="abc_dialog_material_background_dark" id="0x7f020013" type="drawable" />
     <public name="abc_dialog_material_background_light" id="0x7f020014" type="drawable" />
 	<public name="abc_edit_text_material" id="0x7f020015" type="drawable" />
-    <public name="eq_add" id="0x7f020016" type="drawable" />
-	<public name="eq_add1" id="0x7f020017" type="drawable" />
-	<public name="eq_minus" id="0x7f020018" type="drawable" />
-	<public name="eq_minus1" id="0x7f020019" type="drawable" />
-	<public name="knob_bg_10point" id="0x7f02001a" type="drawable" />
-	<public name="knob_bg_11point" id="0x7f02001b" type="drawable" />
-	<public name="knob_bg_12point" id="0x7f02001c" type="drawable" />
-	<public name="knob_bg_3point" id="0x7f02001d" type="drawable" />
-	<public name="knob_bg_5point" id="0x7f02001e" type="drawable" />
-	<public name="knob_bg_9point" id="0x7f02001f" type="drawable" />
     <public name="abc_item_background_holo_dark" id="0x7f020026" type="drawable" />
     <public name="abc_item_background_holo_light" id="0x7f020027" type="drawable" />
     <public name="abc_list_selector_background_transition_holo_dark" id="0x7f02002d" type="drawable" />
@@ -425,6 +415,16 @@
     <public name="radio_select" id="0x7f02007c" type="drawable" />
     <public name="radio_noselect" id="0x7f02007d" type="drawable" />
     <public name="icon" id="0x7f02007e" type="drawable" />
+    <public name="eq_add" id="0x7f02007f" type="drawable" />
+	<public name="eq_add1" id="0x7f020080" type="drawable" />
+	<public name="eq_minus" id="0x7f020081" type="drawable" />
+	<public name="eq_minus1" id="0x7f020082" type="drawable" />
+	<public name="knob_bg_10point" id="0x7f020083" type="drawable" />
+	<public name="knob_bg_11point" id="0x7f020084" type="drawable" />
+	<public name="knob_bg_12point" id="0x7f020085" type="drawable" />
+	<public name="knob_bg_3point" id="0x7f020086" type="drawable" />
+	<public name="knob_bg_5point" id="0x7f020087" type="drawable" />
+	<public name="knob_bg_9point" id="0x7f020088" type="drawable" />
     <public name="ic_launcher" id="0x7f030011" type="mipmap" />
     <public name="ic_launcher_beta" id="0x7f030012" type="mipmap" />
     <public name="smalllogo" id="0x7f030034" type="mipmap" />
