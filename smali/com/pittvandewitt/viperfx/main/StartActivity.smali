@@ -95,7 +95,7 @@
 
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
-    const v0, 0x7f02005e
+    const v0, 0x7f04001c
 
     invoke-virtual {p0, v0}, Lcom/pittvandewitt/viperfx/main/StartActivity;->setContentView(I)V
 

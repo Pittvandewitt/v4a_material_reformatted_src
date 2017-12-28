@@ -4,31 +4,9 @@
 <item android:drawable="@color/color_primary" />
 
     <item>
-        <vector xmlns:android="http://schemas.android.com/apk/res/android"
-            android:viewportWidth="48"
-            android:viewportHeight="48"
-            android:width="192dp"
-            android:height="192dp">
-            <path
-                android:pathData="M7 43C5.89543 43 5 42.10457 5 41L5 7C5 5.89543 5.89543 5 7 5l34 0c1.10457 0 2 0.89543 2 2l0 34c0 1.10457 -0.89543 2 -2 2z"
-                android:fillColor="@color/color_accent"
-                android:strokeLineJoin="miter"
-                android:strokeLineCap="butt"
-                android:strokeMiterLimit="10" />
-            <path
-                android:pathData="M36.32848 11.74111l-5.25949 10.50904 -6.9994 14.00873 -12.39808 -24.51777 8.89838 0 0.0099 0.01988 6.11453 12.239 2.04812 -4.0863 4.0863 -8.17259z"
-                android:fillColor="#ffffff"
-                android:strokeLineJoin="miter"
-                android:strokeLineCap="butt"
-                android:strokeMiterLimit="10" />
-            <path
-                android:pathData="M5 7C5 5.89543 5.89543 5 7 5l34 0c1.10457 0 2 0.89543 2 2l0 17 -38 0z"
-                android:fillColor="#000000"
-                android:strokeLineJoin="miter"
-                android:strokeLineCap="butt"
-                android:strokeMiterLimit="10"
-                android:fillAlpha="0.1" />
-        </vector>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/ic_launcher" />
     </item>
 
 </layer-list>
