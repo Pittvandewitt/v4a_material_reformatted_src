@@ -302,7 +302,17 @@
     <public name="abc_cab_background_top_material" id="0x7f020010" type="drawable" />
     <public name="abc_dialog_material_background_dark" id="0x7f020013" type="drawable" />
     <public name="abc_dialog_material_background_light" id="0x7f020014" type="drawable" />
-    <public name="abc_edit_text_material" id="0x7f020015" type="drawable" />
+	<public name="abc_edit_text_material" id="0x7f020015" type="drawable" />
+    <public name="eq_add" id="0x7f020016" type="drawable" />
+	<public name="eq_add1" id="0x7f020017" type="drawable" />
+	<public name="eq_minus" id="0x7f020018" type="drawable" />
+	<public name="eq_minus1" id="0x7f020019" type="drawable" />
+	<public name="knob_bg_10point" id="0x7f02001a" type="drawable" />
+	<public name="knob_bg_11point" id="0x7f02001b" type="drawable" />
+	<public name="knob_bg_12point" id="0x7f02001c" type="drawable" />
+	<public name="knob_bg_3point" id="0x7f02001d" type="drawable" />
+	<public name="knob_bg_5point" id="0x7f02001e" type="drawable" />
+	<public name="knob_bg_9point" id="0x7f02001f" type="drawable" />
     <public name="abc_item_background_holo_dark" id="0x7f020026" type="drawable" />
     <public name="abc_item_background_holo_light" id="0x7f020027" type="drawable" />
     <public name="abc_list_selector_background_transition_holo_dark" id="0x7f02002d" type="drawable" />
@@ -540,6 +550,7 @@
     <public name="about_version" id="0x7f060017" type="string" />
     <public name="app_name" id="0x7f060018" type="string" />
     <public name="bluetooth_title" id="0x7f060019" type="string" />
+	<public name="more_context" id="0x7f06001a" type="string" />
     <public name="eq_preset_acoustic" id="0x7f06001e" type="string" />
     <public name="eq_preset_bass_booster" id="0x7f06001f" type="string" />
     <public name="eq_preset_bass_reducer" id="0x7f060020" type="string" />

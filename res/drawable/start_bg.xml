@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:drawable="@color/color_primary"/>
-
+    <item android:drawable="@color/color_primary" />
     <item android:gravity="center">
         <vector xmlns:android="http://schemas.android.com/apk/res/android"
             android:width="128dp"
@@ -30,5 +28,4 @@
                 android:strokeMiterLimit="10" />
         </vector>
     </item>
-
 </layer-list>

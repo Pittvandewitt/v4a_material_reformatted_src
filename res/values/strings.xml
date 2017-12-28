@@ -27,6 +27,7 @@ Commercial use is disallowed without official permission.</string>
     <string name="about_version">Version %1$s (FX), Codename Beautiful</string>
     <string name="app_name">ViPER4Android FX</string>
     <string name="bluetooth_title">Bluetooth</string>
+	<string name="more_context">Tap for more options.</string>
     <string name="eq_preset_acoustic">Acoustic</string>
     <string name="eq_preset_bass_booster">Bass Booster</string>
     <string name="eq_preset_bass_reducer">Bass Reducer</string>
@@ -153,7 +154,7 @@ Sampling Rate: %7$d"</string>
     <string name="text_enter_developer_msg">Entering developer mode enables operations that may harm your operating system. Continue at your on risk</string>
     <string name="text_headset">Headset</string>
     <string name="text_help_content">"General help
- 
+
 Install Driver:
 Install/Update ViPER4Android effect driver
 Uninstall Driver:
