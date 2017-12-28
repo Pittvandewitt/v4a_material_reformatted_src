@@ -12,7 +12,6 @@
     <color name="background_material_light">@color/material_grey_50</color>
     <color name="black">#ff5c5c5c</color>
     <color name="black30">#4c000000</color>
-    <color name="blacktransparent">#1fffffff</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light
