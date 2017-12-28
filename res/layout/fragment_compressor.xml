@@ -50,10 +50,7 @@
                 android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/blacktransparent" />
+        <View style="@style/Divider"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -98,10 +95,7 @@
                 android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/blacktransparent" />
+        <View style="@style/Divider"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -213,10 +207,7 @@
                 android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/blacktransparent" />
+        <View style="@style/Divider"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -283,10 +274,7 @@
                 android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/blacktransparent" />
+        <View style="@style/Divider"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -395,10 +383,7 @@
                 android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/blacktransparent" />
+        <View style="@style/Divider"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -507,10 +492,7 @@
                 android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/blacktransparent" />
+        <View style="@style/Divider"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -554,10 +536,7 @@
                 android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/blacktransparent" />
+        <View style="@style/Divider"/>
 
         <RelativeLayout
             android:layout_width="match_parent"

@@ -55,10 +55,7 @@
                 android:progress="100" />
         </RelativeLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/blacktransparent" />
+        <View style="@style/Divider"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -107,10 +104,7 @@
                 android:progress="100" />
         </RelativeLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/blacktransparent" />
+        <View style="@style/Divider"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -158,9 +152,6 @@
                 android:paddingTop="16dp" />
         </RelativeLayout>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/blacktransparent" />
+        <View style="@style/Divider"/>
     </LinearLayout>
 </ScrollView>
