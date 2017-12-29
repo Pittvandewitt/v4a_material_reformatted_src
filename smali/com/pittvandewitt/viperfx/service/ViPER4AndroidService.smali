@@ -352,7 +352,7 @@
 
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    const/16 v4, 0x17 #23 == API level of MM
+    const/16 v4, 0x17
 
     if-gt v1, v4, :cond_3a
 
