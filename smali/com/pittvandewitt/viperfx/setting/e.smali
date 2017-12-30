@@ -41,7 +41,7 @@
 
     move-result-object v2
 
-    const-class v3, Lcom/pittvandewitt/viperfx/main/MainActivity;
+    const-class v3, Lcom/pittvandewitt/viperfx/main/StartActivity;
 
     invoke-direct {v1, v2, v3}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
