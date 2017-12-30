@@ -15,13 +15,13 @@
             android:layout_height="?listPreferredItemHeightSmall">
 
             <Button
+                style="@style/Base.TextAppearance.AppCompat.Button"
                 android:id="@id/id_btn_dynamicsystem_output"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:singleLine="true"
-                android:text="@string/pref_dynamicsystem_output"
-                android:textSize="@dimen/abc_text_size_small_material" />
+                android:text="@string/pref_dynamicsystem_output" />
         </RelativeLayout>
 
         <RelativeLayout

@@ -52,13 +52,13 @@
                 android:layout_height="48dp">
 
                 <Button
+                    style="@style/Base.TextAppearance.AppCompat.Button"
                     android:id="@id/id_btn_convolver_knl"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:maxLines="1"
-                    android:text="@string/pref_convolver_knl"
-                    android:textSize="@dimen/abc_text_size_small_material" />
+                    android:text="@string/pref_convolver_knl" />
             </RelativeLayout>
 
             <RelativeLayout
