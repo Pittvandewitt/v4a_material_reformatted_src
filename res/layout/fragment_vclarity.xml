@@ -24,37 +24,42 @@
 
         <RadioGroup
             android:id="@id/v4a_rg_clarity_mode"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="?listPreferredItemHeightSmall"
+            android:background="@drawable/abc_btn_borderless_material"
             android:layout_marginStart="16dp"
+            android:orientation="horizontal"
             android:layout_marginEnd="16dp">
 
             <RadioButton
                 android:id="@id/v4a_rb_clarity_mode_natural"
-                android:layout_width="match_parent"
-                android:layout_height="?listPreferredItemHeightSmall"
-                android:checked="true"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:button="@drawable/abc_btn_check_material"
+                android:layout_height="match_parent"
                 android:foreground="?selectableItemBackground"
-                android:paddingStart="8dp"
-                android:paddingEnd="8dp" />
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp" />
 
             <RadioButton
                 android:id="@id/v4a_rb_clarity_mode_ozone"
-                android:layout_width="match_parent"
-                android:layout_height="?listPreferredItemHeightSmall"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:button="@drawable/abc_btn_check_material"
+                android:layout_height="match_parent"
                 android:foreground="?selectableItemBackground"
-                android:paddingStart="8dp"
-                android:paddingEnd="8dp" />
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp" />
 
             <RadioButton
                 android:id="@id/v4a_rb_clarity_mode_xhifi"
-                android:layout_width="match_parent"
-                android:layout_height="?listPreferredItemHeightSmall"
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:button="@drawable/abc_btn_check_material"
+                android:layout_height="match_parent"
                 android:foreground="?selectableItemBackground"
-                android:paddingStart="8dp"
-                android:paddingEnd="8dp" />
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp" />
         </RadioGroup>
 
         <View style="@style/Divider"/>
