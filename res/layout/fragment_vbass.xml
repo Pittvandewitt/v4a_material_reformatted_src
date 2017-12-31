@@ -31,12 +31,11 @@
             android:layout_marginStart="16dp"
             android:orientation="horizontal">
 
-            <RadioButton
+            <Button
                 android:id="@id/v4a_rb_bass_mode_naturalbass"
                 android:layout_width="0dp"
                 android:layout_height="?listPreferredItemHeightSmall"
                 android:layout_weight="1.0"
-                android:background="@drawable/select_button"
                 android:button="@null"
                 android:checked="true"
                 android:foreground="?selectableItemBackground"
@@ -44,24 +43,22 @@
                 android:paddingEnd="8dp"
                 android:paddingStart="8dp" />
 
-            <RadioButton
+            <Button
                 android:id="@id/v4a_rb_bass_mode_purebass"
                 android:layout_width="0dp"
                 android:layout_height="?listPreferredItemHeightSmall"
                 android:layout_weight="1.0"
-                android:background="@drawable/select_button"
                 android:button="@null"
                 android:foreground="?selectableItemBackground"
                 android:gravity="center"
                 android:paddingEnd="8dp"
                 android:paddingStart="8dp" />
 
-            <RadioButton
+            <Button
                 android:id="@id/v4a_rb_bass_mode_subwoofer"
                 android:layout_width="0dp"
                 android:layout_height="?listPreferredItemHeightSmall"
                 android:layout_weight="1.0"
-                android:background="@drawable/select_button"
                 android:button="@null"
                 android:foreground="?selectableItemBackground"
                 android:gravity="center"
