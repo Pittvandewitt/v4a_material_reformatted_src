@@ -3,9 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
     android:background="@mipmap/side_nav_bar"
+    android:backgroundTint="@color/color_accent"
+    android:backgroundTintMode="multiply"
     android:orientation="vertical"
-    android:paddingStart="@dimen/activity_horizontal_margin"
     android:paddingEnd="@dimen/activity_horizontal_margin"
+    android:paddingStart="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/abc_dialog_padding_top_material">
 
     <ImageView
@@ -20,6 +22,5 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/nav_header_vertical_spacing"
         android:text="@string/app_name"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="@dimen/abc_text_size_large_material" />
 </LinearLayout>
