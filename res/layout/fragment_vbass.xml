@@ -12,8 +12,8 @@
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
             android:gravity="center_vertical"
-            android:paddingEnd="16dp"
-            android:paddingStart="16dp">
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_bass_mode"
@@ -25,57 +25,46 @@
 
         <RadioGroup
             android:id="@id/v4a_rg_bass_mode"
-            android:layout_width="match_parent"
-            android:layout_height="?dropdownListPreferredItemHeight"
-            android:layout_marginEnd="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
             android:layout_marginStart="16dp"
-            android:orientation="horizontal">
+            android:layout_marginEnd="16dp">
 
             <RadioButton
                 android:id="@id/v4a_rb_bass_mode_naturalbass"
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="?listPreferredItemHeightSmall"
-                android:layout_weight="1.0"
-                android:background="@drawable/select_button"
-                android:button="@null"
                 android:checked="true"
                 android:foreground="?selectableItemBackground"
-                android:gravity="center"
-                android:paddingEnd="8dp"
-                android:paddingStart="8dp" />
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
 
             <RadioButton
                 android:id="@id/v4a_rb_bass_mode_purebass"
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="?listPreferredItemHeightSmall"
-                android:layout_weight="1.0"
-                android:background="@drawable/select_button"
-                android:button="@null"
                 android:foreground="?selectableItemBackground"
-                android:gravity="center"
-                android:paddingEnd="8dp"
-                android:paddingStart="8dp" />
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
 
             <RadioButton
                 android:id="@id/v4a_rb_bass_mode_subwoofer"
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="?listPreferredItemHeightSmall"
-                android:layout_weight="1.0"
-                android:background="@drawable/select_button"
-                android:button="@null"
                 android:foreground="?selectableItemBackground"
-                android:gravity="center"
-                android:paddingEnd="8dp"
-                android:paddingStart="8dp" />
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
         </RadioGroup>
 
-        <View style="@style/Divider" />
+        <View style="@style/Divider"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingEnd="16dp"
-            android:paddingStart="16dp">
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_bass_freq"
@@ -98,8 +87,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingEnd="16dp"
-            android:paddingStart="16dp">
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <com.pittvandewitt.viperfx.widget.TouchRotateButton
                 android:id="@id/v4a_trb_bass_freq"
@@ -114,13 +103,13 @@
                 android:layout_centerHorizontal="true" />
         </RelativeLayout>
 
-        <View style="@style/Divider" />
+        <View style="@style/Divider"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="?listPreferredItemHeightSmall"
-            android:paddingEnd="16dp"
-            android:paddingStart="16dp">
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <TextView
                 android:id="@id/v4a_tv_bass_gain"
@@ -143,8 +132,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingEnd="16dp"
-            android:paddingStart="16dp">
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <ImageView
                 android:id="@id/v4a_iv_knob_bg_3point"
