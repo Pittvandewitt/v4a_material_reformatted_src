@@ -5,5 +5,5 @@
         android:width="128dp"
         android:height="128dp"
         android:drawable="@drawable/icon"
-        android:gravity="center"></item>
+        android:gravity="center" />
 </layer-list>
