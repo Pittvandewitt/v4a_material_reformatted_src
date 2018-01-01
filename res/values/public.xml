@@ -1286,7 +1286,6 @@
     <public name="switch_thumb_normal_material_dark" id="0x7f0c004c" type="color" />
     <public name="switch_thumb_normal_material_light" id="0x7f0c004d" type="color" />
     <public name="white" id="0x7f0c004e" type="color" />
-    <public name="whiteransparent" id="0x7f0c004f" type="color" />
     <public name="abc_primary_text_disable_only_material_dark" id="0x7f0c0053" type="color" />
     <public name="abc_primary_text_disable_only_material_light" id="0x7f0c0054" type="color" />
     <public name="abc_primary_text_material_dark" id="0x7f0c0055" type="color" />
