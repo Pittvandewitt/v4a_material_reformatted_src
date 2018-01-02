@@ -79,8 +79,11 @@
     <color name="white">#ffffffff</color>
     <!-- custom colors, mainly needed for theming -->
 
-    <!-- accent -->
+    <!-- accent https://material.io/color/#!/?view.left=0&view.right=0-->
     <color name="color_accent">#ff9c27b0</color>
+
+    <!-- accent dark https://material.io/color/#!/?view.left=0&view.right=0-->
+    <color name="color_accent_dark">#6a0080</color>
 
     <!-- header -->
     <color name="color_primary">#ff212121</color>
