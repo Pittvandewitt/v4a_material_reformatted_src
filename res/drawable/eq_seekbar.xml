@@ -21,7 +21,7 @@
             <shape android:shape="line">
                 <stroke
                     android:width="2dp"
-                    android:color="@color/color_accent" />
+                    android:color="@color/accentColor" />
             </shape>
         </clip>
     </item>

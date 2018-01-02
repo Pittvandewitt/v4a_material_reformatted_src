@@ -31,7 +31,7 @@
                 android:layout_centerHorizontal="true"
                 android:text="@string/pref_equalizer_preset_title"
                 android:textAllCaps="true"
-                android:textColor="@color/color_main_text" />
+                android:textColor="@color/primaryTextMaterialDark" />
 
             <com.pittvandewitt.viperfx.widget.Gallery
                 android:id="@id/eqPresets"

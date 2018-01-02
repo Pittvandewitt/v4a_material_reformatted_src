@@ -7,7 +7,7 @@
 
     <path
         android:pathData="M2,13 L7,13 L10,19 L14,5 L16,13 L22,13"
-        android:strokeColor="@color/color_main_icon"
+        android:strokeColor="@color/mainIconColor"
         android:strokeMiterLimit="10"
         android:strokeWidth="2" />
 </vector>

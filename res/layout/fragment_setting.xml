@@ -156,7 +156,7 @@
             android:paddingStart="16dp"
             android:paddingEnd="16dp"
             android:text="@string/about_title"
-            android:textColor="@color/color_accent"
+            android:textColor="@color/accentColor"
             android:textSize="@dimen/abc_text_size_small_material"
             android:textStyle="bold" />
 

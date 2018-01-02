@@ -1221,7 +1221,7 @@
     <public name="background_material_light" id="0x7f0c0009" type="color" />
     <public name="black" id="0x7f0c000a" type="color" />
     <public name="black30" id="0x7f0c000b" type="color" />
-    <public name="color_accent_dark" id="0x7f0c000c" type="color" />
+    <public name="accentDarkColor" id="0x7f0c000c" type="color" />
     <public name="bright_foreground_disabled_material_dark" id="0x7f0c000e" type="color" />
     <public name="bright_foreground_disabled_material_light" id="0x7f0c000f" type="color" />
     <public name="bright_foreground_inverse_material_dark" id="0x7f0c0010" type="color" />
@@ -1230,9 +1230,9 @@
     <public name="bright_foreground_material_light" id="0x7f0c0013" type="color" />
     <public name="button_material_dark" id="0x7f0c0014" type="color" />
     <public name="button_material_light" id="0x7f0c0015" type="color" />
-    <public name="color_accent" id="0x7f0c0016" type="color" />
-    <public name="color_primary" id="0x7f0c0017" type="color" />
-    <public name="color_primary_dark" id="0x7f0c0018" type="color" />
+    <public name="accentColor" id="0x7f0c0016" type="color" />
+    <public name="primaryColor" id="0x7f0c0017" type="color" />
+    <public name="primaryDarkColor" id="0x7f0c0018" type="color" />
     <public name="design_fab_shadow_end_color" id="0x7f0c0019" type="color" />
     <public name="design_fab_shadow_mid_color" id="0x7f0c001a" type="color" />
     <public name="design_fab_shadow_start_color" id="0x7f0c001b" type="color" />
