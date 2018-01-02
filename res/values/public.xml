@@ -412,11 +412,6 @@
     <public name="knob_point" id="0x7f02007b" type="drawable" />
     <public name="radio_select" id="0x7f02007c" type="drawable" />
     <public name="radio_noselect" id="0x7f02007d" type="drawable" />
-    <public name="icon" id="0x7f02007e" type="drawable" />
-    <public name="eq_add" id="0x7f02007f" type="drawable" />
-	<public name="eq_add1" id="0x7f020080" type="drawable" />
-	<public name="eq_minus" id="0x7f020081" type="drawable" />
-	<public name="eq_minus1" id="0x7f020082" type="drawable" />
 	<public name="knob_bg_10point" id="0x7f020083" type="drawable" />
 	<public name="knob_bg_11point" id="0x7f020084" type="drawable" />
 	<public name="knob_bg_12point" id="0x7f020085" type="drawable" />
