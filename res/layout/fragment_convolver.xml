@@ -8,14 +8,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:animateLayoutChanges="true"
-        android:orientation="vertical"
-        android:paddingEnd="16dp"
-        android:paddingStart="16dp">
+        android:orientation="vertical">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="?listPreferredItemHeightSmall"
-            android:clipToPadding="false">
+            android:layout_height="48dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <EditText
                 android:id="@id/v4a_et_convolver_knl_search"
@@ -44,13 +43,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:animateLayoutChanges="true"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="?listPreferredItemHeightSmall"
-                android:paddingEnd="16dp"
-                android:paddingStart="16dp">
+                android:layout_height="48dp">
 
                 <Button
                     android:id="@id/id_btn_convolver_knl"
@@ -64,14 +63,14 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="?listPreferredItemHeightSmall">
+                android:layout_height="48dp">
 
                 <TextView
                     android:id="@id/id_tv_convolver_crosschannel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
                     android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true"
                     android:text="@string/pref_convolver_crosschannel_title" />
 
                 <EditText
