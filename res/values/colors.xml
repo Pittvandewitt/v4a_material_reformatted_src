@@ -72,8 +72,8 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#80ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <color name="switch_thumb_disabled_material_dark">#616161</color>
-    <color name="switch_thumb_disabled_material_light">#bdbdbd</color>
+    <color name="switch_thumb_disabled_material_dark">#ff000000</color>
+    <color name="switch_thumb_disabled_material_light">#ff000000</color>
     <color name="switch_thumb_normal_material_dark">#bdbdbd</color>
     <color name="switch_thumb_normal_material_light">#f1f1f1</color>
     <color name="white">#ffffff</color>
