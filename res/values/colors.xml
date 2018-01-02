@@ -39,7 +39,7 @@
     <color name="disabled_gallery">#ff888888</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
-    <color name="grey">#808080</color>
+    <color name="grey">#ff808080</color>
     <color name="highlight">#cc8f8f8f</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
