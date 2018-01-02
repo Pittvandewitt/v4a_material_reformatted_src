@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
     android:background="@mipmap/side_nav_bar"
-    android:backgroundTint="@color/color_accent"
+    android:backgroundTint="@color/color_accent_dark"
     android:backgroundTintMode="add"
     android:orientation="vertical"
     android:paddingEnd="@dimen/activity_horizontal_margin"
