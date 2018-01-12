@@ -98,7 +98,7 @@
     <color name="primaryTextMaterialDark">#ffffff</color>
 
     <!-- Icon colors -->
-    <color name="mainIconColor">FF000000</color>
+    <color name="mainIconColor">@color/white</color>
 
     <!-- dialog color -->
     <color name="dialogBackgroundColor">#424242</color>
