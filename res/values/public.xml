@@ -1221,7 +1221,6 @@
     <public name="background_material_light" id="0x7f0c0009" type="color" />
     <public name="black" id="0x7f0c000a" type="color" />
     <public name="black30" id="0x7f0c000b" type="color" />
-    <public name="accentDarkColor" id="0x7f0c000c" type="color" />
     <public name="bright_foreground_disabled_material_dark" id="0x7f0c000e" type="color" />
     <public name="bright_foreground_disabled_material_light" id="0x7f0c000f" type="color" />
     <public name="bright_foreground_inverse_material_dark" id="0x7f0c0010" type="color" />
