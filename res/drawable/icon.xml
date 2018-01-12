@@ -23,10 +23,4 @@ C43,42.1046,42.1046,43,41,43 L30.8107,43 Z"
         android:pathData="M36.3285,11.7411 L31.069,22.2502 L24.0696,36.2589 L11.6715,11.7411
 L20.5699,11.7411 L20.5798,11.761 L26.6943,24 L28.7424,19.9137 L32.8287,11.7411 Z"
         android:strokeMiterLimit="10" />
-    <path
-        android:fillAlpha="0.1"
-        android:fillColor="#000000"
-        android:pathData="M5,7 C5,5.89543,5.89543,5,7,5 L41,5 C42.1046,5,43,5.89543,43,7 L43,24 L5,24 Z"
-        android:strokeMiterLimit="10"
-        android:strokeWidth="1" />
 </vector>
