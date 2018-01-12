@@ -47,7 +47,7 @@
     </color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light
     </color>
-    <color name="material_blue_grey_800">37474f</color>
+    <color name="material_blue_grey_800">#37474f</color>
     <color name="material_blue_grey_900">#263238</color>
     <color name="material_blue_grey_950">#21272b</color>
     <color name="material_deep_teal_200">#80cbc4</color>
@@ -56,7 +56,7 @@
     <color name="material_grey_300">#e0e0e0</color>
     <color name="material_grey_50">#fafafa</color>
     <color name="material_grey_600">#757575</color>
-    <color name="material_grey_800">424242</color>
+    <color name="material_grey_800">#424242</color>
     <color name="material_grey_850">#303030</color>
     <color name="material_grey_900">#212121</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
@@ -80,10 +80,7 @@
     <!-- custom colors, mainly needed for theming -->
 
     <!-- accent https://material.io/color/#!/?view.left=0&view.right=0-->
-    <color name="accentColor">#ff9c27b0</color>
-
-    <!-- accent dark https://material.io/color/#!/?view.left=0&view.right=0-->
-    <color name="accentDarkColor">#6a0080</color>
+    <color name="accentColor">#aa00ff</color>
 
     <!-- header -->
     <color name="primaryColor">#212121</color>
@@ -101,7 +98,7 @@
     <color name="primaryTextMaterialDark">#ffffff</color>
 
     <!-- Icon colors -->
-    <color name="mainIconColor">@color/secondary_text_default_material_dark</color>
+    <color name="mainIconColor">FF000000</color>
 
     <!-- dialog color -->
     <color name="dialogBackgroundColor">#424242</color>

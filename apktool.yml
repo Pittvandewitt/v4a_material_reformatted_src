@@ -9,7 +9,7 @@ packageInfo:
   forcedPackageId: '127'
   renameManifestPackage: null
 sdkInfo:
-  minSdkVersion: '15'
+  minSdkVersion: '21'
   targetSdkVersion: '23'
 sharedLibrary: false
 unknownFiles: {}

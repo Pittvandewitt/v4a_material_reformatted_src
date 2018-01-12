@@ -423,10 +423,10 @@
     <public name="knob_bg_3point" id="0x7f020086" type="drawable" />
     <public name="knob_bg_5point" id="0x7f020087" type="drawable" />
     <public name="knob_bg_9point" id="0x7f020088" type="drawable" />
+    <public name="side_nav_bar" id="0x7f020089" type="drawable" />
     <public name="ic_launcher" id="0x7f030011" type="mipmap" />
     <public name="ic_launcher_beta" id="0x7f030012" type="mipmap" />
     <public name="smalllogo" id="0x7f030034" type="mipmap" />
-    <public name="side_nav_bar" id="0x7f030033" type="mipmap" />
     <public name="abc_action_bar_title_item" id="0x7f040000" type="layout" />
     <public name="abc_action_bar_up_container" id="0x7f040001" type="layout" />
     <public name="abc_action_bar_view_list_nav_layout" id="0x7f040002" type="layout" />
