@@ -1,10 +1,19 @@
 ﻿ViPERFX v2.5.0.5
-Codename: Beautiful
+Codename: Materialized
 Copyright (C) 2006-2016 ViPER ACOUSTIC
 Forum: forum.vipersaudio.com
 
-Latest version: v2.5.0.5
-1, the emergency repair load file incompatibility issues
+Latest version: v2.5.0.5 Materialized
+1.Reworked all fragments and UI elements to match material guidelines found at material.io
+2.Implemented a boolean to easily choose between switches and checkboxes before compiling
+3.Reworked and improved notification layout to match different designs between android versions
+4.Added rotation
+5.Added documentation in colors.xml for easy theming purposes
+6.Improved activity stack behaviour
+7.Huge resources cleanup
+8.Properly implemented the hidden splash screen activity
+9.Minimized activity redraws (memory leaks)
+10.Added French, Dutch and Spanish translations
 
 ************
 [v2.0.0.1]
@@ -221,4 +230,16 @@ Latest version: v2.5.0.5
 
 [v2.5.0.5]
 1, the emergency repair load file incompatibility issues
+
+[v2.5.0.5 Materialized]
+1.Reworked all fragments and UI elements to match material guidelines found at material.io
+2.Implemented a boolean to easily choose between switches and checkboxes before compiling
+3.Reworked and improved notification layout to match different designs between android versions
+4.Added rotation
+5.Added documentation in colors.xml for easy theming purposes
+6.Improved activity stack behaviour
+7.Huge resources cleanup
+8.Properly implemented the hidden splash screen activity
+9.Minimized activity redraws (memory leaks)
+10.Added French, Dutch and Spanish translations
 ************
